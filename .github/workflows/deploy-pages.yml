@@ -21,7 +21,7 @@ jobs:
       NEXT_PUBLIC_BASE_PATH: /joseblanchet.com
       NEXT_PUBLIC_SITE_URL: https://realjblanchet.github.io/joseblanchet.com
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
           node-version: 22
