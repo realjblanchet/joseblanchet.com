@@ -1,0 +1,4073 @@
+{
+  "schemaVersion": 1,
+  "orcid": "0000-0001-5895-0912",
+  "updatedAt": "2026-08-30T23:59:43.371Z",
+  "count": 259,
+  "publications": [
+    {
+      "id": "doi:10.1214/25-aap2239",
+      "title": "Empirical martingale projections via the adapted Wasserstein distance",
+      "year": 2026,
+      "date": "2026-02-01",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": "10.1214/25-aap2239",
+      "url": "https://doi.org/10.1214/25-aap2239",
+      "authors": [
+        "José Blanchet",
+        "Johannes Wiesel",
+        "Erica Zhang",
+        "Zhenyuan Zhang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1002/adfm.202530165",
+      "title": "Constructing Structure‐Property Maps using High‐Throughput Experiments and Machine Learning",
+      "year": 2026,
+      "date": "2026-01-20",
+      "venue": "Advanced Functional Materials",
+      "type": "article",
+      "doi": "10.1002/adfm.202530165",
+      "url": "https://doi.org/10.1002/adfm.202530165",
+      "authors": [
+        "Hou Wu",
+        "Sirui Lin",
+        "Yifan Zhou",
+        "Meng Yang",
+        "Hao Pan",
+        "Chenxu Yao",
+        "José Blanchet",
+        "Z. Suo",
+        "Tongqing Lu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s11134-025-09969-8",
+      "title": "Deep learning for Markov chains: Lyapunov functions, Poisson’s equation, and stationary distributions",
+      "year": 2026,
+      "date": "2026-01-19",
+      "venue": "Queueing Systems",
+      "type": "article",
+      "doi": "10.1007/s11134-025-09969-8",
+      "url": "https://doi.org/10.1007/s11134-025-09969-8",
+      "authors": [
+        "Yanlin Qu",
+        "José Blanchet",
+        "Peter Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/25-aap2184",
+      "title": "Computable bounds on convergence of Markov chains in Wasserstein distance via contractive drift",
+      "year": 2025,
+      "date": "2025-08-01",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": "10.1214/25-aap2184",
+      "url": "https://doi.org/10.1214/25-aap2184",
+      "authors": [
+        "Yanlin Qu",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/24-sts955",
+      "title": "Distributionally Robust Optimization and Robust Statistics",
+      "year": 2025,
+      "date": "2025-08-01",
+      "venue": "Statistical Science",
+      "type": "article",
+      "doi": "10.1214/24-sts955",
+      "url": "https://doi.org/10.1214/24-sts955",
+      "authors": [
+        "José Blanchet",
+        "Jiajin Li",
+        "Sirui Lin",
+        "Xuhui Zhang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/24-aihp1471",
+      "title": "Large deviations asymptotics for unbounded additive functionals of diffusion processes",
+      "year": 2025,
+      "date": "2025-08-01",
+      "venue": "Annales de l Institut Henri Poincaré Probabilités et Statistiques",
+      "type": "article",
+      "doi": "10.1214/24-aihp1471",
+      "url": "https://doi.org/10.1214/24-aihp1471",
+      "authors": [
+        "Mihail Bazhba",
+        "José Blanchet",
+        "Roger J. A. Laeven",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/24-aap2141",
+      "title": "Distributionally robust Gaussian process regression and Bayesian inverse problems",
+      "year": 2025,
+      "date": "2025-06-01",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": "10.1214/24-aap2141",
+      "url": "https://doi.org/10.1214/24-aap2141",
+      "authors": [
+        "Xuhui Zhang",
+        "José Blanchet",
+        "Youssef Marzouk",
+        "Viet Anh Nguyen",
+        "Sven Wang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:statisticallearningofdistributionallyrobuststochasticcontrolincontinuousstatespaces",
+      "title": "Statistical Learning of Distributionally Robust Stochastic Control in Continuous State Spaces",
+      "year": 2025,
+      "date": "2025-01-01",
+      "venue": "",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "doi:10.1109/wsc63780.2024.10838724",
+      "title": "Generative Learning for Simulation of Vehicle Faults",
+      "year": 2024,
+      "date": "2024-12-15",
+      "venue": "",
+      "type": "conference-paper",
+      "doi": "10.1109/wsc63780.2024.10838724",
+      "url": "https://doi.org/10.1109/wsc63780.2024.10838724",
+      "authors": [
+        "Patrick Kuiper",
+        "Sirui Lin",
+        "José Blanchet",
+        "Vahid Tarokh"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/opre.2021.0243",
+      "title": "Robustifying Conditional Portfolio Decisions via Optimal Transport",
+      "year": 2024,
+      "date": "2024-11-04",
+      "venue": "Operations Research",
+      "type": "article",
+      "doi": "10.1287/opre.2021.0243",
+      "url": "https://doi.org/10.1287/opre.2021.0243",
+      "authors": [
+        "Viet Anh Nguyen",
+        "Fan Zhang",
+        "Shanshan Wang",
+        "José Blanchet",
+        "Erick Delage",
+        "Yinyu Ye"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/opre.2021.0765",
+      "title": "Convolution Bounds on Quantile Aggregation",
+      "year": 2024,
+      "date": "2024-10-21",
+      "venue": "Operations Research",
+      "type": "article",
+      "doi": "10.1287/opre.2021.0765",
+      "url": "https://doi.org/10.1287/opre.2021.0765",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam",
+        "Yang Liu",
+        "Ruodu Wang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimaldownsamplingforimbalancedclassificationwithgeneralizedlinearmodels",
+      "title": "Optimal Downsampling for Imbalanced Classification with Generalized Linear Models",
+      "year": 2024,
+      "date": "2024-10-11",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2410.08994",
+      "authors": [
+        "Yan Chen",
+        "José Blanchet",
+        "Krzysztof Dembczyński",
+        "Laura Fee Nern",
+        "Aaron Flores"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustoptimizationasascalableframeworktocharacterizeextremevaluedistributions",
+      "title": "Distributionally Robust Optimization as a Scalable Framework to Characterize Extreme Value Distributions",
+      "year": 2024,
+      "date": "2024-07-31",
+      "venue": "RePEc: Research Papers in Economics",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/2408.00131",
+      "authors": [
+        "Patrick Kuiper",
+        "Ali Hasan",
+        "Wenhao Yang",
+        "Yuting Ng",
+        "Hoda Bidkhori",
+        "José Blanchet",
+        "Vahid Tarokh"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1016/j.jmps.2024.105636",
+      "title": "Modeling shortest paths in polymeric networks using spatial branching processes",
+      "year": 2024,
+      "date": "2024-04-05",
+      "venue": "Journal of the Mechanics and Physics of Solids",
+      "type": "article",
+      "doi": "10.1016/j.jmps.2024.105636",
+      "url": "https://doi.org/10.1016/j.jmps.2024.105636",
+      "authors": [
+        "Zhenyuan Zhang",
+        "Shaswat Mohanty",
+        "José Blanchet",
+        "Wei Cai"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/moor.2020.0094",
+      "title": "Sample-Path Large Deviations for Unbounded Additive Functionals of the Reflected Random Walk",
+      "year": 2024,
+      "date": "2024-03-27",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": "10.1287/moor.2020.0094",
+      "url": "https://doi.org/10.1287/moor.2020.0094",
+      "authors": [
+        "Mihail Bazhba",
+        "José Blanchet",
+        "Chang-Han Rhee",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:acceleratedsamplingofrareeventsusinganeuralnetworkbiaspotential",
+      "title": "Accelerated Sampling of Rare Events using a Neural Network Bias Potential",
+      "year": 2024,
+      "date": "2024-01-13",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2401.06936",
+      "authors": [
+        "Xinru Hua",
+        "Rasool Ahmad",
+        "José Blanchet",
+        "Wei Cai"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:capturingpolymernetworkstatisticsusingbranchingrandomwalks",
+      "title": "Capturing Polymer Network Statistics using Branching Random Walks",
+      "year": 2024,
+      "date": "2024-01-01",
+      "venue": "Bulletin of the American Physical Society",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:feasibleiqilearningforaveragerewardreinforcementlearning",
+      "title": "Feasible <i>Q</i>-Learning for Average Reward Reinforcement Learning",
+      "year": 2024,
+      "date": "2024-01-01",
+      "venue": "",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:stabilityevaluationthroughdistributionalperturbationanalysis",
+      "title": "Stability Evaluation through Distributional Perturbation Analysis",
+      "year": 2024,
+      "date": "2024-01-01",
+      "venue": "",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:wassersteinbasedminimaxestimationofdependenceinmultivariateregularlyvaryingextremes",
+      "title": "Wasserstein-based Minimax Estimation of Dependence in Multivariate Regularly Varying Extremes",
+      "year": 2023,
+      "date": "2023-12-15",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2312.09862",
+      "authors": [
+        "Xuhui Zhang",
+        "José Blanchet",
+        "Youssef Marzouk",
+        "Viet Anh Nguyen",
+        "Sven Wang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1016/j.jmps.2023.105521",
+      "title": "Is a high-throughput experimental dataset large enough to accurately estimate a statistic?",
+      "year": 2023,
+      "date": "2023-12-12",
+      "venue": "Journal of the Mechanics and Physics of Solids",
+      "type": "article",
+      "doi": "10.1016/j.jmps.2023.105521",
+      "url": "https://doi.org/10.1016/j.jmps.2023.105521",
+      "authors": [
+        "Yifan Zhou",
+        "Sirui Lin",
+        "Xuhui Zhang",
+        "Hou Wu",
+        "José Blanchet",
+        "Zhigang Suo",
+        "Tongqing Lu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1016/j.orl.2023.11.007",
+      "title": "Towards optimal running times for optimal transport",
+      "year": 2023,
+      "date": "2023-11-24",
+      "venue": "Operations Research Letters",
+      "type": "article",
+      "doi": "10.1016/j.orl.2023.11.007",
+      "url": "https://doi.org/10.1016/j.orl.2023.11.007",
+      "authors": [
+        "José Blanchet",
+        "Arun Jambulapati",
+        "Carson Kent",
+        "Aaron Sidford"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:onthefoundationofdistributionallyrobustreinforcementlearning",
+      "title": "On the Foundation of Distributionally Robust Reinforcement Learning",
+      "year": 2023,
+      "date": "2023-11-15",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2311.09018",
+      "authors": [
+        "Shengbo Wang",
+        "Nian Si",
+        "José Blanchet",
+        "Zhengyuan Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimalsamplecomplexityforaveragerewardmarkovdecisionprocesses",
+      "title": "Optimal Sample Complexity for Average Reward Markov Decision Processes",
+      "year": 2023,
+      "date": "2023-10-13",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2310.08833",
+      "authors": [
+        "Shengbo Wang",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s10729-023-09649-0",
+      "title": "Surgical scheduling via optimization and machine learning with long-tailed data",
+      "year": 2023,
+      "date": "2023-09-04",
+      "venue": "Health Care Management Science",
+      "type": "article",
+      "doi": "10.1007/s10729-023-09649-0",
+      "url": "https://doi.org/10.1007/s10729-023-09649-0",
+      "authors": [
+        "Yuan Shi",
+        "Saied Mahdian",
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Andrew Y. Shin",
+        "David Scheinker"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:unifyingdistributionallyrobustoptimizationviaoptimaltransporttheory",
+      "title": "Unifying Distributionally Robust Optimization via Optimal Transport Theory",
+      "year": 2023,
+      "date": "2023-08-10",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2308.05414",
+      "authors": [
+        "José Blanchet",
+        "Daniel Kühn",
+        "Jiajin Li",
+        "Bahar Taşkesen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:dynamicflowsoncurvedspacegeneratedbylabeleddata",
+      "title": "Dynamic Flows on Curved Space Generated by Labeled Data",
+      "year": 2023,
+      "date": "2023-08-01",
+      "venue": "arXiv preprint arXiv:2302.00061",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://dx.doi.org/10.24963/ijcai.2023/423",
+      "authors": [
+        "Xinru Hua",
+        "Truyen Nguyen",
+        "Tam Le",
+        "José Blanchet",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1016/j.mtcomm.2023.106884",
+      "title": "Neural network accelerated process design of polycrystalline microstructures",
+      "year": 2023,
+      "date": "2023-08-01",
+      "venue": "Materials Today Communications",
+      "type": "article",
+      "doi": "10.1016/j.mtcomm.2023.106884",
+      "url": "https://doi.org/10.1016/j.mtcomm.2023.106884",
+      "authors": [
+        "Junrong Lin",
+        "Mahmudul Hasan",
+        "Pınar Acar",
+        "José Blanchet",
+        "Vahid Tarokh"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:samplecomplexityofvariancereduceddistributionallyrobustqlearning",
+      "title": "Sample Complexity of Variance-reduced Distributionally Robust Q-learning",
+      "year": 2023,
+      "date": "2023-05-28",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2305.18420",
+      "authors": [
+        "Shengbo Wang",
+        "Nian Si",
+        "José Blanchet",
+        "Zhengyuan Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:whencanregressionadjustedcontrolvariateshelprareeventssobolevembeddingandminimaxoptimality",
+      "title": "When can Regression-Adjusted Control Variates Help? Rare Events, Sobolev Embedding and Minimax Optimality",
+      "year": 2023,
+      "date": "2023-05-25",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2305.16527",
+      "authors": [
+        "José Blanchet",
+        "Haoxuan Chen",
+        "Yiping Lu",
+        "Lexing Ying"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:doublepessimismisprovablyefficientfordistributionallyrobustofflinereinforcementlearninggenericalgorithmandrobustpartialcoverage",
+      "title": "Double Pessimism is Provably Efficient for Distributionally Robust Offline Reinforcement Learning: Generic Algorithm and Robust Partial Coverage",
+      "year": 2023,
+      "date": "2023-05-16",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2305.09659",
+      "authors": [
+        "José Blanchet",
+        "Miao Lu",
+        "Tong Zhang",
+        "Han Zhong"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/mnsc.2023.4678",
+      "title": "Distributionally Robust Batch Contextual Bandits",
+      "year": 2023,
+      "date": "2023-03-31",
+      "venue": "Management Science",
+      "type": "article",
+      "doi": "10.1287/mnsc.2023.4678",
+      "url": "https://doi.org/10.1287/mnsc.2023.4678",
+      "authors": [
+        "Nian Si",
+        "Fan Zhang",
+        "Zhengyuan Zhou",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:statisticallimittheoremsindistributionallyrobustoptimization",
+      "title": "Statistical Limit Theorems in Distributionally Robust Optimization",
+      "year": 2023,
+      "date": "2023-03-27",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2303.14867",
+      "authors": [
+        "José Blanchet",
+        "Alexander Shapiro"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:aconvergentsingleloopalgorithmforrelaxationofgromovwassersteiningraphdata",
+      "title": "A Convergent Single-Loop Algorithm for Relaxation of Gromov-Wasserstein in Graph Data",
+      "year": 2023,
+      "date": "2023-03-12",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2303.06595",
+      "authors": [
+        "Jiajin Li",
+        "Jianheng Tang",
+        "Lemin Kong",
+        "Huikang Liu",
+        "Jia Li",
+        "Anthony Man–Cho So",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/moor.2023.1358",
+      "title": "Delay-Adaptive Learning in Generalized Linear Contextual Bandits",
+      "year": 2023,
+      "date": "2023-03-08",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": "10.1287/moor.2023.1358",
+      "url": "https://doi.org/10.1287/moor.2023.1358",
+      "authors": [
+        "José Blanchet",
+        "Renyuan Xu",
+        "Zhengyuan Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:afinitesamplecomplexityboundfordistributionallyrobustqlearning",
+      "title": "A Finite Sample Complexity Bound for Distributionally Robust Q-learning",
+      "year": 2023,
+      "date": "2023-02-26",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2302.13203",
+      "authors": [
+        "Shengbo Wang",
+        "Nian Si",
+        "José Blanchet",
+        "Zhengyuan Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:detectionandreductionofsystematicbiasinhighthroughputruptureexperiments",
+      "title": "Detection and reduction of systematic bias in high-throughput rupture experiments",
+      "year": 2023,
+      "date": "2023-02-26",
+      "venue": "Journal of the Mechanics and Physics of Solids",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1016/j.jmps.2023.105249",
+      "authors": [
+        "Hou Wu",
+        "Xuhui Zhang",
+        "Yifan Zhou",
+        "José Blanchet",
+        "Zhigang Suo",
+        "Tongqing Lu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:singletrajectorydistributionallyrobustreinforcementlearning",
+      "title": "Single-Trajectory Distributionally Robust Reinforcement Learning",
+      "year": 2023,
+      "date": "2023-01-27",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2301.11721",
+      "authors": [
+        "Zhipeng Liang",
+        "Xiaoteng Ma",
+        "José Blanchet",
+        "Jiheng Zhang",
+        "Zhengyuan Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:computableboundsonconvergenceofmarkovchainsinwassersteindistance",
+      "title": "Computable Bounds on Convergence of Markov Chains in Wasserstein Distance",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "arXiv preprint arXiv:2308.10341",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:dropouttrainingisdistributionallyrobustoptimal",
+      "title": "Dropout training is distributionally robust optimal",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "Journal of Machine Learning Research",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:navigatingpublicationoutletsforsimulationresearchinsightsfromjournaleditors",
+      "title": "Navigating Publication Outlets for Simulation Research: Insights from Journal Editors",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "type": "other",
+      "doi": null,
+      "url": "https://inria.hal.science/hal-04215725",
+      "authors": [
+        "Tom van den Berg",
+        "José Blanchet",
+        "Weiwei Chen",
+        "Christine Currie",
+        "Peter J. Haas",
+        "L. Jeff Hong",
+        "Bruno Tuffin",
+        "Jie Xu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimalbiddingandexperimentationformultilayerauctionsinonlineadvertising",
+      "title": "Optimal Bidding and Experimentation for Multi-Layer Auctions in Online Advertising",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://doi.org/10.2139/ssrn.4358914",
+      "authors": [
+        "Nian Si",
+        "San Gultekin",
+        "José Blanchet",
+        "Aaron Flores"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimalsamplecomplexityofreinforcementlearningforuniformlyergodicdiscountedmarkovdecisionprocesses",
+      "title": "Optimal Sample Complexity of Reinforcement Learning for Uniformly Ergodic Discounted Markov Decision Processes",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "arXiv preprint arXiv:2302.07477",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:payoffbasedlearningwithmatrixmultiplicativeweightsinquantumgames",
+      "title": "Payoff-based Learning with Matrix Multiplicative Weights in Quantum Games",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "arXiv preprint arXiv:2311.02423",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.52202/075280-1652",
+      "authors": [
+        "Kyriakos Lotidis",
+        "Panayotis Mertikopoulos",
+        "Nicholas Bambos",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:representationlearningforextremes",
+      "title": "Representation Learning for Extremes",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "NeurIPS 2023 Workshop Heavy Tails in Machine Learning",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:surgicalschedulingviaoptimizationandmachinelearningwithlongtaileddatahealthcaremanagementscienceinpress",
+      "title": "Surgical scheduling via optimization and machine learning with long-tailed data: Health care management science, in press",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "Health Care Management Science",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:wassersteindistributionallyrobustlinearquadraticestimationundermartingaleconstraints",
+      "title": "Wasserstein Distributionally Robust Linear-Quadratic Estimation under Martingale Constraints",
+      "year": 2023,
+      "date": "2023-01-01",
+      "venue": "International Conference on Artificial Intelligence and Statistics",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:universalgradientdescentascentmethodfornonconvexnonconcaveminimaxoptimization",
+      "title": "Universal Gradient Descent Ascent Method for Nonconvex-Nonconcave Minimax Optimization",
+      "year": 2022,
+      "date": "2022-12-26",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2212.12978",
+      "authors": [
+        "Taoli Zheng",
+        "Linglingzhi Zhu",
+        "Anthony Man–Cho So",
+        "José Blanchet",
+        "Jiajin Li"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1016/j.spa.2022.12.007",
+      "title": "Unbiased Optimal Stopping via the MUSE",
+      "year": 2022,
+      "date": "2022-12-23",
+      "venue": "Stochastic Processes and their Applications",
+      "type": "article",
+      "doi": "10.1016/j.spa.2022.12.007",
+      "url": "https://doi.org/10.1016/j.spa.2022.12.007",
+      "authors": [
+        "Zhengqing Zhou",
+        "Guanyang Wang",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1109/wsc57314.2022.10015376",
+      "title": "Human Imperceptible Attacks and Applications to Improve Fairness",
+      "year": 2022,
+      "date": "2022-12-11",
+      "venue": "",
+      "type": "conference-paper",
+      "doi": "10.1109/wsc57314.2022.10015376",
+      "url": "https://doi.org/10.1109/wsc57314.2022.10015376",
+      "authors": [
+        "Xinru Hua",
+        "Huanzhong Xu",
+        "José Blanchet",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:syntheticprincipalcomponentdesignfastcovariatebalancingwithsyntheticcontrols",
+      "title": "Synthetic Principal Component Design: Fast Covariate Balancing with Synthetic Controls",
+      "year": 2022,
+      "date": "2022-11-28",
+      "venue": "RePEc: Research Papers in Economics",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/2211.15241",
+      "authors": [
+        "Yiping Lu",
+        "Jiajin Li",
+        "Lexing Ying",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:tikhonovregularizationisoptimaltransportrobustundermartingaleconstraints",
+      "title": "Tikhonov Regularization is Optimal Transport Robust under Martingale Constraints",
+      "year": 2022,
+      "date": "2022-10-04",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2210.01413",
+      "authors": [
+        "Jiajin Li",
+        "Si-rui Lin",
+        "José Blanchet",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:minimaxoptimalkerneloperatorlearningviamultileveltraining",
+      "title": "Minimax Optimal Kernel Operator Learning via Multilevel Training",
+      "year": 2022,
+      "date": "2022-09-28",
+      "venue": "RePEc: Research Papers in Economics",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/2209.14430",
+      "authors": [
+        "Jikai Jin",
+        "Yiping Lu",
+        "José Blanchet",
+        "Lexing Ying"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustofflinereinforcementlearningwithlinearfunctionapproximation",
+      "title": "Distributionally Robust Offline Reinforcement Learning with Linear Function Approximation",
+      "year": 2022,
+      "date": "2022-09-14",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2209.06620",
+      "authors": [
+        "Xiaoteng Ma",
+        "Zhipeng Liang",
+        "José Blanchet",
+        "Mingwen Liu",
+        "Xia, Li",
+        "Jiheng Zhang",
+        "Qianchuan Zhao",
+        "Zhengyuan Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:approximationsforthedistributionofperpetuitieswithsmalldiscountrates",
+      "title": "Approximations for the distribution of perpetuities with small discount rates",
+      "year": 2022,
+      "date": "2022-05-18",
+      "venue": "Naval Research Logistics (NRL)",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1002/nav.22058",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:sobolevaccelerationandstatisticaloptimalityforlearningellipticequationsviagradientdescent",
+      "title": "Sobolev Acceleration and Statistical Optimality for Learning Elliptic Equations via Gradient Descent",
+      "year": 2022,
+      "date": "2022-05-15",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2205.07331",
+      "authors": [
+        "Yiping Lu",
+        "José Blanchet",
+        "Lexing Ying"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s11134-022-09835-x",
+      "title": "Some open problems in exact simulation of stochastic differential equations",
+      "year": 2022,
+      "date": "2022-04-01",
+      "venue": "Queueing Systems",
+      "type": "article",
+      "doi": "10.1007/s11134-022-09835-x",
+      "url": "https://doi.org/10.1007/s11134-022-09835-x",
+      "authors": [
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:thedesignandimplementationofabroadlyapplicablealgorithmforoptimizingintradaysurgicalscheduling",
+      "title": "The Design and Implementation of a Broadly Applicable Algorithm for Optimizing Intra-Day Surgical Scheduling",
+      "year": 2022,
+      "date": "2022-03-14",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2203.08146",
+      "authors": [
+        "Jin Xie",
+        "Teng Zhang",
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Matthew E. Randolph",
+        "David Scheinker"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:aclassofgeometricstructuresintransferlearningminimaxboundsandoptimality",
+      "title": "A Class of Geometric Structures in Transfer Learning: Minimax Bounds and Optimality",
+      "year": 2022,
+      "date": "2022-02-23",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2202.11685",
+      "authors": [
+        "Xuhui Zhang",
+        "José Blanchet",
+        "Soumyadip Ghosh",
+        "Mark S. Squillante"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:bayesianimputationwithoptimallookaheadbiasandvariancetradeoff",
+      "title": "Bayesian Imputation with Optimal Look-Ahead-Bias and Variance Tradeoff",
+      "year": 2022,
+      "date": "2022-02-02",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2202.00871",
+      "authors": [
+        "José Blanchet",
+        "Fernando Hernández",
+        "Viet Anh Nguyen",
+        "Markus Pelger",
+        "Xuhui Zhang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/opre.2021.2186",
+      "title": "Asymptotically Optimal Control of a Centralized Dynamic Matching Market with General Utilities",
+      "year": 2022,
+      "date": "2022-01-21",
+      "venue": "Operations Research",
+      "type": "article",
+      "doi": "10.1287/opre.2021.2186",
+      "url": "https://doi.org/10.1287/opre.2021.2186",
+      "authors": [
+        "José Blanchet",
+        "Martin I. Reiman",
+        "Virag Shah",
+        "Lawrence M. Wein",
+        "L Wu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1016/j.matt.2021.12.017",
+      "title": "High-throughput experiments for rare-event rupture of materials",
+      "year": 2022,
+      "date": "2022-01-20",
+      "venue": "Matter",
+      "type": "article",
+      "doi": "10.1016/j.matt.2021.12.017",
+      "url": "https://doi.org/10.1016/j.matt.2021.12.017",
+      "authors": [
+        "Yifan Zhou",
+        "Xuhui Zhang",
+        "Meng Yang",
+        "Yudong Pan",
+        "Zhenjiang Du",
+        "José Blanchet",
+        "Zhigang Suo",
+        "Tongqing Lu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustqlearning",
+      "title": "Distributionally Robust $ Q $-Learning",
+      "year": 2022,
+      "date": "2022-01-01",
+      "venue": "International Conference on Machine Learning",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:doublysmoothedgdaglobalconvergentalgorithmforconstrainednonconvexnonconcaveminimaxoptimization",
+      "title": "Doubly Smoothed GDA: Global Convergent Algorithm for Constrained Nonconvex-Nonconcave Minimax Optimization",
+      "year": 2022,
+      "date": "2022-01-01",
+      "venue": "arXiv preprint arXiv:2212.12978",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:exactsamplingforthemaximumofinfinitememorygaussianprocesses",
+      "title": "Exact Sampling for the Maximum of Infinite Memory Gaussian Processes",
+      "year": 2022,
+      "date": "2022-01-01",
+      "venue": "Advances in Modeling and Simulation: Festschrift for Pierre L'Ecuyer",
+      "type": "book-chapter",
+      "doi": null,
+      "url": "https://doi.org/10.1007/978-3-031-10193-9_3",
+      "authors": [
+        "José Blanchet",
+        "Lin Chen",
+        "Jing Dong"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:fastandprovablyconvergentalgorithmsforgromovwassersteiningraphlearning",
+      "title": "Fast and provably convergent algorithms for gromov-wasserstein in graph learning",
+      "year": 2022,
+      "date": "2022-01-01",
+      "venue": "arXiv preprint arXiv:2205.08115",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:wassersteindistributionallyrobustgaussianprocessregressionandlinearinverseproblems",
+      "title": "Wasserstein Distributionally Robust Gaussian Process Regression and Linear Inverse Problems",
+      "year": 2022,
+      "date": "2022-01-01",
+      "venue": "arXiv preprint arXiv:2205.13111",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:measuringreliabilityofobjectdetectionalgorithmsforautomateddrivingperceptiontasks",
+      "title": "Measuring Reliability of Object Detection Algorithms for Automated Driving Perception Tasks",
+      "year": 2021,
+      "date": "2021-12-12",
+      "venue": "2021 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc52266.2021.9715295",
+      "authors": [
+        "Huanzhong Xu",
+        "José Blanchet",
+        "Marcos P. Gerardo-Castro",
+        "Shreyasha Paudel"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:modifiedfrankwolfeinprobabilityspace",
+      "title": "Modified Frank Wolfe in Probability Space",
+      "year": 2021,
+      "date": "2021-12-06",
+      "venue": "Neural Information Processing Systems",
+      "type": "article",
+      "doi": null,
+      "url": "https://papers.nips.cc/paper/2021/hash/79121bb953a3bd47c076f20234bafd2e-Abstract.html",
+      "authors": [
+        "Carson Kent",
+        "Jiajin Li",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/moor.2021.1178",
+      "title": "Optimal Transport-Based Distributionally Robust Optimization: Structural Properties and Iterative Schemes",
+      "year": 2021,
+      "date": "2021-11-10",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": "10.1287/moor.2021.1178",
+      "url": "https://doi.org/10.1287/moor.2021.1178",
+      "authors": [
+        "José Blanchet",
+        "Karthyek Murthy",
+        "Fan Zhang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:machinelearningforellipticpdesfastrategeneralizationboundneuralscalinglawandminimaxoptimality",
+      "title": "Machine Learning For Elliptic PDEs: Fast Rate Generalization Bound, Neural Scaling Law and Minimax Optimality",
+      "year": 2021,
+      "date": "2021-10-13",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2110.06897",
+      "authors": [
+        "Yiping Lu",
+        "Haoxuan Chen",
+        "Jianfeng Lu",
+        "Lexing Ying",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:adversarialregressionwithdoublynonnegativeweightingmatrices",
+      "title": "Adversarial Regression with Doubly Non-negative Weighting Matrices",
+      "year": 2021,
+      "date": "2021-09-30",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2109.14875",
+      "authors": [
+        "Tam Le",
+        "Truyen Nguyen",
+        "Makoto Yamada",
+        "José Blanchet",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:statisticalnumericalpdefastrateneuralscalinglawandwhenitsoptimal",
+      "title": "Statistical Numerical PDE : Fast Rate, Neural Scaling Law and When it’s Optimal",
+      "year": 2021,
+      "date": "2021-09-27",
+      "venue": "The Symbiosis of Deep Learning and Differential Equations",
+      "type": "article",
+      "doi": null,
+      "url": "https://openreview.net/pdf?id=fdhjOSmHQ2U",
+      "authors": [
+        "Yiping Lu",
+        "Haoxuan Chen",
+        "Jianfeng Lu",
+        "Lexing Ying",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:statisticalanalysisofwassersteindistributionallyrobustestimators",
+      "title": "Statistical Analysis of Wasserstein Distributionally Robust Estimators",
+      "year": 2021,
+      "date": "2021-08-04",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2108.02120",
+      "authors": [
+        "José Blanchet",
+        "Karthyek Murthy",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:testinggroupfairnessviaoptimaltransportprojections",
+      "title": "Testing Group Fairness via Optimal Transport Projections",
+      "year": 2021,
+      "date": "2021-06-02",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2106.01070",
+      "authors": [
+        "Nian Si",
+        "Karthyek Murthy",
+        "José Blanchet",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustmartingaleoptimaltransport",
+      "title": "Distributionally Robust Martingale Optimal Transport",
+      "year": 2021,
+      "date": "2021-06-01",
+      "venue": "RePEc: Research Papers in Economics",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/2106.07191",
+      "authors": [
+        "Zhengqing Zhou",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:sequentialdomainadaptationbysynthesizingdistributionallyrobustexperts",
+      "title": "Sequential Domain Adaptation by Synthesizing Distributionally Robust Experts",
+      "year": 2021,
+      "date": "2021-06-01",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2106.00322",
+      "authors": [
+        "Bahar Taşkesen",
+        "Man Chung Yue",
+        "José Blanchet",
+        "Daniel Kühn",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:frankwolfemethodsinprobabilityspace",
+      "title": "Frank-Wolfe Methods in Probability Space",
+      "year": 2021,
+      "date": "2021-05-11",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2105.05352",
+      "authors": [
+        "Carson Kent",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1093/biomet/asab026",
+      "title": "Confidence regions in Wasserstein distributionally robust estimation",
+      "year": 2021,
+      "date": "2021-04-16",
+      "venue": "Biometrika",
+      "type": "article",
+      "doi": "10.1093/biomet/asab026",
+      "url": "https://doi.org/10.1093/biomet/asab026",
+      "authors": [
+        "José Blanchet",
+        "Karthyek Murthy",
+        "Nian Si"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:doublyrobustdatadrivendistributionallyrobustoptimization",
+      "title": "Doubly Robust Data‐driven Distributionally Robust Optimization",
+      "year": 2021,
+      "date": "2021-04-16",
+      "venue": "arXiv preprint arXiv:1705.07168",
+      "type": "other",
+      "doi": null,
+      "url": "https://doi.org/10.1002/9781119821588.ch4",
+      "authors": [
+        "José Blanchet",
+        "Yang Kang",
+        "Fan Zhang",
+        "Fei He",
+        "Zhangyi Hu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/opre.2020.2028",
+      "title": "Sample Out-of-Sample Inference Based on Wasserstein Distance",
+      "year": 2021,
+      "date": "2021-03-19",
+      "venue": "Operations Research",
+      "type": "article",
+      "doi": "10.1287/opre.2020.2028",
+      "url": "https://doi.org/10.1287/opre.2020.2028",
+      "authors": [
+        "José Blanchet",
+        "Yang Kang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:finitesampleregretboundfordistributionallyrobustofflinetabularreinforcementlearning",
+      "title": "Finite-Sample Regret Bound for Distributionally Robust Offline Tabular Reinforcement Learning",
+      "year": 2021,
+      "date": "2021-03-18",
+      "venue": "International Conference on Artificial Intelligence and Statistics",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v130/zhou21d/zhou21d.pdf",
+      "authors": [
+        "Zhengqing Zhou",
+        "Zhengyuan Zhou",
+        "Qinxun Bai",
+        "Linhai Qiu",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:nodiscountedregretlearninginadversarialbanditswithdelays",
+      "title": "No Discounted-Regret Learning in Adversarial Bandits with Delays.",
+      "year": 2021,
+      "date": "2021-03-08",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/2103.04550",
+      "authors": [
+        "Ilai Bistritz",
+        "Zhengyuan Zhou",
+        "Xi Chen",
+        "Nicholas Bambos",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:noweightedregretlearninginadversarialbanditswithdelays",
+      "title": "No Weighted-Regret Learning in Adversarial Bandits with Delays",
+      "year": 2021,
+      "date": "2021-03-08",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2103.04550",
+      "authors": [
+        "Ilai Bistritz",
+        "Zhengyuan Zhou",
+        "Xi Chen",
+        "Nicholas Bambos",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:astatisticaltestforprobabilisticfairness",
+      "title": "A Statistical Test for Probabilistic Fairness",
+      "year": 2021,
+      "date": "2021-02-25",
+      "venue": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1145/3442188.3445927",
+      "authors": [
+        "Bahar Taşkesen",
+        "José Blanchet",
+        "Daniel Kühn",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:timeseriesimputationwithwassersteininterpolationforoptimallookaheadbiasandvariancetradeoff",
+      "title": "Time-Series Imputation with Wasserstein Interpolation for Optimal Look-Ahead-Bias and Variance Tradeoff",
+      "year": 2021,
+      "date": "2021-02-25",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2102.12736",
+      "authors": [
+        "José Blanchet",
+        "Fernando Hernández",
+        "Viêt Anh Nguyên",
+        "Markus Pelger",
+        "Xuhui Zhang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:deepextremevaluecopulasforestimationandsampling",
+      "title": "Deep Extreme Value Copulas for Estimation and Sampling.",
+      "year": 2021,
+      "date": "2021-02-17",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/2102.09042.pdf",
+      "authors": [
+        "A.A. Hasan",
+        "Khalil Elkhalil",
+        "João M. Pereira",
+        "Sina Farsiu",
+        "José Blanchet",
+        "Vahid Tarokh"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:modelingextremeswithdmaxdecreasingneuralnetworks",
+      "title": "Modeling Extremes with d-max-decreasing Neural Networks",
+      "year": 2021,
+      "date": "2021-02-17",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2102.09042",
+      "authors": [
+        "Ali Hasan",
+        "Khalil Elkhalil",
+        "Yuting Ng",
+        "João M. Pereira",
+        "Sina Farsiu",
+        "José Blanchet",
+        "Vahid Tarokh"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:gradientflowsonthefeaturegaussianmanifold",
+      "title": "Gradient flows on the feature-Gaussian manifold",
+      "year": 2021,
+      "date": "2021-01-01",
+      "venue": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "doi:10.1109/wsc48552.2020.9383959",
+      "title": "A Class of Optimal Transport Regularized Formulations with Applications to Wasserstein GANs",
+      "year": 2020,
+      "date": "2020-12-14",
+      "venue": "",
+      "type": "conference-paper",
+      "doi": "10.1109/wsc48552.2020.9383959",
+      "url": "https://doi.org/10.1109/wsc48552.2020.9383959",
+      "authors": [
+        "Saied Mahdian",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1017/apr.2020.39",
+      "title": "Exact simulation for multivariate Itô diffusions",
+      "year": 2020,
+      "date": "2020-12-01",
+      "venue": "Advances in Applied Probability",
+      "type": "article",
+      "doi": "10.1017/apr.2020.39",
+      "url": "https://doi.org/10.1017/apr.2020.39",
+      "authors": [
+        "José Blanchet",
+        "Fan Zhang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/20-aap1570",
+      "title": "Sample path large deviations for Lévy processes and random walks with Weibull increments",
+      "year": 2020,
+      "date": "2020-12-01",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": "10.1214/20-aap1570",
+      "url": "https://doi.org/10.1214/20-aap1570",
+      "authors": [
+        "Mihail Bazhba",
+        "José Blanchet",
+        "Chang-Han Rhee",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustlocalnonparametricconditionalestimation",
+      "title": "Distributionally Robust Local Non-parametric Conditional Estimation",
+      "year": 2020,
+      "date": "2020-10-12",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2010.05373",
+      "authors": [
+        "Viet Anh Nguyen",
+        "Fan Zhang",
+        "José Blanchet",
+        "Erick Delage",
+        "Yinyu Ye"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustparametricmaximumlikelihoodestimation",
+      "title": "Distributionally Robust Parametric Maximum Likelihood Estimation",
+      "year": 2020,
+      "date": "2020-10-11",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2010.05321",
+      "authors": [
+        "Viet Anh Nguyen",
+        "Xuhui Zhang",
+        "José Blanchet",
+        "Angelos Georghiou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:machinelearningsdropouttrainingisdistributionallyrobustoptimal",
+      "title": "Machine Learning's Dropout Training is Distributionally Robust Optimal",
+      "year": 2020,
+      "date": "2020-09-13",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2009.06111",
+      "authors": [
+        "José Blanchet",
+        "Yang Kang",
+        "José Luis Montiel Olea",
+        "Viet Anh Nguyen",
+        "Xuhui Zhang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:adistributionallyrobustapproachtofairclassification",
+      "title": "A Distributionally Robust Approach to Fair Classification",
+      "year": 2020,
+      "date": "2020-07-18",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2007.09530",
+      "authors": [
+        "Bahar Taşkesen",
+        "Viet Anh Nguyen",
+        "Daniel Kühn",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustpolicyevaluationandlearninginofflinecontextualbandits",
+      "title": "Distributionally Robust Policy Evaluation and Learning in Offline Contextual Bandits",
+      "year": 2020,
+      "date": "2020-07-12",
+      "venue": "Rare & Special e-Zone (The Hong Kong University of Science and Technology)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://repository.hkust.edu.hk/ir/Record/1783.1-140244",
+      "authors": [
+        "Nian Si",
+        "Fan Zhang",
+        "Zhengyuan Zhou",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:robustbayesianclassificationusinganoptimisticscoreratio",
+      "title": "Robust Bayesian Classification Using an Optimistic Score Ratio",
+      "year": 2020,
+      "date": "2020-07-08",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2007.04458",
+      "authors": [
+        "Viet Anh Nguyen",
+        "Nian Si",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:amodelofbeddemandtofacilitatetheimplementationofdatadrivenrecommendationsforcovid19capacitymanagement",
+      "title": "A Model of Bed Demand to Facilitate the Implementation of Data-driven Recommendations for COVID-19 Capacity Management",
+      "year": 2020,
+      "date": "2020-06-11",
+      "venue": "",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://doi.org/10.21203/rs.3.rs-31953/v1",
+      "authors": [
+        "Teng Zhang",
+        "Kelly McFarlane",
+        "Jacqueline Vallon",
+        "Linying Yang",
+        "Jin Xie",
+        "José Blanchet",
+        "Peter Glynn",
+        "Kristan Staudenmayer",
+        "Kevin A. Schulman",
+        "David Scheinker"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/moor.2019.1006",
+      "title": "Rates of Convergence to Stationarity for Reflected Brownian Motion",
+      "year": 2020,
+      "date": "2020-04-15",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": "10.1287/moor.2019.1006",
+      "url": "https://doi.org/10.1287/moor.2019.1006",
+      "authors": [
+        "José Blanchet",
+        "Xinyun Chen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:sequentialbatchlearninginfiniteactionlinearcontextualbandits",
+      "title": "Sequential Batch Learning in Finite-Action Linear Contextual Bandits",
+      "year": 2020,
+      "date": "2020-04-14",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2004.06321",
+      "authors": [
+        "Yanjun Han",
+        "Zhengqing Zhou",
+        "Zhengyuan Zhou",
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Yinyu Ye",
+        "Zhengyuan Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:amodeltoestimatebeddemandforcovid19relatedhospitalization",
+      "title": "A model to estimate bed demand for COVID-19 related hospitalization",
+      "year": 2020,
+      "date": "2020-03-26",
+      "venue": "medRxiv",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://doi.org/10.1101/2020.03.24.20042762",
+      "authors": [
+        "Teng Zhang",
+        "Kelly McFarlane",
+        "Jacqueline Vallon",
+        "Linying Yang",
+        "Jin Xie",
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Kristan Staudenmayer",
+        "Kevin A. Schulman",
+        "David Scheinker"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientscenariogenerationforheavytailedchanceconstrainedoptimization",
+      "title": "Efficient Scenario Generation for Heavy-tailed Chance Constrained Optimization",
+      "year": 2020,
+      "date": "2020-02-06",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2002.02149",
+      "authors": [
+        "José Blanchet",
+        "Fan Zhang",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimalscenariogenerationforheavytailedchanceconstrainedoptimization",
+      "title": "Optimal Scenario Generation for Heavy-tailed Chance Constrained Optimization",
+      "year": 2020,
+      "date": "2020-02-06",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/2002.02149",
+      "authors": [
+        "José Blanchet",
+        "Fan Zhang",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientsteadystatesimulationofhighdimensionalstochasticnetworks",
+      "title": "Efficient Steady-state Simulation of High-dimensional Stochastic Networks",
+      "year": 2020,
+      "date": "2020-01-23",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2001.08384",
+      "authors": [
+        "José Blanchet",
+        "Xinyun Chen",
+        "Peter W. Glynn",
+        "Nian Si"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s10687-019-00371-1",
+      "title": "On distributionally robust extreme value analysis",
+      "year": 2020,
+      "date": "2020-01-21",
+      "venue": "Extremes",
+      "type": "article",
+      "doi": "10.1007/s10687-019-00371-1",
+      "url": "https://doi.org/10.1007/s10687-019-00371-1",
+      "authors": [
+        "José Blanchet",
+        "Fei He",
+        "Karthyek Murthy"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:quantifyingtheempiricalwassersteindistancetoasetofmeasuresbeatingthecurseofdimensionality",
+      "title": "Quantifying the Empirical Wasserstein Distance to a Set of Measures: Beating the Curse of Dimensionality",
+      "year": 2020,
+      "date": "2020-01-01",
+      "venue": "Rare & Special e-Zone (The Hong Kong University of Science and Technology)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://repository.hkust.edu.hk/ir/Record/1783.1-140251",
+      "authors": [
+        "Nian Si",
+        "José Blanchet",
+        "Soumyadip Ghosh",
+        "Mark S. Squillante"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:semisupervisedlearningbasedondistributionallyrobustoptimization",
+      "title": "Semi-supervised Learning Based on Distributionally Robust Optimization",
+      "year": 2020,
+      "date": "2020-01-01",
+      "venue": "Data Analysis and Applications 3: Computational, Classification, Financial, Statistical and Stochastic Methods",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "doi:10.1017/apr.2019.45",
+      "title": "Exact sampling for some multi-dimensional queueing models with renewal input",
+      "year": 2019,
+      "date": "2019-11-15",
+      "venue": "Advances in Applied Probability",
+      "type": "article",
+      "doi": "10.1017/apr.2019.45",
+      "url": "https://doi.org/10.1017/apr.2019.45",
+      "authors": [
+        "José Blanchet",
+        "Yanan Pei",
+        "Karl Sigman"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s11134-019-09640-z",
+      "title": "Queue length asymptotics for the multiple-server queue with heavy-tailed Weibull service times",
+      "year": 2019,
+      "date": "2019-11-10",
+      "venue": "Queueing Systems",
+      "type": "article",
+      "doi": "10.1007/s11134-019-09640-z",
+      "url": "https://doi.org/10.1007/s11134-019-09640-z",
+      "authors": [
+        "Mihail Bazhba",
+        "José Blanchet",
+        "Chang-Han Rhee",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/18-aop1319",
+      "title": "Sample path large deviations for Lévy processes and random walks with regularly varying increments",
+      "year": 2019,
+      "date": "2019-11-01",
+      "venue": "The Annals of Probability",
+      "type": "article",
+      "doi": "10.1214/18-aop1319",
+      "url": "https://doi.org/10.1214/18-aop1319",
+      "authors": [
+        "Chang-Han Rhee",
+        "José Blanchet",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1016/j.orl.2019.10.005",
+      "title": "Optimal uncertainty size in distributionally robust inverse covariance estimation",
+      "year": 2019,
+      "date": "2019-10-24",
+      "venue": "Operations Research Letters",
+      "type": "article",
+      "doi": "10.1016/j.orl.2019.10.005",
+      "url": "https://doi.org/10.1016/j.orl.2019.10.005",
+      "authors": [
+        "José Blanchet",
+        "Nian Si"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.3150/18-bej1076",
+      "title": "On logarithmically optimal exact simulation of max-stable and related random fields on a compact set",
+      "year": 2019,
+      "date": "2019-09-13",
+      "venue": "Bernoulli",
+      "type": "article",
+      "doi": "10.3150/18-bej1076",
+      "url": "https://doi.org/10.3150/18-bej1076",
+      "authors": [
+        "Zhipeng Liu",
+        "José Blanchet",
+        "A. B. Dieker",
+        "Thomas Mikosch"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:learningingeneralizedlinearcontextualbanditswithstochasticdelays",
+      "title": "Learning in Generalized Linear Contextual Bandits with Stochastic Delays",
+      "year": 2019,
+      "date": "2019-09-06",
+      "venue": "Neural Information Processing Systems",
+      "type": "article",
+      "doi": null,
+      "url": "https://openreview.net/pdf?id=HkGsK4BgLH",
+      "authors": [
+        "Zhengyuan Zhou",
+        "Renyuan Xu",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/opre.2019.1852",
+      "title": "Rare-Event Simulation for Distribution Networks",
+      "year": 2019,
+      "date": "2019-09-01",
+      "venue": "Operations Research",
+      "type": "article",
+      "doi": "10.1287/opre.2019.1852",
+      "url": "https://doi.org/10.1287/opre.2019.1852",
+      "authors": [
+        "José Blanchet",
+        "Juan Li",
+        "Marvin K. Nakayama"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1017/jpr.2019.49",
+      "title": "Robust Wasserstein profile inference and applications to machine learning",
+      "year": 2019,
+      "date": "2019-09-01",
+      "venue": "Journal of Applied Probability",
+      "type": "article",
+      "doi": "10.1017/jpr.2019.49",
+      "url": "https://doi.org/10.1017/jpr.2019.49",
+      "authors": [
+        "José Blanchet",
+        "Yang Kang",
+        "Karthyek Murthy"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimaltransportrelaxationswithapplicationtowassersteingans",
+      "title": "Optimal Transport Relaxations with Application to Wasserstein GANs",
+      "year": 2019,
+      "date": "2019-06-07",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1906.03317",
+      "authors": [
+        "Saied Mahdian",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:multivariatedistributionallyrobustconvexregressionunderabsoluteerrorloss",
+      "title": "Multivariate Distributionally Robust Convex Regression under Absolute Error Loss",
+      "year": 2019,
+      "date": "2019-05-29",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1905.12231",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Jun Yan",
+        "Zhengqing Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/moor.2018.0950",
+      "title": "Efficient Rare-Event Simulation for Multiple Jump Events in Regularly Varying Random Walks and Compound Poisson Processes",
+      "year": 2019,
+      "date": "2019-05-24",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": "10.1287/moor.2018.0950",
+      "url": "https://doi.org/10.1287/moor.2018.0950",
+      "authors": [
+        "Bohan Chen",
+        "José Blanchet",
+        "Chang-Han Rhee",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:unbiasedmultilevelmontecarlostochasticoptimizationsteadystatesimulationquantilesandotherapplications",
+      "title": "Unbiased Multilevel Monte Carlo: Stochastic Optimization, Steady-state Simulation, Quantiles, and Other Applications",
+      "year": 2019,
+      "date": "2019-04-22",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1904.09929",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Yanan Pei"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/moor.2018.0941",
+      "title": "Perfect Sampling of Generalized Jackson Networks",
+      "year": 2019,
+      "date": "2019-04-19",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": "10.1287/moor.2018.0941",
+      "url": "https://doi.org/10.1287/moor.2018.0941",
+      "authors": [
+        "José Blanchet",
+        "Xinyun Chen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/moor.2018.0936",
+      "title": "Quantifying Distributional Model Risk via Optimal Transport",
+      "year": 2019,
+      "date": "2019-04-10",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": "10.1287/moor.2018.0936",
+      "url": "https://doi.org/10.1287/moor.2018.0936",
+      "authors": [
+        "José Blanchet",
+        "Karthyek Murthy"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:convergencerateanalysisofastochastictrustregionmethodviasupermartingales",
+      "title": "Convergence Rate Analysis of a Stochastic Trust-Region Method via Supermartingales",
+      "year": 2019,
+      "date": "2019-04-01",
+      "venue": "INFORMS Journal on Optimization",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1287/ijoo.2019.0016",
+      "authors": [
+        "José Blanchet",
+        "Coralia Cartis",
+        "Matt Menickelly",
+        "Katya Scheinberg"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1017/jpr.2019.9",
+      "title": "Exact sampling of the infinite horizon maximum of a random walk over a nonlinear boundary",
+      "year": 2019,
+      "date": "2019-03-01",
+      "venue": "Journal of Applied Probability",
+      "type": "article",
+      "doi": "10.1017/jpr.2019.9",
+      "url": "https://doi.org/10.1017/jpr.2019.9",
+      "authors": [
+        "José Blanchet",
+        "Jing Dong",
+        "Zhipeng Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:probabilityfunctionaldescentaunifyingperspectiveongansvariationalinferenceandreinforcementlearning",
+      "title": "Probability Functional Descent: A Unifying Perspective on GANs, Variational Inference, and Reinforcement Learning",
+      "year": 2019,
+      "date": "2019-01-30",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1901.10691",
+      "authors": [
+        "Casey Chu",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:semiparametricdynamiccontextualpricing",
+      "title": "Semi-parametric dynamic contextual pricing",
+      "year": 2019,
+      "date": "2019-01-07",
+      "venue": "RePEc: Research Papers in Economics",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/1901.02045",
+      "authors": [
+        "Virag Shah",
+        "José Blanchet",
+        "Ramesh Johari"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1080/10920277.2018.1504686",
+      "title": "Robust Actuarial Risk Analysis",
+      "year": 2019,
+      "date": "2019-01-02",
+      "venue": "North American Actuarial Journal",
+      "type": "article",
+      "doi": "10.1080/10920277.2018.1504686",
+      "url": "https://doi.org/10.1080/10920277.2018.1504686",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam",
+        "Qihe Tang",
+        "Zhongyi Yuan"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:adistributionallyrobustboostingalgorithm",
+      "title": "A distributionally robust boosting algorithm",
+      "year": 2019,
+      "date": "2019-01-01",
+      "venue": "2019 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:datadrivenoptimaltransportcostselectionfordistributionallyrobustoptimization",
+      "title": "Data-driven optimal transport cost selection for distributionally robust optimization",
+      "year": 2019,
+      "date": "2019-01-01",
+      "venue": "2019 winter simulation conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:onlineexp3learninginadversarialbanditswithdelayedfeedback",
+      "title": "Online EXP3 Learning in Adversarial Bandits with Delayed Feedback",
+      "year": 2019,
+      "date": "2019-01-01",
+      "venue": "Neural Information Processing Systems",
+      "type": "article",
+      "doi": null,
+      "url": "https://papers.nips.cc/paper/9312-online-exp3-learning-in-adversarial-bandits-with-delayed-feedback.pdf",
+      "authors": [
+        "Ilai Bistritz",
+        "Zhengyuan Zhou",
+        "Xi Chen",
+        "Nicholas Bambos",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:perfectsamplingforgeneralizedjacksonnetworks",
+      "title": "Perfect Sampling for Generalized Jackson Networks",
+      "year": 2019,
+      "date": "2019-01-01",
+      "venue": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "doi:10.1021/acscatal.8b02760",
+      "title": "Queueing Theory-Based Perspective of the Kinetics of “Channeled” Enzyme Cascade Reactions",
+      "year": 2018,
+      "date": "2018-10-03",
+      "venue": "ACS Catalysis",
+      "type": "article",
+      "doi": "10.1021/acscatal.8b02760",
+      "url": "https://doi.org/10.1021/acscatal.8b02760",
+      "authors": [
+        "Stanislav Tsitkov",
+        "Théo Pesenti",
+        "Henri Palacci",
+        "José Blanchet",
+        "Henry Hess"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:unbiasedsamplingofmultidimensionalpartialdifferentialequationswithrandomcoefficients",
+      "title": "Unbiased Sampling of Multidimensional Partial Differential Equations with Random Coefficients",
+      "year": 2018,
+      "date": "2018-06-08",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1806.03362",
+      "authors": [
+        "José Blanchet",
+        "Fengpei Li",
+        "Xiaoou Li"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s11134-018-9573-2",
+      "title": "Perfect sampling of GI/GI/c queues",
+      "year": 2018,
+      "date": "2018-03-13",
+      "venue": "Queueing Systems",
+      "type": "article",
+      "doi": "10.1007/s11134-018-9573-2",
+      "url": "https://doi.org/10.1007/s11134-018-9573-2",
+      "authors": [
+        "José Blanchet",
+        "Jing Dong",
+        "Yanan Pei"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:amodelrobustrealoptionsvaluationmethodologyincorporatingclimaterisk",
+      "title": "A model robust real options valuation methodology incorporating climate risk",
+      "year": 2018,
+      "date": "2018-03-02",
+      "venue": "Resources Policy",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1016/j.resourpol.2018.01.011",
+      "authors": [
+        "Christopher James Dolan",
+        "José Blanchet",
+        "Garud Iyengar",
+        "Upmanu Lall"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimalsmoothedvariablesamplesizeacceleratedproximalmethodsforstructurednonsmoothstochasticconvexprograms",
+      "title": "Optimal Smoothed Variable Sample-size Accelerated Proximal Methods for Structured Nonsmooth Stochastic Convex Programs",
+      "year": 2018,
+      "date": "2018-03-02",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1803.00718v1",
+      "authors": [
+        "Afrooz Jalilzadeh",
+        "Uday V. Shanbhag",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:smoothedvariablesamplesizeacceleratedproximalmethodsfornonsmoothstochasticconvexprograms",
+      "title": "Smoothed Variable Sample-size Accelerated Proximal Methods for Nonsmooth Stochastic Convex Programs",
+      "year": 2018,
+      "date": "2018-03-02",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://doi.org/10.48550/arxiv.1803.00718",
+      "authors": [
+        "Afrooz Jalilzadeh",
+        "Uday V. Shanbhag",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1017/jpr.2018.10",
+      "title": "Exact simulation of multidimensional reflected Brownian motion",
+      "year": 2018,
+      "date": "2018-03-01",
+      "venue": "Journal of Applied Probability",
+      "type": "article",
+      "doi": "10.1017/jpr.2018.10",
+      "url": "https://doi.org/10.1017/jpr.2018.10",
+      "authors": [
+        "José Blanchet",
+        "Karthyek Murthy"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:banditlearningwithpositiveexternalities",
+      "title": "Bandit Learning with Positive Externalities",
+      "year": 2018,
+      "date": "2018-02-15",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1802.05693",
+      "authors": [
+        "Virag Shah",
+        "José Blanchet",
+        "Ramesh Johari"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustmeanvarianceportfolioselectionwithwassersteindistances",
+      "title": "Distributionally Robust Mean-Variance Portfolio Selection with Wasserstein Distances",
+      "year": 2018,
+      "date": "2018-02-13",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1802.04885",
+      "authors": [
+        "José Blanchet",
+        "Lin Chen",
+        "Xun Yu Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:ratesofconvergenceandcltsforsubcanonicaldebiasedmlmc",
+      "title": "Rates of Convergence and CLTs for Subcanonical Debiased MLMC",
+      "year": 2018,
+      "date": "2018-01-01",
+      "venue": "Springer proceedings in mathematics & statistics",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1007/978-3-319-91436-7_26",
+      "authors": [
+        "Zeyu Zheng",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:computingworstcaseexpectationsgivenmarginalsviasimulation",
+      "title": "Computing worst-case expectations given marginals via simulation",
+      "year": 2017,
+      "date": "2017-12-01",
+      "venue": "2017 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2017.8247962",
+      "authors": [
+        "José Blanchet",
+        "Fei He",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:unbiasedsimulationforoptimizingstochasticfunctioncompositions",
+      "title": "Unbiased Simulation for Optimizing Stochastic Function Compositions",
+      "year": 2017,
+      "date": "2017-11-20",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1711.07564",
+      "authors": [
+        "José Blanchet",
+        "Donald Goldfarb",
+        "Garud Iyengar",
+        "Fengpei Li",
+        "Chaoxu Zhou"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:distributionallyrobustgroupwiseregularizationestimator",
+      "title": "Distributionally Robust Groupwise Regularization Estimator",
+      "year": 2017,
+      "date": "2017-05-11",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1705.04241",
+      "authors": [
+        "José Blanchet",
+        "Yang Kang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:malliavinbasedmultilevelmontecarloestimatorsfordensitiesofmaxstableprocesses",
+      "title": "Malliavin-based Multilevel Monte Carlo Estimators for Densities of Max-stable Processes",
+      "year": 2017,
+      "date": "2017-02-01",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1702.00428",
+      "authors": [
+        "José Blanchet",
+        "Zhipeng Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:appliedrobustperformanceanalysisforactuarialapplications",
+      "title": "Applied robust performance analysis for actuarial applications",
+      "year": 2017,
+      "date": "2017-01-01",
+      "venue": "Technical Report, Society of Actuaries",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:exactsimulationformultivariateitbackslashodiffusions",
+      "title": "Exact Simulation for Multivariate It$\\backslash$^ o Diffusions",
+      "year": 2017,
+      "date": "2017-01-01",
+      "venue": "arXiv preprint arXiv:1706.05124",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:onoptimalexactsimulationofmaxstableandrelatedrandomfieldsonacompactset",
+      "title": "On Optimal Exact Simulation Of Max-Stable And Related Random Fields On A Compact Set",
+      "year": 2017,
+      "date": "2017-01-01",
+      "venue": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:privateriskandvaluationadistributionallyrobustoptimizationview",
+      "title": "Private Risk and Valuation: A Distributionally Robust Optimization View",
+      "year": 2017,
+      "date": "2017-01-01",
+      "venue": "to be submitted",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:unravelinglimitorderbooksusingjustbidaskprices",
+      "title": "Unraveling limit order books using just bid/ask prices",
+      "year": 2017,
+      "date": "2017-01-01",
+      "venue": "Preprint. Available at http://www. columbia. edu/~ jb2814/papers/LOB_v1. pdf",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:convergencerateanalysisofastochastictrustregionmethodfornonconvexoptimization",
+      "title": "Convergence Rate Analysis of a Stochastic Trust Region Method for Nonconvex Optimization",
+      "year": 2016,
+      "date": "2016-09-23",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://www.arxiv.org/pdf/1609.07428v1",
+      "authors": [
+        "José Blanchet",
+        "Coralia Cartis",
+        "Matt Menickelly",
+        "Katya Scheinberg"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:convergencerateanalysisofastochastictrustregionmethodviasubmartingales",
+      "title": "Convergence Rate Analysis of a Stochastic Trust Region Method via Submartingales",
+      "year": 2016,
+      "date": "2016-09-23",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1609.07428",
+      "authors": [
+        "José Blanchet",
+        "Coralia Cartis",
+        "Matt Menickelly",
+        "Katya Scheinberg"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:onoptimalexactsimulationofmaxstableandrelatedrandomfields",
+      "title": "On Optimal Exact Simulation of Max-Stable and Related Random Fields",
+      "year": 2016,
+      "date": "2016-09-20",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1609.06001",
+      "authors": [
+        "Zhipeng Liu",
+        "José Blanchet",
+        "A. B. Dieker",
+        "Thomas Mikosch"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1017/apr.2016.28",
+      "title": "Analysis of a stochastic approximation algorithm for computing quasi-stationary distributions",
+      "year": 2016,
+      "date": "2016-09-01",
+      "venue": "Advances in Applied Probability",
+      "type": "article",
+      "doi": "10.1017/apr.2016.28",
+      "url": "https://doi.org/10.1017/apr.2016.28",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Shuheng Zheng"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:samplepathlargedeviationsforheavytailedlevyprocessesandrandomwalks",
+      "title": "Sample Path Large Deviations for Heavy-Tailed Lévy Processes and Random Walks",
+      "year": 2016,
+      "date": "2016-06-09",
+      "venue": "Centrum Wiskunde & Informatica (CWI), the national research institute for mathematics and computer science in the Netherlands",
+      "type": "other",
+      "doi": null,
+      "url": "https://ir.cwi.nl/pub/25347",
+      "authors": [
+        "Chang-Han Rhee",
+        "A.P. Zwart",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:onthelaplacetransformofthelognormaldistribution",
+      "title": "On the Laplace transform of the lognormal distribution",
+      "year": 2016,
+      "date": "2016-01-01",
+      "venue": "Methodology and Computing in Applied Probability",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:ratesofconvergencetostationarityformultidimensionalrbm",
+      "title": "Rates of convergence to stationarity for multidimensional RBM",
+      "year": 2016,
+      "date": "2016-01-01",
+      "venue": "arXiv preprint arXiv:1601.04111",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:aweakconvergencecriterionforconstructingchangesofmeasure",
+      "title": "A weak convergence criterion for constructing changes of measure",
+      "year": 2015,
+      "date": "2015-12-22",
+      "venue": "Stochastic Models",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1080/15326349.2015.1114891",
+      "authors": [
+        "José Blanchet",
+        "Johannes Ruf"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:budgetconstrainedstochasticapproximation",
+      "title": "Budget-constrained stochastic approximation",
+      "year": 2015,
+      "date": "2015-12-01",
+      "venue": "2015 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2015.7408179",
+      "authors": [
+        "Uday V. Shanbhag",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:unbiasedmontecarlocomputationofsmoothfunctionsofexpectationsviataylorexpansions",
+      "title": "Unbiased Monte Carlo computation of smooth functions of expectations via Taylor expansions",
+      "year": 2015,
+      "date": "2015-12-01",
+      "venue": "2015 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2015.7408178",
+      "authors": [
+        "José Blanchet",
+        "Nan Chen",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:unbiasedmontecarloforoptimizationandfunctionsofexpectationsviamultilevelrandomization",
+      "title": "Unbiased Monte Carlo for optimization and functions of expectations via multi-level randomization",
+      "year": 2015,
+      "date": "2015-12-01",
+      "venue": "2015 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2015.7408524",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:steadystatesimulationofreflectedbrownianmotionandrelatedstochasticnetworks",
+      "title": "Steady-state simulation of reflected Brownian motion and related stochastic networks",
+      "year": 2015,
+      "date": "2015-10-01",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1214/14-aap1072",
+      "authors": [
+        "José Blanchet",
+        "Xinyun Chen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:onthelimitingratioofcurrentagetototallifefornullrecurrentrenewalprocesses",
+      "title": "On the Limiting Ratio of Current Age to Total Life for Null Recurrent Renewal Processes",
+      "year": 2015,
+      "date": "2015-03-29",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1503.08374",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Hermann Þórisson"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:theoreticalanalysisofastochasticapproximationapproachforcomputingquasistationarydistributionsofgeneralstatespacemarkovchains",
+      "title": "Theoretical analysis of a Stochastic Approximation approach for computing Quasi-Stationary distributions of general state space Markov chains",
+      "year": 2015,
+      "date": "2015-02-23",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1502.06451",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Shuheng Zheng"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1287/moor.2014.0696",
+      "title": "Affine Point Processes: Approximation and Efficient Simulation",
+      "year": 2015,
+      "date": "2015-02-04",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": "10.1287/moor.2014.0696",
+      "url": "https://doi.org/10.1287/moor.2014.0696",
+      "authors": [
+        "Xiaowei Zhang",
+        "José Blanchet",
+        "Kay Giesecke",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:tailasymptoticsfordelayinahalfloadedgigi2queuewithheavytailedjobsizes",
+      "title": "Tail asymptotics for delay in a half-loaded GI/GI/2 queue with heavy-tailed job sizes",
+      "year": 2015,
+      "date": "2015-01-01",
+      "venue": "Queueing Systems",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:towardsarobusttopdownmodelforvaluationofminingassets",
+      "title": "Towards a robust top-down model for valuation of mining assets",
+      "year": 2015,
+      "date": "2015-01-01",
+      "venue": "",
+      "type": "other",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:robustrareeventperformanceanalysiswithnaturalnonconvexconstraints",
+      "title": "Robust rare-event performance analysis with natural non-convex constraints",
+      "year": 2014,
+      "date": "2014-12-01",
+      "venue": "Proceedings of the Winter Simulation Conference 2014",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2014.7019924",
+      "authors": [
+        "José Blanchet",
+        "Christopher Dolan",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:exactsamplingofstationaryandtimereversedqueues",
+      "title": "Exact Sampling of Stationary and Time-Reversed Queues",
+      "year": 2014,
+      "date": "2014-03-31",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1403.8117",
+      "authors": [
+        "José Blanchet",
+        "Aya Wallwater"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:strongsimulationformultidimensionalstochasticdifferentialequationsviaroughpathanalysis",
+      "title": "$ε$-Strong Simulation for Multidimensional Stochastic Differential Equations via Rough Path Analysis",
+      "year": 2014,
+      "date": "2014-03-23",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1403.5722",
+      "authors": [
+        "José Blanchet",
+        "Xinyun Chen",
+        "Jing Dong"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:totalvariationapproximationsandconditionallimittheoremsformultivariateregularlyvaryingrandomwalksconditionedonruin",
+      "title": "Total variation approximations and conditional limit theorems for multivariate regularly varying random walks conditioned on ruin",
+      "year": 2014,
+      "date": "2014-02-28",
+      "venue": "Bernoulli",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.3150/12-bej492",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:theoreticalanalysisofastochasticapproximationapproachforcomputingquasistationarydistributions",
+      "title": "Theoretical analysis of a Stochastic Approximation approach for computing Quasi-Stationary distributions",
+      "year": 2014,
+      "date": "2014-01-02",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1401.0364",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Shuheng Zheng"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:afendrasgstrengthenedchernofftypevariancebounds245akakpontestingmonotonicityvialocalleastconcavemajorants514andrieucmarkovianstochasticapproximationwithexpandingprojections545arendarczykmonthetailasymptoticsoftheareasweptunderthebrownianstoragegraph395",
+      "title": "Afendras, G. Strengthened Chernoff-type variance bounds 245 Akakpo, N. Testing monotonicity via local least concave majorants 514 Andrieu, C. Markovian stochastic approximation with expanding projections 545 Arendarczyk, M. On the tail asymptotics of the area swept under the Brownian storage graph 395",
+      "year": 2014,
+      "date": "2014-01-01",
+      "venue": "Bernoulli",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:copyrightinformation",
+      "title": "Copyright information",
+      "year": 2014,
+      "date": "2014-01-01",
+      "venue": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:twoparametersamplepathlargedeviationsforinfiniteserverqueues",
+      "title": "Two-parameter sample path large deviations for infinite-server queues",
+      "year": 2014,
+      "date": "2014-01-01",
+      "venue": "Stochastic Systems",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1214/12-ssy080",
+      "authors": [
+        "José Blanchet",
+        "Xinyun Chen",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:perfectsamplingforinfiniteserverandlosssystems",
+      "title": "Perfect sampling for infinite server and loss systems",
+      "year": 2013,
+      "date": "2013-12-14",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1312.4088",
+      "authors": [
+        "José Blanchet",
+        "Jing Dong"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientsplittingbasedrareeventsimulationalgorithmsforheavytailedsums",
+      "title": "Efficient splitting-based rare event simulation algorithms for heavy-tailed sums",
+      "year": 2013,
+      "date": "2013-12-01",
+      "venue": "2013 Winter Simulations Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2013.6721465",
+      "authors": [
+        "José Blanchet",
+        "Yixi Shi"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimalrareeventmontecarloformarkovmodulatedregularlyvaryingrandomwalks",
+      "title": "Optimal rare event Monte Carlo for Markov modulated regularly varying random walks",
+      "year": 2013,
+      "date": "2013-12-01",
+      "venue": "2013 Winter Simulations Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2013.6721451",
+      "authors": [
+        "Karthyek Murthy",
+        "Sandeep Juneja",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:powerlinecontrolunderuncertaintyofambienttemperature",
+      "title": "Power line control under uncertainty of ambient temperature",
+      "year": 2013,
+      "date": "2013-12-01",
+      "venue": "52nd IEEE Conference on Decision and Control",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/cdc.2013.6760670",
+      "authors": [
+        "José Blanchet",
+        "Daniel Bienstock",
+        "Juan Li"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:asymptoticsoftheareaunderthegraphofalevydrivenworkloadprocess",
+      "title": "Asymptotics of the area under the graph of a Lévy-driven workload process",
+      "year": 2013,
+      "date": "2013-10-18",
+      "venue": "Operations Research Letters",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1016/j.orl.2013.10.004",
+      "authors": [
+        "José Blanchet",
+        "Michel Mandjes"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:continuoustimemodelingofbidaskspreadandpricedynamicsinlimitorderbooks",
+      "title": "Continuous-time Modeling of Bid-Ask Spread and Price Dynamics in Limit Order Books",
+      "year": 2013,
+      "date": "2013-10-03",
+      "venue": "RePEc: Research Papers in Economics",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/1310.1103",
+      "authors": [
+        "José Blanchet",
+        "Xinyun Chen"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationforstochasticrecurrenceequationswithheavytailedinnovations",
+      "title": "Rare-event simulation for stochastic recurrence equations with heavy-tailed innovations",
+      "year": 2013,
+      "date": "2013-10-01",
+      "venue": "ACM Transactions on Modeling and Computer Simulation",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1145/2517451",
+      "authors": [
+        "José Blanchet",
+        "Henrik Hult",
+        "Kevin Leder"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:stochasticmodelsandcontrolforelectricalpowerlinetemperature",
+      "title": "Stochastic models and control for electrical power line temperature",
+      "year": 2013,
+      "date": "2013-10-01",
+      "venue": "Energy Systems",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/allerton.2013.6736682",
+      "authors": [
+        "Daniel Bienstock",
+        "José Blanchet",
+        "Juan Li"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:amarkovchainapproximationtochoicemodeling",
+      "title": "A markov chain approximation to choice modeling",
+      "year": 2013,
+      "date": "2013-06-16",
+      "venue": "Operations Research",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1145/2482540.2482560",
+      "authors": [
+        "José Blanchet",
+        "Guillermo Gallego",
+        "Vineet Goyal"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:aheavytrafficapproachtomodelinglargelifeinsuranceportfolios",
+      "title": "A heavy traffic approach to modeling large life insurance portfolios",
+      "year": 2013,
+      "date": "2013-05-21",
+      "venue": "Insurance Mathematics and Economics",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1016/j.insmatheco.2013.04.011",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:optimalsamplingofoverflowpathsinjacksonnetworks",
+      "title": "Optimal Sampling of Overflow Paths in Jackson Networks",
+      "year": 2013,
+      "date": "2013-03-30",
+      "venue": "Mathematics of Operations Research",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1287/moor.2013.0586",
+      "authors": [
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s11134-013-9349-7",
+      "title": "Large deviations for the empirical mean of an $$M/M/1$$ queue",
+      "year": 2013,
+      "date": "2013-03-13",
+      "venue": "Queueing Systems",
+      "type": "article",
+      "doi": "10.1007/s11134-013-9349-7",
+      "url": "https://doi.org/10.1007/s11134-013-9349-7",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Sean Meyn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:editorialforewordtospecialissueonsimulationofstochasticnetworksandrelatedtopics",
+      "title": "Editorial foreword to special issue on Simulation of Stochastic Networks and related topics",
+      "year": 2013,
+      "date": "2013-03-12",
+      "venue": "Queueing Systems",
+      "type": "editorial",
+      "doi": null,
+      "url": "https://doi.org/10.1007/s11134-013-9350-1",
+      "authors": [
+        "José Blanchet",
+        "Gareth O. Roberts"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:largedeviationsfortheempiricalmeanofanqueue",
+      "title": "Large deviations for the empirical mean of an queue",
+      "year": 2013,
+      "date": "2013-01-01",
+      "venue": "Queueing Systems",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:uniformlargedeviationsforheavytailedqueuesunderheavytraffic",
+      "title": "Uniform Large Deviations For Heavy-Tailed Queues Under Heavy Traffic",
+      "year": 2013,
+      "date": "2013-01-01",
+      "venue": "Boletín de la Sociedad Matemática Mexicana",
+      "type": "article",
+      "doi": null,
+      "url": "https://biblat.unam.mx/es/revista/boletin-de-la-sociedad-matematica-mexicana/articulo/uniform-large-deviations-for-heavy-tailed-queues-under-heavy-traffic",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:samplingpointprocessesonstableunboundedregionsandexactsimulationofqueues",
+      "title": "Sampling point processes on stable unbounded regions and exact simulation of queues",
+      "year": 2012,
+      "date": "2012-12-01",
+      "venue": "Proceedings of the 2012 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2012.6465250",
+      "authors": [
+        "José Blanchet",
+        "Jing Dong"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:empiricalanalysisofastochasticapproximationapproachforcomputingquasistationarydistributions",
+      "title": "Empirical Analysis of a Stochastic Approximation Approach for Computing Quasi-stationary Distributions",
+      "year": 2012,
+      "date": "2012-08-13",
+      "venue": "Advances in intelligent systems and computing",
+      "type": "book-chapter",
+      "doi": null,
+      "url": "https://doi.org/10.1007/978-3-642-31519-0_2",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Shuheng Zheng"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1145/2331140.2331141",
+      "title": "On Lyapunov Inequalities and Subsolutions for Efficient Importance Sampling",
+      "year": 2012,
+      "date": "2012-08-01",
+      "venue": "ACM Transactions on Modeling and Computer Simulation",
+      "type": "article",
+      "doi": "10.1145/2331140.2331141",
+      "url": "https://doi.org/10.1145/2331140.2331141",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Kevin Leder"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:stateindependentimportancesamplingforrandomwalkswithregularlyvaryingincrements",
+      "title": "State-independent Importance Sampling for Random Walks with Regularly Varying Increments",
+      "year": 2012,
+      "date": "2012-06-15",
+      "venue": "RePEc: Research Papers in Economics",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/pdf/1206.3390",
+      "authors": [
+        "Karthyek Murthy",
+        "Sandeep Juneja",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:uniformconvergencetoalawcontaininggaussianandcauchydistributions",
+      "title": "Uniform Convergence To A Law Containing Gaussian And Cauchy Distributions",
+      "year": 2012,
+      "date": "2012-06-08",
+      "venue": "Probability in the Engineering and Informational Sciences",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1017/s0269964812000101",
+      "authors": [
+        "José Blanchet",
+        "Carlos G. Pacheco"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientmontecarloforhighexcursionsofgaussianrandomfields",
+      "title": "Efficient Monte Carlo for high excursions of Gaussian random fields",
+      "year": 2012,
+      "date": "2012-05-18",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1214/11-aap792",
+      "authors": [
+        "Robert J. Adler",
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationformultiserverqueuesinthehalfinwhittregime",
+      "title": "Rare-event simulation for multi-server queues in the Halfin-Whitt regime",
+      "year": 2012,
+      "date": "2012-03-09",
+      "venue": "ACM SIGMETRICS Performance Evaluation Review",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1145/2185395.2185426",
+      "authors": [
+        "José Blanchet",
+        "Jing Dong"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientrareeventsimulationforperpetuities",
+      "title": "Efficient Rare-event Simulation for Perpetuities",
+      "year": 2012,
+      "date": "2012-01-17",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1201.3419",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationformanyserverqueues",
+      "title": "Rare-Event Simulation for Many-Server Queues",
+      "year": 2012,
+      "date": "2012-01-17",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1201.3422",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:exactsamplingoflosssystems",
+      "title": "Exact sampling of loss systems",
+      "year": 2012,
+      "date": "2012-01-01",
+      "venue": "",
+      "type": "other",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:measuringsystemicrisksininsurancereinsurancenetworks",
+      "title": "Measuring systemic risks in insurance-reinsurance networks",
+      "year": 2012,
+      "date": "2012-01-01",
+      "venue": "Preprint",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:stochasticrisknetworksmodelinganalysisandefficientmontecarlo",
+      "title": "Stochastic Risk Networks: Modeling, Analysis and Efficient Monte Carlo",
+      "year": 2012,
+      "date": "2012-01-01",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://doi.org/10.2139/ssrn.2012987",
+      "authors": [
+        "José Blanchet",
+        "Juan Li",
+        "Yixi Shi"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientrareeventsimulationforheavytailedsystemsviacrossentropy",
+      "title": "Efficient rare event simulation for heavy-tailed systems via cross entropy",
+      "year": 2011,
+      "date": "2011-12-11",
+      "venue": "Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://www.columbia.edu/~jb2814/papers/conf_RESxEntropy_HT_WSC_11.pdf",
+      "authors": [
+        "José Blanchet",
+        "Yixi Shi"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:importancesamplingforstochasticrecurrenceequationswithheavytailedincrements",
+      "title": "Importance sampling for stochastic recurrence equations with heavy tailed increments",
+      "year": 2011,
+      "date": "2011-12-11",
+      "venue": "Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://www.informs-sim.org/wsc11papers/340.pdf",
+      "authors": [
+        "José Blanchet",
+        "Henrik Hult",
+        "Kevin Leder"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:aconditionalmontecarlomethodforestimatingthefailureprobabilityofadistributionnetworkwithrandomdemands",
+      "title": "A conditional Monte Carlo method for estimating the failure probability of a distribution network with random demands",
+      "year": 2011,
+      "date": "2011-12-01",
+      "venue": "Proceedings of the 2011 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2011.6148075",
+      "authors": [
+        "José Blanchet",
+        "Juan Li",
+        "Marvin K. Nakayama"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:importancesamplingforactuarialcostanalysisunderaheavytrafficmodel",
+      "title": "Importance sampling for actuarial cost analysis under a heavy traffic model",
+      "year": 2011,
+      "date": "2011-12-01",
+      "venue": "Proceedings of the 2011 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2011.6148073",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationtechniques",
+      "title": "Rare event simulation techniques",
+      "year": 2011,
+      "date": "2011-12-01",
+      "venue": "Proceedings of the 2011 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2011.6147747",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:statedependentimportancesamplingforrareeventsimulationanoverviewandrecentadvances",
+      "title": "State-dependent importance sampling for rare-event simulation: An overview and recent advances",
+      "year": 2011,
+      "date": "2011-10-25",
+      "venue": "Surveys in Operations Research and Management Science",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1016/j.sorms.2011.09.002",
+      "authors": [
+        "José Blanchet",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientsimulationoftailprobabilitiesofsumsofdependentrandomvariables",
+      "title": "Efficient simulation of tail probabilities of sums of dependent random variables",
+      "year": 2011,
+      "date": "2011-08-01",
+      "venue": "Journal of Applied Probability",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1017/s0021900200099198",
+      "authors": [
+        "José Blanchet",
+        "Leonardo Rojas‐Nandayapa"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:onexactsamplingofstochasticperpetuities",
+      "title": "On exact sampling of stochastic perpetuities",
+      "year": 2011,
+      "date": "2011-08-01",
+      "venue": "Journal of Applied Probability",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1017/s0021900200099204",
+      "authors": [
+        "José Blanchet",
+        "Karl Sigman"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:apracticalimplementationofthebernoullifactory",
+      "title": "A Practical Implementation of the Bernoulli Factory",
+      "year": 2011,
+      "date": "2011-06-13",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1106.2508",
+      "authors": [
+        "André Thomas",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientsimulationforthemaximumofinfinitehorizondiscretetimegaussianprocesses",
+      "title": "Efficient Simulation for the Maximum of Infinite Horizon Discrete-Time Gaussian Processes",
+      "year": 2011,
+      "date": "2011-06-01",
+      "venue": "Journal of Applied Probability",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1017/s0021900200007993",
+      "authors": [
+        "José Blanchet",
+        "Chenxin Li"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/10-aap707",
+      "title": "On The Transition From Heavy Traffic To Heavy Tails For The M/g/1 Queue: The Regularly Varying Case",
+      "year": 2011,
+      "date": "2011-04-01",
+      "venue": "ANNALS OF APPLIED PROBABILITY",
+      "type": "journal-article",
+      "doi": "10.1214/10-aap707",
+      "url": "https://doi.org/10.1214/10-aap707",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:correctionstothecentrallimittheoremforheavytailedprobabilitydensities",
+      "title": "Corrections to the Central Limit Theorem for Heavy-Tailed Probability Densities",
+      "year": 2011,
+      "date": "2011-03-22",
+      "venue": "arXiv (Cornell University)",
+      "type": "erratum",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1103.4306",
+      "authors": [
+        "Henry Lam",
+        "José Blanchet",
+        "Damian Burch",
+        "Martin Z. Bazant"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientrareeventsimulationforheavytailedcompoundsums",
+      "title": "Efficient rare event simulation for heavy-tailed compound sums",
+      "year": 2011,
+      "date": "2011-02-01",
+      "venue": "ACM Transactions on Modeling and Computer Simulation",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1145/1899396.1899397",
+      "authors": [
+        "José Blanchet",
+        "Chenxin Li"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:montecarloforlargecreditportfolioswithpotentiallyhighcorrelations",
+      "title": "Monte Carlo for large credit portfolios with potentially high correlations",
+      "year": 2010,
+      "date": "2010-12-01",
+      "venue": "Proceedings of the 2010 Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2010.5678976",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu",
+        "Xuan Yang"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:analysisofasplittingestimatorforrareeventprobabilitiesinjacksonnetworks",
+      "title": "Analysis of a Splitting Estimator for Rare Event Probabilities in Jackson Networks",
+      "year": 2010,
+      "date": "2010-07-28",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1007.5030",
+      "authors": [
+        "José Blanchet",
+        "Kevin Leder",
+        "Yixi Shi"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:asymptoticexpansionsofdefectiverenewalequationswithapplicationstoperturbedriskmodelsandprocessorsharingqueues",
+      "title": "Asymptotic expansions of defective renewal equations with applications to perturbed risk models and processor sharing queues",
+      "year": 2010,
+      "date": "2010-07-15",
+      "venue": "Mathematical Methods of Operations Research",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1007/s00186-010-0321-6",
+      "authors": [
+        "José Blanchet",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:characterizingoptimalsamplingofbinarycontingencytablesviatheconfigurationmodel",
+      "title": "Characterizing Optimal Sampling of Binary Contingency Tables via the Configuration Model",
+      "year": 2010,
+      "date": "2010-07-07",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1007.1214",
+      "authors": [
+        "José Blanchet",
+        "Alexandre Stauffer"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientsimulationandconditionalfunctionallimittheoremsforruinousheavytailedrandomwalks",
+      "title": "Efficient Simulation and Conditional Functional Limit Theorems for Ruinous Heavy-tailed Random Walks",
+      "year": 2010,
+      "date": "2010-06-14",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1006.2808",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientimportancesamplinginruinproblemsformultidimensionalregularlyvaryingrandomwalks",
+      "title": "Efficient importance sampling in ruin problems for multidimensional regularly varying random walks",
+      "year": 2010,
+      "date": "2010-06-01",
+      "venue": "Journal of Applied Probability",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1017/s0021900200006653",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:largedeviations",
+      "title": "Large Deviations",
+      "year": 2010,
+      "date": "2010-02-26",
+      "venue": "Encyclopedia of Quantitative Finance",
+      "type": "reference-entry",
+      "doi": null,
+      "url": "https://doi.org/10.1002/9780470061602.eqf21026",
+      "authors": [
+        "José Blanchet",
+        "Carlos G. Pacheco"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1145/1667072.1667078",
+      "title": "Asymptotic robustness of estimators in rare-event simulation",
+      "year": 2010,
+      "date": "2010-01-01",
+      "venue": "ACM Transactions on Modeling and Computer Simulation",
+      "type": "article",
+      "doi": "10.1145/1667072.1667078",
+      "url": "https://doi.org/10.1145/1667072.1667078",
+      "authors": [
+        "Pierre L’Ecuyer",
+        "José Blanchet",
+        "Bruno Tuffin",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientrareeventsimulationofcontinuoustimemarkovianperpetuities",
+      "title": "Efficient rare event simulation of continuous time Markovian perpetuities",
+      "year": 2009,
+      "date": "2009-12-01",
+      "venue": "Proceedings of the 2009 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2009.5429355",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationforageneralizedhawkesprocess",
+      "title": "Rare event simulation for a generalized Hawkes process",
+      "year": 2009,
+      "date": "2009-12-01",
+      "venue": "Proceedings of the 2009 Winter Simulation Conference (WSC)",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2009.5429693",
+      "authors": [
+        "Xiaowei Zhang",
+        "Peter W. Glynn",
+        "Kay Giesecke",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s11134-009-9154-5",
+      "title": "Rare event simulation for a slotted time M/G/s model",
+      "year": 2009,
+      "date": "2009-12-01",
+      "venue": "Queueing Systems",
+      "type": "article",
+      "doi": "10.1007/s11134-009-9154-5",
+      "url": "https://doi.org/10.1007/s11134-009-9154-5",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "Henry Lam"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientsimulationoftailprobabilitiesofsumsofcorrelatedlognormals",
+      "title": "Efficient simulation of tail probabilities of sums of correlated lognormals",
+      "year": 2009,
+      "date": "2009-10-27",
+      "venue": "Annals of Operations Research",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1007/s10479-009-0658-5",
+      "authors": [
+        "Søren Asmussen",
+        "José Blanchet",
+        "Sandeep Juneja",
+        "Leonardo Rojas‐Nandayapa"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientimportancesamplingforbinarycontingencytables",
+      "title": "Efficient importance sampling for binary contingency tables",
+      "year": 2009,
+      "date": "2009-08-07",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://doi.org/10.48550/arxiv.0908.0999",
+      "authors": [
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationandcountingproblems",
+      "title": "Rare Event Simulation and Counting Problems",
+      "year": 2009,
+      "date": "2009-03-17",
+      "venue": "Rare Event Simulation Using Monte Carlo Methods",
+      "type": "other",
+      "doi": null,
+      "url": "https://doi.org/10.1002/9780470745403.ch8",
+      "authors": [
+        "José Blanchet",
+        "Daniel Rudoy"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationforqueues",
+      "title": "Rare Event Simulation for Queues",
+      "year": 2009,
+      "date": "2009-03-17",
+      "venue": "Rare Event Simulation Using Monte Carlo Methods",
+      "type": "other",
+      "doi": null,
+      "url": "https://doi.org/10.1002/9780470745403.ch5",
+      "authors": [
+        "José Blanchet",
+        "Michel Mandjes"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/978-3-642-04107-5_13",
+      "title": "Efficient Simulation of Light-Tailed Sums: an Old-Folk Song Sung to a Faster New Tune...",
+      "year": 2009,
+      "date": "2009-01-01",
+      "venue": "8th International Conference on Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing (MCQMC 08)",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-642-04107-5_13",
+      "url": "https://doi.org/10.1007/978-3-642-04107-5_13",
+      "authors": [
+        "José Blanchet",
+        "Kevin Leder",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationformultidimensionalregularlyvaryingrandomwalks",
+      "title": "Rare# event Simulation for Multidimensional Regularly Varying Random Walks",
+      "year": 2009,
+      "date": "2009-01-01",
+      "venue": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:wewouldliketoannouncethefollowingchangesrelatedtotheeditorialboardandthepolicyofquesta1srenasmussenfrancoisbaccelliandfrankkellyhavekindlyagreedtojointheadvisoryboardofthejournal2professorsmorarmonyandwardwhitthavedecidedtoresignfromtheeditorial",
+      "title": "We would like to announce the following changes related to the editorial board and the policy of QUESTA: 1. Søren Asmussen, François Baccelli, and Frank Kelly have kindly agreed to join the advisory board of the journal. 2. Professors Mor Armony and Ward Whitt have decided to resign from the editorial",
+      "year": 2009,
+      "date": "2009-01-01",
+      "venue": "Queueing Syst",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:efficienttailestimationforsumsofcorrelatedlognormals",
+      "title": "Efficient tail estimation for sums of correlated lognormals",
+      "year": 2008,
+      "date": "2008-12-07",
+      "venue": "2008 Winter Simulation Conference",
+      "type": "article",
+      "doi": null,
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.719.6242",
+      "authors": [
+        "José Blanchet",
+        "Sandeep Juneja",
+        "Leonardo Rojas‐Nandayapa"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:largedeviationsperspectiveonordinaloptimizationofheavytailedsystems",
+      "title": "Large deviations perspective on ordinal optimization of heavy-tailed systems",
+      "year": 2008,
+      "date": "2008-12-01",
+      "venue": "2008 Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2008.4736104",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:statedependentimportancesamplingforregularlyvaryingrandomwalks",
+      "title": "State-dependent importance sampling for regularly varying random walks",
+      "year": 2008,
+      "date": "2008-12-01",
+      "venue": "Advances in Applied Probability",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1017/s0001867800002986",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/07-aap485",
+      "title": "Efficient rare-event simulation for the maximum of heavy-tailed random walks",
+      "year": 2008,
+      "date": "2008-07-21",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": "10.1214/07-aap485",
+      "url": "https://doi.org/10.1214/07-aap485",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientrareeventsimulationforheavytailedmultiserverqueues",
+      "title": "Efficient rare event simulation for heavy-tailed multiserver queues",
+      "year": 2008,
+      "date": "2008-01-01",
+      "venue": "Department of Statistics, Columbia University",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:efficientsimulationfortailprobabilitiesofgaussianrandomfields",
+      "title": "Efficient simulation for tail probabilities of gaussian random fields",
+      "year": 2008,
+      "date": "2008-01-01",
+      "venue": "2008 Winter Simulation Conference",
+      "type": "article",
+      "doi": null,
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.728.699",
+      "authors": [
+        "Robert J. Adler",
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:stronglyefficientalgorithmsforlighttailedrandomwalksanoldfolksongsungtoafasternewtune",
+      "title": "Strongly efficient algorithms for light-tailed random walks: An old folk song sung to a faster new tune",
+      "year": 2008,
+      "date": "2008-01-01",
+      "venue": "Proceedings of the Eighth International Conference on Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing (MCQMC 2008). Springer, Berlin",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:importancesamplingofcompoundingprocesses",
+      "title": "Importance sampling of compounding processes",
+      "year": 2007,
+      "date": "2007-12-01",
+      "venue": "2007 Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2007.4419625",
+      "authors": [
+        "José Blanchet",
+        "Bert Zwart"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:uniformrenewaltheorywithapplicationstoexpansionsofrandomgeometricsums",
+      "title": "Uniform renewal theory with applications to expansions of random geometric sums",
+      "year": 2007,
+      "date": "2007-12-01",
+      "venue": "Advances in Applied Probability",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1017/s000186780000224x",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1007/s11134-007-9047-4",
+      "title": "Fluid heuristics, Lyapunov bounds and efficient importance sampling for a heavy-tailed G/G/1 queue",
+      "year": 2007,
+      "date": "2007-11-13",
+      "venue": "Queueing Systems",
+      "type": "article",
+      "doi": "10.1007/s11134-007-9047-4",
+      "url": "https://doi.org/10.1007/s11134-007-9047-4",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn",
+        "J. C. Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientsuboptimalrareeventsimulation",
+      "title": "Efficient suboptimal rare-event simulation",
+      "year": 2007,
+      "date": "2007-01-01",
+      "venue": "2007 Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2007.4419627",
+      "authors": [
+        "Xiaowei Zhang",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:eocientrareeventsimulationforheavytailedmultiserverqueues",
+      "title": "Eo cient Rare Event Simulation for Heavy $ tailed Multiserver Queues",
+      "year": 2007,
+      "date": "2007-01-01",
+      "venue": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:exactsimulationanderrorcontrolledsamplingviaregenerationandabernoullifactory",
+      "title": "Exact simulation and error-controlled sampling via regeneration and a Bernoulli factory",
+      "year": 2007,
+      "date": "2007-01-01",
+      "venue": "",
+      "type": "report",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:pathsamplingforstatedependentimportancesampling",
+      "title": "Path-sampling for state-dependent importance sampling",
+      "year": 2007,
+      "date": "2007-01-01",
+      "venue": "2007 Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2007.4419626",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:rareeventsimulationforamultidimensionalrandomwalkwithtdistributedincrements",
+      "title": "Rare-event simulation for a multidimensional random walk with t distributed increments",
+      "year": 2007,
+      "date": "2007-01-01",
+      "venue": "2007 Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2007.4419628",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:efficientsimulationforlargedeviationprobabilitiesofsumsofheavytailedincrements",
+      "title": "Efficient Simulation for Large Deviation Probabilities of Sums of Heavy-Tailed Increments",
+      "year": 2006,
+      "date": "2006-12-01",
+      "venue": "Proceedings of the 2006 Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://doi.org/10.1109/wsc.2006.323156",
+      "authors": [
+        "José Blanchet",
+        "Jingchen Liu"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:heavytrafficlimitsviabrownianembeddings",
+      "title": "Heavy Traffic Limits Via Brownian Embeddings",
+      "year": 2006,
+      "date": "2006-09-19",
+      "venue": "Probability in the Engineering and Informational Sciences",
+      "type": "article",
+      "doi": null,
+      "url": "https://doi.org/10.1017/s0269964806060360",
+      "authors": [
+        "Erol A. Peköz",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "doi:10.1214/10505160600000042",
+      "title": "Complete Corrected Diffusion Approximations For The Maximum Of A Random Walk",
+      "year": 2006,
+      "date": "2006-01-01",
+      "venue": "ANNALS OF APPLIED PROBABILITY",
+      "type": "preprint",
+      "doi": "10.1214/10505160600000042",
+      "url": "https://doi.org/10.1214/10505160600000042",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:correcteddiffusionapproximationsforthemaximumoflighttailedrandomwalk",
+      "title": "Corrected diffusion approximations for the maximum of light-tailed random walk",
+      "year": 2006,
+      "date": "2006-01-01",
+      "venue": "Ann. App. Prob",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:importancesamplingandefficientcountingof01contingencytables",
+      "title": "Importance sampling and efficient counting of 0-1 contingency tables",
+      "year": 2006,
+      "date": "2006-01-01",
+      "venue": "Proceedings of the 1st international conference on Performance evaluation methodolgies and tools",
+      "type": "conference-abstract",
+      "doi": null,
+      "url": "https://doi.org/10.1145/1190095.1190120",
+      "authors": [
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:statedependentimportancesamplingandlargedeviations",
+      "title": "State-dependent importance sampling and large deviations",
+      "year": 2006,
+      "date": "2006-01-01",
+      "venue": "Proceedings of the 1st international conference on Performance evaluation methodolgies and tools",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:stronglyefficientestimatorsforlighttailedsums",
+      "title": "Strongly efficient estimators for light-tailed sums",
+      "year": 2006,
+      "date": "2006-01-01",
+      "venue": "Proceedings of the 1st international conference on Performance evaluation methodolgies and tools",
+      "type": "conference-abstract",
+      "doi": null,
+      "url": "https://doi.org/10.1145/1190095.1190118",
+      "authors": [
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex"
+    },
+    {
+      "id": "title:exactsamplingregenerationandminorizationconditions",
+      "title": "Exact sampling, regeneration and minorization conditions",
+      "year": 2005,
+      "date": "2005-01-01",
+      "venue": "",
+      "type": "report",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:largedeviationsandexactasymptoticsforperpetuitieswithsmalldiscountrates",
+      "title": "Large deviations and exact asymptotics for perpetuities with small discount rates",
+      "year": 2005,
+      "date": "2005-01-01",
+      "venue": "",
+      "type": "report",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:limittheoremsandapproximationswithapplicationstoinsuranceriskandqueueingtheory",
+      "title": "Limit theorems and approximations with applications to insurance risk and queueing theory",
+      "year": 2004,
+      "date": "2004-01-01",
+      "venue": "",
+      "type": "dissertation-thesis",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    },
+    {
+      "id": "title:correcteddiffusionapproximationsforthemaximumofheavytailedrandomwalk",
+      "title": "Corrected Diffusion Approximations for the Maximum of Heavy-Tailed Random Walk",
+      "year": 2003,
+      "date": "2003-01-01",
+      "venue": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "authors": [],
+      "source": "ORCID"
+    }
+  ]
+}
