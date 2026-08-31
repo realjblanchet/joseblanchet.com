@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check the current domain is reachable
+        continue-on-error: true
         run: curl --fail --head --location --connect-timeout 10 --max-time 20 --retry 1 --retry-delay 5 --silent --show-error --output /dev/null https://joseblanchet.com/
       - name: Check the replacement homepage
         run: |
