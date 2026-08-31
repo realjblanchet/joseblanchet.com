@@ -32,6 +32,7 @@ export default function Home() {
           <a href="#research">Research</a>
           <a href="#people">People</a>
           <a href="#publications">Publications</a>
+          <a href={sitePath('/grant-support/')}>Grant Support</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -130,6 +131,7 @@ export default function Home() {
         <div className="footer-address">
           <p>475 Via Ortega, Suite 310<br />Stanford, CA 94305</p>
           <a href="mailto:jose.blanchet@stanford.edu">jose.blanchet@stanford.edu</a>
+          <a className="footer-support-link" href={sitePath('/grant-support/')}>Funding & Support</a>
         </div>
         <p className="footer-meta">Publications are checked and updated automatically.</p>
       </footer>

@@ -3,6 +3,8 @@ name: Test and deploy website
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '27 14 * * 1'
   workflow_dispatch:
 
 permissions:
