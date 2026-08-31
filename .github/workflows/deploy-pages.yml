@@ -21,8 +21,8 @@ jobs:
       NEXT_PUBLIC_BASE_PATH: /joseblanchet.com
       NEXT_PUBLIC_SITE_URL: https://realjblanchet.github.io/joseblanchet.com
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -30,8 +30,8 @@ jobs:
       - run: npm test
       - run: npm run build
       - run: node scripts/verify-static.mjs
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: out
 
@@ -44,4 +44,4 @@ jobs:
     steps:
       - name: Deploy tested site
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
