@@ -7,6 +7,7 @@ This repository contains the static replacement for [joseblanchet.com](https://j
 - GitHub Pages deploys every validated change to `main`.
 - Publications synchronize weekly from Jose Blanchet's ORCID record and are enriched with OpenAlex metadata.
 - Publication updates are tested before they are committed or deployed.
+- A daily health check verifies the current domain, replacement site, publication catalog, and sharing image.
 - Dependabot proposes dependency and GitHub Actions updates each week.
 
 ## Local checks

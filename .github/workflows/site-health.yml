@@ -1,0 +1,27 @@
+name: Daily website health check
+
+on:
+  schedule:
+    - cron: '41 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the current domain is reachable
+        run: curl --fail --location --retry 3 --retry-delay 5 --silent --show-error --output /dev/null https://joseblanchet.com/
+      - name: Check the replacement homepage
+        run: |
+          curl --fail --location --retry 3 --retry-delay 5 --silent --show-error --output home.html https://realjblanchet.github.io/joseblanchet.com/
+          grep --fixed-strings --quiet 'Probability, learning, and decisions under uncertainty.' home.html
+      - name: Check the publication catalog
+        run: |
+          curl --fail --location --retry 3 --retry-delay 5 --silent --show-error --output publications.html https://realjblanchet.github.io/joseblanchet.com/publications/
+          grep --fixed-strings --quiet 'class="result-count"' publications.html
+          grep --fixed-strings --quiet 'Last synchronized' publications.html
+      - name: Check the sharing image
+        run: curl --fail --location --retry 3 --retry-delay 5 --silent --show-error --output /dev/null https://realjblanchet.github.io/joseblanchet.com/og.png
