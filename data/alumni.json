@@ -1,18 +1,6 @@
 {
   "verifiedAt": "2026-09-05",
-  "currentPostdocs": [
-    {
-      "name": "Anna Winnicki",
-      "years": "2024–present",
-      "website": "https://sites.google.com/view/annawinnicki"
-    },
-    {
-      "name": "Wenhao Yang",
-      "years": "2023–present",
-      "website": "https://yangwenhaosms.github.io/",
-      "coAdvisors": ["Peter Glynn"]
-    }
-  ],
+  "currentPostdocs": [],
   "doctoralAlumni": [
     {
       "name": "Jingchen Liu",
@@ -179,6 +167,19 @@
       "institution": "Stanford MS&E",
       "years": "c. 2022–2023",
       "website": "https://yang-liu16.github.io/"
+    },
+    {
+      "name": "Wenhao Yang",
+      "institution": "Stanford MS&E",
+      "years": "2023–2026",
+      "website": "https://yangwenhaosms.github.io/",
+      "coAdvisors": ["Peter Glynn"]
+    },
+    {
+      "name": "Anna Winnicki",
+      "institution": "Stanford MS&E",
+      "years": "2024–2025",
+      "website": "https://sites.google.com/view/annawinnicki"
     }
   ]
 }

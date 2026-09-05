@@ -62,9 +62,11 @@ function DirectorySection({
         <h2 id={id}>{title}</h2>
         <p>{description}</p>
       </div>
-      <div className="directory-grid">
-        {entries.map((entry) => <PersonCard person={entry} key={entry.name} />)}
-      </div>
+      {entries.length ? (
+        <div className="directory-grid">
+          {entries.map((entry) => <PersonCard person={entry} key={entry.name} />)}
+        </div>
+      ) : null}
     </section>
   );
 }
@@ -102,7 +104,7 @@ export default function PeoplePage() {
       <DirectorySection
         eyebrow="Current group"
         title="Postdoctoral fellows"
-        description="Postdoctoral researchers currently working with the group."
+        description="There are currently no postdoctoral fellows in the group."
         entries={alumniData.currentPostdocs}
         id="current-postdocs"
         muted
