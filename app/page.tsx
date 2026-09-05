@@ -31,7 +31,7 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#research">Research</a>
-          <a href="#people">People</a>
+          <a href={sitePath('/people/')}>People</a>
           <a href="#publications">Publications</a>
           <a href={sitePath('/grant-support/')}>Grant Support</a>
           <a href="#contact">Contact</a>
@@ -107,6 +107,7 @@ export default function Home() {
             </article>
           ))}
         </div>
+        <a className="button button-dark" href={sitePath('/people/')}>View the full group & alumni</a>
       </section>
 
       <section className="research section" id="research">

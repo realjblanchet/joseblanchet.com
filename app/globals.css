@@ -163,6 +163,23 @@ footer p, footer a { color: #cbd3ce; font-size: .86rem; line-height: 1.7; margin
 .support-note { background: #161e1a; color: #cbd3ce; padding: 38px clamp(24px, 10vw, 160px); }
 .support-note p { font-size: .82rem; line-height: 1.7; margin: 0; max-width: 980px; }
 
+.people-masthead h1 { max-width: 1080px; }
+.directory-section { margin: 0 auto; max-width: 1500px; }
+.directory-section-muted { background: var(--paper); max-width: none; }
+.directory-section-muted > * { margin-left: auto; margin-right: auto; max-width: 1280px; }
+.directory-section-heading { margin-bottom: 48px; }
+.directory-section-heading h2 { max-width: 850px; }
+.directory-section-heading > p:last-child { color: #5d6861; line-height: 1.7; margin: 22px 0 0; max-width: 760px; }
+.directory-grid { border-top: 2px solid var(--ink); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.directory-card { border-bottom: 1px solid #d8d1c5; min-height: 225px; padding: 28px 30px 28px 0; }
+.directory-card:not(:nth-child(3n + 1)) { border-left: 1px solid #d8d1c5; padding-left: 30px; }
+.directory-card-topline { color: #727a75; display: flex; font-size: .68rem; font-weight: 800; justify-content: space-between; letter-spacing: .07em; min-height: 1em; text-transform: uppercase; }
+.directory-card h3 { font-family: Georgia, serif; font-size: clamp(1.35rem, 2.1vw, 1.85rem); font-weight: 400; line-height: 1.15; margin: 26px 0 10px; }
+.directory-card h3 a:hover, .directory-card h3 a:focus-visible { color: var(--cardinal); }
+.directory-card h3 span { color: var(--cardinal); font-family: Inter, sans-serif; font-size: .72em; }
+.thesis-title { color: #465149; font-family: Georgia, serif; font-size: .95rem; font-style: italic; line-height: 1.55; margin: 0; }
+.directory-coadvisor { color: #68716b; font-size: .74rem; line-height: 1.5; margin: 22px 0 0; }
+
 @media (max-width: 850px) {
   .site-header nav { display: none; }
   .hero { min-height: 690px; }
@@ -195,6 +212,8 @@ footer p, footer a { color: #cbd3ce; font-size: .86rem; line-height: 1.7; margin
   .publication-record { grid-template-columns: 1fr; gap: 14px; }
   .grant-grid { grid-template-columns: 1fr; }
   .grant-card dl > div { grid-template-columns: 1fr; gap: 4px; }
+  .directory-grid { grid-template-columns: 1fr; }
+  .directory-card, .directory-card:not(:nth-child(3n + 1)) { border-left: 0; min-height: 0; padding: 24px 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

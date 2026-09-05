@@ -15,7 +15,7 @@ export default function PublicationsPage() {
         <a className="brand" href={sitePath('/')} aria-label="Blanchet Lab home"><img src={sitePath('/images/logo.png')} alt="Blanchet Lab" /></a>
         <nav aria-label="Primary navigation">
           <a href={sitePath('/#research')}>Research</a>
-          <a href={sitePath('/#people')}>People</a>
+          <a href={sitePath('/people/')}>People</a>
           <a aria-current="page" href={sitePath('/publications/')}>Publications</a>
           <a href={sitePath('/grant-support/')}>Grant Support</a>
           <a href={sitePath('/#contact')}>Contact</a>

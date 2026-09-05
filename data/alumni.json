@@ -1,0 +1,171 @@
+{
+  "verifiedAt": "2026-09-05",
+  "currentPostdocs": [
+    {
+      "name": "Anna Winnicki",
+      "years": "2024–present",
+      "website": "https://sites.google.com/view/annawinnicki"
+    },
+    {
+      "name": "Wenhao Yang",
+      "years": "2023–present",
+      "website": "https://yangwenhaosms.github.io/",
+      "coAdvisors": ["Peter Glynn"]
+    }
+  ],
+  "doctoralAlumni": [
+    {
+      "name": "Jingchen Liu",
+      "institution": "Harvard Statistics",
+      "year": "2008",
+      "thesisTitle": "Effective Modeling and Scientific Computation with Applications to Health Study, Astronomy, and Queueing Network",
+      "coAdvisors": ["Xiao-Li Meng"],
+      "website": "https://sites.stat.columbia.edu/jcliu/"
+    },
+    {
+      "name": "Chenxin Li",
+      "institution": "Harvard Statistics",
+      "year": "2010",
+      "website": "https://www.linkedin.com/in/chenxinli/"
+    },
+    {
+      "name": "Henry Lam",
+      "institution": "Harvard Statistics",
+      "year": "2011",
+      "thesisTitle": "Efficient Monte-Carlo Methods and Asymptotic Analysis for Stochastic Systems",
+      "website": "https://www.engineering.columbia.edu/faculty-staff/directory/henry-lam"
+    },
+    {
+      "name": "Shuheng Zheng",
+      "institution": "Columbia IEOR",
+      "year": "2014",
+      "thesisTitle": "Stochastic Approximation Algorithms in the Estimation of Quasi-Stationary Distribution of Finite and General State Space Markov Chains",
+      "website": "https://www.linkedin.com/in/shuheng-zheng-96bbb17"
+    },
+    {
+      "name": "Yixi Shi",
+      "institution": "Columbia IEOR",
+      "year": "2013",
+      "thesisTitle": "Rare Events in Stochastic Systems: Modeling, Simulation Design, and Algorithm Analysis",
+      "website": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012987"
+    },
+    {
+      "name": "Xinyun Chen",
+      "institution": "Columbia IEOR",
+      "year": "2014",
+      "website": "https://myweb.cuhk.edu.cn/chenxinyun"
+    },
+    {
+      "name": "Jing Dong",
+      "institution": "Columbia IEOR",
+      "year": "2014",
+      "website": "https://www.columbia.edu/~jd2736/"
+    },
+    {
+      "name": "Juan Li",
+      "institution": "Columbia IEOR",
+      "year": "2015",
+      "website": "https://scholar.google.com/citations?user=77yiJM0AAAAJ&hl=en"
+    },
+    {
+      "name": "Aya Wallwater",
+      "institution": "Columbia IEOR",
+      "year": "2015",
+      "thesisTitle": "Perfect Simulation and Deployment Strategies for Detection",
+      "website": "https://www.linkedin.com/in/aya-wallwater-50783428/"
+    },
+    {
+      "name": "Yang Kang",
+      "institution": "Columbia Statistics",
+      "year": "2018",
+      "website": "https://sites.google.com/view/yangkang1026/"
+    },
+    {
+      "name": "Yanan Pei",
+      "institution": "Columbia IEOR",
+      "year": "2018",
+      "thesisTitle": "Exact Simulation Techniques in Applied Probability and Stochastic Optimization",
+      "website": "https://www.linkedin.com/in/yanan-pei-11b14a24/"
+    },
+    {
+      "name": "Fei He",
+      "institution": "Columbia IEOR",
+      "year": "2018",
+      "thesisTitle": "Distributional Robust Performance Analysis",
+      "website": "https://www.linkedin.com/in/fei-he-80374617/"
+    },
+    {
+      "name": "Zhipeng Liu",
+      "institution": "Columbia IEOR",
+      "year": "2018",
+      "thesisTitle": "Exact Simulation Algorithms with Applications in Queueing Theory and Extreme Value Analysis",
+      "website": "https://www.linkedin.com/in/zhipeng-liu-128b35131/"
+    },
+    {
+      "name": "Yue Hui",
+      "institution": "Stanford Mathematics",
+      "year": "2021",
+      "thesisTitle": "Mean Field Methods for Stochastic Control and Optimization Problems",
+      "coAdvisors": ["Peter Glynn"],
+      "website": "https://purl.stanford.edu/md244pv2062"
+    },
+    {
+      "name": "Teng Zhang",
+      "institution": "Stanford MS&E",
+      "year": "2021",
+      "thesisTitle": "Efficient Simulation for Complex Systems",
+      "coAdvisors": ["Peter Glynn"],
+      "website": "https://purl.stanford.edu/kt775dj4761"
+    },
+    {
+      "name": "Zhengqing Zhou",
+      "institution": "Stanford Mathematics",
+      "year": "2021",
+      "coAdvisors": ["Peter Glynn", "George Papanicolaou"],
+      "website": "https://web.stanford.edu/~zqzhou/"
+    },
+    {
+      "name": "Fan Zhang",
+      "institution": "Stanford MS&E",
+      "year": "2021",
+      "thesisTitle": "Optimal Stochastic Couplings",
+      "website": "https://andyzhang92.github.io/"
+    },
+    {
+      "name": "Jin Xie",
+      "institution": "Stanford ICME",
+      "year": "2022",
+      "thesisTitle": "Optimal Transport and Healthcare Operations",
+      "coAdvisors": ["Peter Glynn"],
+      "website": "https://jinnyxie1024.github.io/"
+    },
+    {
+      "name": "Kyriakos Lotidis",
+      "institution": "Stanford MS&E",
+      "year": "c. 2026",
+      "coAdvisors": ["Nicholas Bambos"],
+      "website": "https://scholar.google.com/citations?user=Ls0cipcAAAAJ&hl=en"
+    }
+  ],
+  "formerPostdocs": [
+    {
+      "name": "Karthyek Murthy",
+      "institution": "Columbia IEOR",
+      "years": "2015–2017",
+      "website": "https://sites.google.com/site/karthyekswebpage/"
+    },
+    {
+      "name": "Viet Anh Nguyen",
+      "institution": "Stanford MS&E",
+      "years": "2019–2021",
+      "coAdvisors": ["Yinyu Ye"],
+      "website": "https://vietanhnguyen.net/"
+    },
+    {
+      "name": "Jiajin Li",
+      "institution": "Stanford MS&E",
+      "years": "2021–2024",
+      "website": "https://gerrili1996.github.io/"
+    }
+  ]
+}
