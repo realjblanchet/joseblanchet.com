@@ -25,7 +25,7 @@ export default function PublicationsPage() {
         <p className="kicker">Research record</p>
         <h1>Publications</h1>
         <p>
-          This bibliography is synchronized from Jose Blanchet’s ORCID record and enriched with OpenAlex metadata. New records publish automatically after validation.
+          This bibliography is synchronized from Jose Blanchet’s ORCID, arXiv, Crossref, and OpenAlex records. New records publish automatically after validation and deduplication.
         </p>
         <div className="data-freshness"><span className="status-dot" /> Last synchronized {new Date(publicationData.updatedAt).toLocaleDateString('en-US', { dateStyle: 'long', timeZone: 'UTC' })}</div>
       </section>

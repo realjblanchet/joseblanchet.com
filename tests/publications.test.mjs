@@ -6,6 +6,10 @@ const data = JSON.parse(await readFile(new URL('../data/publications.json', impo
 
 test('publication inventory passes quality gates', () => {
   assert.ok(data.publications.length >= 250, 'expected at least 250 publications');
+  assert.ok(
+    data.publications.filter((item) => item.year === 2026).length >= 28,
+    'expected the 2026 catalog to include recent arXiv work',
+  );
   assert.equal(data.count, data.publications.length);
   assert.match(data.orcid, /^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/);
 });
@@ -28,4 +32,3 @@ test('publication records are plausible and sorted newest first', () => {
     assert.ok(String(data.publications[index - 1].date).localeCompare(String(data.publications[index].date)) >= 0);
   }
 });
-
