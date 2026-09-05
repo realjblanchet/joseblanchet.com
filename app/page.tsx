@@ -1,4 +1,5 @@
 import publicationData from '@/data/publications.json';
+import people from '@/data/people.json';
 import { sitePath } from './site-path';
 
 const featuredPublications = publicationData.publications.slice(0, 3);
@@ -53,7 +54,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="intro section" id="people">
+      <section className="intro section" id="about">
         <div className="portrait-wrap">
           <img src={sitePath('/images/jose-blanchet.jpg')} alt="Jose Blanchet" />
           <div className="portrait-caption">
@@ -71,6 +72,40 @@ export default function Home() {
             The lab brings together probability, optimization, and data to study systems where uncertainty is central—not incidental.
           </p>
           <a className="text-link" href="https://profiles.stanford.edu/blanchet">Stanford profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section className="people section" id="people">
+        <div className="section-heading people-heading">
+          <div>
+            <p className="kicker">People</p>
+            <h2>Current students</h2>
+          </div>
+          <p>
+            Researchers working across probability, optimization, machine learning, and stochastic systems.
+          </p>
+        </div>
+        <div className="people-grid">
+          {people.map((person) => (
+            <article className="person-card" key={person.name}>
+              <div>
+                {person.website ? (
+                  <h3>
+                    <a href={person.website} target="_blank" rel="noreferrer">
+                      {person.name} <span aria-hidden="true">↗</span>
+                    </a>
+                  </h3>
+                ) : (
+                  <h3>{person.name}</h3>
+                )}
+              </div>
+              {person.coAdvisors?.length ? (
+                <p className="coadvisor">
+                  Co-advised with {person.coAdvisors.join(' and ')}
+                </p>
+              ) : null}
+            </article>
+          ))}
         </div>
       </section>
 

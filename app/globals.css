@@ -63,6 +63,16 @@ h2 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.5rem, 5v
 .intro-copy > p:not(.kicker) { color: #445049; font-size: 1.06rem; line-height: 1.8; max-width: 650px; }
 .intro-copy .text-link { color: var(--cardinal); margin-top: 10px; }
 
+.people { background: var(--white); }
+.people-heading > p { color: #59645d; }
+.people-grid { border-top: 2px solid var(--ink); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.person-card { border-bottom: 1px solid #d8d1c5; display: flex; flex-direction: column; justify-content: space-between; min-height: 170px; padding: 28px 30px 26px 0; }
+.person-card:not(:nth-child(3n + 1)) { border-left: 1px solid #d8d1c5; padding-left: 30px; }
+.person-card h3 { font-family: Georgia, serif; font-size: clamp(1.35rem, 2.2vw, 1.8rem); font-weight: 400; line-height: 1.15; margin: 0 0 9px; }
+.person-card h3 a:hover, .person-card h3 a:focus-visible { color: var(--cardinal); }
+.person-card h3 span { color: var(--cardinal); font-family: Inter, sans-serif; font-size: .72em; }
+.coadvisor { color: #4c5750; font-size: .76rem; line-height: 1.5; margin: 26px 0 0; }
+
 .research { background: var(--forest); color: white; }
 .section-heading { align-items: end; display: flex; justify-content: space-between; margin-bottom: 54px; gap: 40px; }
 .section-heading > p { color: #c8d4cc; line-height: 1.7; margin: 0; max-width: 470px; }
@@ -160,6 +170,9 @@ footer p, footer a { color: #cbd3ce; font-size: .86rem; line-height: 1.7; margin
   .intro { grid-template-columns: 1fr; }
   .portrait-wrap { max-width: 430px; }
   .section-heading { align-items: flex-start; flex-direction: column; }
+  .people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .person-card:not(:nth-child(3n + 1)) { border-left: 0; padding-left: 0; }
+  .person-card:nth-child(even) { border-left: 1px solid #d8d1c5; padding-left: 30px; }
   .research-grid { grid-template-columns: 1fr; }
   .research-card { aspect-ratio: 1.35; }
   footer { grid-template-columns: 1fr; }
@@ -173,6 +186,8 @@ footer p, footer a { color: #cbd3ce; font-size: .86rem; line-height: 1.7; margin
   .hero h1 { font-size: 3.15rem; }
   .hero-copy { font-size: 1rem; }
   .section { padding-left: 20px; padding-right: 20px; }
+  .people-grid { grid-template-columns: 1fr; }
+  .person-card, .person-card:nth-child(even) { border-left: 0; min-height: 0; padding: 24px 0; }
   .research-card { aspect-ratio: .92; }
   .publication { grid-template-columns: 48px 1fr; }
   .publication-arrow { display: none; }

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Hao Liu"
+  },
+  {
+    "name": "Miao Lu",
+    "website": "https://msande.stanford.edu/people/miao-lu"
+  },
+  {
+    "name": "Yihang Sun"
+  },
+  {
+    "name": "Lezhi Tan",
+    "website": "https://profiles.stanford.edu/lezhi-tan"
+  },
+  {
+    "name": "Yundi Zhang"
+  },
+  {
+    "name": "Jie Meng",
+    "coAdvisors": ["Peter Glynn"]
+  },
+  {
+    "name": "Zhangyi Liu",
+    "coAdvisors": ["Peter Glynn", "Renyuan Xu"]
+  },
+  {
+    "name": "Jiyuan Tan",
+    "website": "https://msande.stanford.edu/people/jiyuan-tan",
+    "coAdvisors": ["Vasilis Syrgkanis"]
+  },
+  {
+    "name": "Chenghan Xie",
+    "website": "https://msande.stanford.edu/people/chenghan-xie",
+    "coAdvisors": ["Renyuan Xu"]
+  },
+  {
+    "name": "Lutong Luo",
+    "coAdvisors": ["Renyuan Xu"]
+  },
+  {
+    "name": "Lukas Fiechtner",
+    "website": "https://icme.stanford.edu/people/lukas-fiechtner"
+  },
+  {
+    "name": "Anish Senapati",
+    "website": "https://icme.stanford.edu/people/anish-senapati"
+  }
+]
