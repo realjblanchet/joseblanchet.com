@@ -63,6 +63,13 @@
       "website": "https://www.linkedin.com/in/aya-wallwater-50783428/"
     },
     {
+      "name": "Christopher Dolan",
+      "institution": "Columbia Statistics",
+      "year": "2018",
+      "thesisTitle": "Distributionally Robust Performance Analysis with Applications to Mine Valuation and Risk",
+      "website": "https://stat.columbia.edu/people/name/christopher-dolan/"
+    },
+    {
       "name": "Yang Kang",
       "institution": "Columbia Statistics",
       "year": "2018",
@@ -88,6 +95,14 @@
       "year": "2018",
       "thesisTitle": "Exact Simulation Algorithms with Applications in Queueing Theory and Extreme Value Analysis",
       "website": "https://www.linkedin.com/in/zhipeng-liu-128b35131/"
+    },
+    {
+      "name": "Fengpei Li",
+      "institution": "Columbia IEOR",
+      "year": "2021",
+      "thesisTitle": "Stochastic Methods in Optimization and Machine Learning",
+      "coAdvisors": ["Henry Lam"],
+      "website": "https://www.linkedin.com/in/fengpei-li-242526145"
     },
     {
       "name": "Yue Hui",
