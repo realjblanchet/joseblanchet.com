@@ -42,18 +42,21 @@
       "name": "Xinyun Chen",
       "institution": "Columbia IEOR",
       "year": "2014",
+      "thesisTitle": "Perfect Simulation, Sample-path Large Deviations, and Multiscale Modeling for Some Fundamental Queueing Systems",
       "website": "https://myweb.cuhk.edu.cn/chenxinyun"
     },
     {
       "name": "Jing Dong",
       "institution": "Columbia IEOR",
       "year": "2014",
+      "thesisTitle": "Studies in Stochastic Networks: Efficient Monte-Carlo Methods, Modeling and Asymptotic Analysis",
       "website": "https://www.columbia.edu/~jd2736/"
     },
     {
       "name": "Juan Li",
       "institution": "Columbia IEOR",
       "year": "2015",
+      "thesisTitle": "Stochastic Networks: Modeling, Simulation Design and Risk Control",
       "website": "https://scholar.google.com/citations?user=77yiJM0AAAAJ&hl=en"
     },
     {
@@ -74,6 +77,7 @@
       "name": "Yang Kang",
       "institution": "Columbia Statistics",
       "year": "2018",
+      "thesisTitle": "Distributionally Robust Optimization and its Applications in Machine Learning",
       "website": "https://sites.google.com/view/yangkang1026/"
     },
     {

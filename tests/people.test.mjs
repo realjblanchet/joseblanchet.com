@@ -41,6 +41,10 @@ test('the alumni register is grouped and privacy-safe', () => {
   assert.ok(alumni.formerPostdocs.some(({ name }) => name === 'Wenhao Yang'));
   assert.ok(alumni.formerPostdocs.some(({ name }) => name === 'Yang Liu'));
   assert.ok(alumni.formerPostdocs.some(({ name }) => name === 'Virag Shah'));
+  assert.ok(
+    alumni.doctoralAlumni.every(({ thesisTitle }) => thesisTitle),
+    'every doctoral alumnus should have a verified dissertation title',
+  );
 
   for (const person of entries) {
     assert.ok(person.name);
