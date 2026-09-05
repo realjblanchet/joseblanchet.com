@@ -12,8 +12,7 @@ jobs:
   synchronize:
     runs-on: ubuntu-latest
     env:
-      NEXT_PUBLIC_BASE_PATH: /joseblanchet.com
-      NEXT_PUBLIC_SITE_URL: https://realjblanchet.github.io/joseblanchet.com
+      NEXT_PUBLIC_SITE_URL: https://joseblanchet.com
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7

@@ -23,6 +23,6 @@ node scripts/verify-static.mjs
 
 The synchronizer uses ORCID `0000-0001-5895-0912` as the authoritative author record. It preserves the prior valid dataset if an upstream service is temporarily incomplete, rejects implausibly small results, and de-duplicates records by DOI and normalized title.
 
-## Domain cutover
+## Production domain
 
-The first deployment uses the temporary GitHub Pages project address. Do not add a `CNAME` file or change DNS until the preview has been reviewed. At cutover, remove the `/joseblanchet.com` base path from the deployment workflow, set the production site URL to `https://joseblanchet.com`, add `public/CNAME`, and then update DNS at GoDaddy.
+The production site is published at `https://joseblanchet.com` through the tested GitHub Pages workflow. The apex domain points to GitHub Pages, and `www.joseblanchet.com` points directly to `realjblanchet.github.io`; GitHub redirects the `www` variant to the canonical apex domain. The downloaded WordPress package is retained separately as a rollback archive.
