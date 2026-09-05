@@ -49,6 +49,7 @@
   },
   {
     "name": "Zhenyuan Zhang",
-    "website": "https://hungryzzy.github.io/"
+    "website": "https://hungryzzy.github.io/",
+    "coAdvisors": ["Amir Dembo"]
   }
 ]

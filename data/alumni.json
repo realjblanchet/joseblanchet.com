@@ -13,7 +13,8 @@
     {
       "name": "Chenxin Li",
       "institution": "Harvard Statistics",
-      "year": "2010",
+      "year": "2009",
+      "thesisTitle": "Estimation of Overflow Probabilities for Models with Heavy Tails and Complex Dependencies",
       "website": "https://www.linkedin.com/in/chenxinli/"
     },
     {
@@ -124,7 +125,8 @@
       "name": "Zhengqing Zhou",
       "institution": "Stanford Mathematics",
       "year": "2021",
-      "coAdvisors": ["Peter Glynn", "George Papanicolaou"],
+      "thesisTitle": "Distributionally Robust Optimization and Its Applications in Mathematical Finance, Statistics, and Reinforcement Learning",
+      "coAdvisors": ["Peter Glynn"],
       "website": "https://web.stanford.edu/~zqzhou/"
     },
     {
@@ -143,9 +145,78 @@
       "website": "https://jinnyxie1024.github.io/"
     },
     {
+      "name": "Vincent Dufour-Décieux",
+      "institution": "Stanford Materials Science & Engineering",
+      "year": "2022",
+      "thesisTitle": "Generalizable Chemical Mechanism Extraction from Molecular Dynamics Simulations",
+      "coAdvisors": ["Evan Reed"],
+      "website": "https://epse.ethz.ch/the-group/people/dufour-decieux-vincent.html"
+    },
+    {
+      "name": "Carson Kent",
+      "institution": "Stanford ICME",
+      "year": "2021",
+      "thesisTitle": "Optimization in the Space of Measures: New Techniques from Optimal Transport",
+      "website": "https://www.krellinst.org/csgf/profile/kent2015"
+    },
+    {
+      "name": "Linjia Wu",
+      "institution": "Stanford MS&E",
+      "year": "2022",
+      "thesisTitle": "Dynamic Stochastic Models for Experimentation and Matching",
+      "coAdvisors": ["Ramesh Johari"],
+      "website": "https://www.linkedin.com/in/linjia-wu-185516197"
+    },
+    {
+      "name": "Nian Si",
+      "institution": "Stanford MS&E",
+      "year": "2022",
+      "thesisTitle": "Essays on Trustworthy Data-Driven Decision Making",
+      "website": "https://niansi.me/"
+    },
+    {
+      "name": "Huanzhong Xu",
+      "institution": "Stanford ICME",
+      "year": "2023",
+      "thesisTitle": "MCMC with Substitutions and Multi-Armed Bandits with Covariates: Theory and Applications",
+      "website": "https://searchworks.stanford.edu/view/14782671"
+    },
+    {
+      "name": "Xuhui Zhang",
+      "institution": "Stanford MS&E",
+      "year": "2023",
+      "thesisTitle": "Distributional Robustness and Minimax Optimality in Selected Problems",
+      "website": "https://searchworks.stanford.edu/view/in00000031225"
+    },
+    {
+      "name": "Xinru Hua",
+      "institution": "Stanford Computer Science",
+      "year": "2024",
+      "thesisTitle": "Algorithms for Robust Learning, Gradient Flows, and Diffusion Generation of Rare Events",
+      "coAdvisors": ["Tengyu Ma"],
+      "website": "https://www.linkedin.com/in/lucyhua"
+    },
+    {
+      "name": "Yanlin Qu",
+      "institution": "Stanford MS&E",
+      "year": "2024",
+      "thesisTitle": "Markov Chain Convergence Analysis: From Pen and Paper to Deep Learning",
+      "coAdvisors": ["Peter Glynn"],
+      "website": "https://quyanlin.github.io/"
+    },
+    {
+      "name": "Shengbo Wang",
+      "institution": "Stanford MS&E",
+      "year": "2025",
+      "thesisTitle": "Learning and Optimal Control of Dynamic Stochastic Systems: Robustness and Scalability",
+      "coAdvisors": ["Peter Glynn"],
+      "website": "https://shengbo-wang.github.io/"
+    },
+    {
       "name": "Kyriakos Lotidis",
       "institution": "Stanford MS&E",
-      "year": "c. 2026",
+      "year": "2026",
+      "thesisTitle": "Robust Multi-Agent Learning for Collective Intelligence",
       "coAdvisors": ["Nicholas Bambos"],
       "website": "https://scholar.google.com/citations?user=Ls0cipcAAAAJ&hl=en"
     },
@@ -153,7 +224,8 @@
       "name": "Sirui Lin",
       "institution": "Stanford MS&E",
       "year": "2026",
-      "thesisTitle": "Selective Topics in Optimal Transport",
+      "thesisTitle": "Beyond First-Order Limits: Higher-Order Corrections for Mean-Field Control and Wasserstein Projection Tests",
+      "coAdvisors": ["Peter Glynn"],
       "website": "https://www.linkedin.com/in/sirui-lin-4099941b8/"
     }
   ],

@@ -27,6 +27,15 @@ test('the alumni register is grouped and privacy-safe', () => {
   assert.equal(alumni.currentPostdocs.length, 0);
   assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Christopher Dolan'));
   assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Fengpei Li'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Vincent Dufour-Décieux'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Carson Kent'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Linjia Wu'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Nian Si'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Huanzhong Xu'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Xuhui Zhang'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Xinru Hua'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Yanlin Qu'));
+  assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Shengbo Wang'));
   assert.ok(alumni.doctoralAlumni.some(({ name }) => name === 'Sirui Lin'));
   assert.ok(alumni.formerPostdocs.some(({ name }) => name === 'Anna Winnicki'));
   assert.ok(alumni.formerPostdocs.some(({ name }) => name === 'Wenhao Yang'));
