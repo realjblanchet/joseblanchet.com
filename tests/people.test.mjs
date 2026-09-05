@@ -6,8 +6,8 @@ const people = JSON.parse(
   await readFile(new URL('../data/people.json', import.meta.url), 'utf8'),
 );
 
-test('the public roster contains the twelve supplied student names', () => {
-  assert.equal(people.length, 12);
+test('the public roster contains the supplied student names', () => {
+  assert.equal(people.length, 13);
   assert.equal(new Set(people.map(({ name }) => name)).size, people.length);
 });
 
