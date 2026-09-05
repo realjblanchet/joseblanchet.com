@@ -24,6 +24,8 @@ test('the alumni register is grouped and privacy-safe', () => {
   assert.ok(alumni.verifiedAt);
   assert.ok(entries.length >= 20);
   assert.equal(new Set(entries.map(({ name }) => name)).size, entries.length);
+  assert.ok(alumni.formerPostdocs.some(({ name }) => name === 'Yang Liu'));
+  assert.ok(alumni.formerPostdocs.some(({ name }) => name === 'Virag Shah'));
 
   for (const person of entries) {
     assert.ok(person.name);

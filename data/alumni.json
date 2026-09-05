@@ -155,6 +155,13 @@
       "website": "https://sites.google.com/site/karthyekswebpage/"
     },
     {
+      "name": "Virag Shah",
+      "institution": "Stanford MS&E",
+      "years": "2017–2019",
+      "coAdvisors": ["Ramesh Johari"],
+      "website": "https://virags.github.io/"
+    },
+    {
       "name": "Viet Anh Nguyen",
       "institution": "Stanford MS&E",
       "years": "2019–2021",
@@ -166,6 +173,12 @@
       "institution": "Stanford MS&E",
       "years": "2021–2024",
       "website": "https://gerrili1996.github.io/"
+    },
+    {
+      "name": "Yang Liu",
+      "institution": "Stanford MS&E",
+      "years": "c. 2022–2023",
+      "website": "https://yang-liu16.github.io/"
     }
   ]
 }
