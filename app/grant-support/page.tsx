@@ -4,7 +4,7 @@ import { sitePath } from '../site-path';
 
 export const metadata: Metadata = {
   title: 'Funding & Support | Blanchet Lab',
-  description: 'Active and recently active grants supporting research by the Blanchet Lab and its collaborators.',
+  description: 'Active, recent, and past grants supporting research by the Blanchet Lab and its collaborators.',
 };
 
 type Grant = (typeof grantData.grants)[number];
@@ -21,17 +21,18 @@ function displayStatus(grant: Grant) {
 
 function GrantCard({ grant }: { grant: Grant }) {
   const status = displayStatus(grant);
+  const statusLabel = status === 'active' ? 'Active' : status === 'recent' ? 'Recently active' : 'Past support';
   return (
     <article className="grant-card">
       <div className="grant-card-topline">
-        <span className={`grant-status grant-status-${status}`}>{status === 'active' ? 'Active' : 'Recently active'}</span>
+        <span className={`grant-status grant-status-${status}`}>{statusLabel}</span>
         <span>{formatPeriod(grant)}</span>
       </div>
       <p className="grant-agency">{grant.agencyShort} · {grant.awardNumber}</p>
       <h3>{grant.title}</h3>
       <dl>
         <div><dt>Role</dt><dd>{grant.role}</dd></div>
-        <div><dt>Collaborators</dt><dd>{grant.collaborators.join(', ')}</dd></div>
+        {grant.collaborators.length ? <div><dt>Collaborators</dt><dd>{grant.collaborators.join(', ')}</dd></div> : null}
       </dl>
       <div className="grant-links">
         <a href={grant.officialUrl}>{grant.officialLinkLabel} <span aria-hidden="true">↗</span></a>
@@ -44,6 +45,7 @@ function GrantCard({ grant }: { grant: Grant }) {
 export default function GrantSupportPage() {
   const active = grantData.grants.filter((grant) => displayStatus(grant) === 'active');
   const recent = grantData.grants.filter((grant) => displayStatus(grant) === 'recent');
+  const past = grantData.grants.filter((grant) => displayStatus(grant) === 'past');
 
   return (
     <main className="inner-page grant-page">
@@ -83,6 +85,15 @@ export default function GrantSupportPage() {
           <p>Recently completed awards whose research, publications, and training outcomes continue to develop.</p>
         </div>
         <div className="grant-grid">{recent.map((grant) => <GrantCard grant={grant} key={grant.id} />)}</div>
+      </section>
+
+      <section className="grant-section grant-section-past section" aria-labelledby="past-grants">
+        <div className="grant-section-heading">
+          <p className="kicker">Foundation</p>
+          <h2 id="past-grants">Past NSF support</h2>
+          <p>Earlier National Science Foundation awards that supported the group across Harvard, Columbia, and Stanford.</p>
+        </div>
+        <div className="grant-grid">{past.map((grant) => <GrantCard grant={grant} key={grant.id} />)}</div>
       </section>
 
       <section className="support-note">
