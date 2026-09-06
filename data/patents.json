@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-05",
+  "patents": [
+    {
+      "title": "Fair neural networks",
+      "status": "Granted",
+      "filedDate": "2022-11-01",
+      "grantDate": "2026-03-03",
+      "patentNumber": "US 12,567,246 B2",
+      "applicationNumber": "US 18/051,578",
+      "publicationNumber": "US 2024/0144663 A1",
+      "inventors": [
+        "Xinru Hua",
+        "Huanzhong Xu",
+        "Jose Blanchet",
+        "Viet Anh Nguyen",
+        "Marcos Paul Gerardo Castro"
+      ],
+      "assignees": [
+        "Ford Global Technologies, LLC",
+        "The Board of Trustees of the Leland Stanford Junior University"
+      ],
+      "summary": "Methods for training neural networks with distributionally robust optimization and adversarially generated images so that performance remains reliable when real-world inputs differ from the training data.",
+      "url": "https://patents.google.com/patent/US12567246B2/en"
+    }
+  ]
+}

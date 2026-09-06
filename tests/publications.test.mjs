@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 
 const data = JSON.parse(await readFile(new URL('../data/publications.json', import.meta.url), 'utf8'));
+const patentData = JSON.parse(await readFile(new URL('../data/patents.json', import.meta.url), 'utf8'));
 
 test('publication inventory passes quality gates', () => {
   assert.ok(data.publications.length >= 250, 'expected at least 250 publications');
@@ -31,4 +32,21 @@ test('publication records are plausible and sorted newest first', () => {
   for (let index = 1; index < data.publications.length; index += 1) {
     assert.ok(String(data.publications[index - 1].date).localeCompare(String(data.publications[index].date)) >= 0);
   }
+});
+
+test('patent record is complete and kept separate from scholarly publications', () => {
+  assert.equal(patentData.patents.length, 1);
+  const [patent] = patentData.patents;
+  assert.equal(patent.title, 'Fair neural networks');
+  assert.equal(patent.patentNumber, 'US 12,567,246 B2');
+  assert.equal(patent.applicationNumber, 'US 18/051,578');
+  assert.ok(patent.inventors.includes('Jose Blanchet'));
+  assert.ok(patent.assignees.some((assignee) => assignee.includes('Ford Global Technologies')));
+  assert.ok(patent.assignees.some((assignee) => assignee.includes('Stanford')));
+  assert.match(patent.url, /^https:\/\/patents\.google\.com\/patent\//);
+  assert.equal(
+    data.publications.some((item) => item.title.toLowerCase() === patent.title.toLowerCase()),
+    false,
+    'patent should not be duplicated in the article bibliography',
+  );
 });
