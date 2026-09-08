@@ -30,6 +30,7 @@ export default function Home() {
           <img src={sitePath('/images/logo.png')} alt="Blanchet Lab" />
         </a>
         <nav aria-label="Primary navigation">
+          <a href="#story">Story</a>
           <a href="#research">Research</a>
           <a href={sitePath('/people/')}>People</a>
           <a href="#publications">Publications</a>
@@ -72,6 +73,21 @@ export default function Home() {
             The lab brings together probability, optimization, and data to study systems where uncertainty is central—not incidental.
           </p>
           <a className="text-link" href="https://profiles.stanford.edu/blanchet">Stanford profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section className="story section" id="story" aria-labelledby="story-title">
+        <div className="story-heading">
+          <p className="kicker">A personal path</p>
+          <h2 id="story-title">From Oaxaca to Stanford—with probability along the way.</h2>
+        </div>
+        <div className="story-copy">
+          <p>
+            I grew up in Oaxaca, Mexico, where a high-school course first drew me to probability and statistics. Because applied mathematics was not available locally, I moved to Mexico City to study at ITAM, earning degrees in applied mathematics and actuarial science.
+          </p>
+          <p>
+            ITAM also gave me the beginning of my favorite personal story: I met my wife, Citlalli (“Lalli”), in Algebra I. That may not sound especially romantic, but we have always thought it was a good love story. We later came to the Bay Area for graduate school—me at Stanford and Lalli at Berkeley. The longer version is still best told in person.
+          </p>
         </div>
       </section>
 
