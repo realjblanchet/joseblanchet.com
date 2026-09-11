@@ -114,6 +114,36 @@ export default function Home() {
         <div className="loop-audit"><span>Audit the model-to-world gap</span><i aria-hidden="true" /></div>
       </section>
 
+      <section className="home-story section" id="story" aria-labelledby="home-story-title">
+        <div className="home-story-portrait">
+          <img src={sitePath('/images/jose-blanchet.jpg')} alt="José Blanchet" />
+          <div className="portrait-caption">
+            <strong>José H. Blanchet</strong>
+            <span>Professor of Management Science &amp; Engineering</span>
+          </div>
+        </div>
+        <div className="home-story-copy">
+          <p className="kicker">A personal journey</p>
+          <h2 id="home-story-title">From Oaxaca to Stanford—with probability along the way.</h2>
+          <p>
+            I grew up in Oaxaca, Mexico, where a high-school course first drew me to
+            probability and statistics. Because applied mathematics was not available
+            locally, I moved to Mexico City to study applied mathematics and actuarial
+            science at ITAM.
+          </p>
+          <p>
+            At ITAM I also met my wife, Citlalli (“Lalli”), in Algebra I. We later came
+            to the Bay Area for graduate school—me at Stanford and Lalli at Berkeley.
+            That journey, from an early encounter with probability to a career building
+            models for consequential decisions, is part of the story behind M2W.
+          </p>
+          <div className="home-story-links">
+            <a className="text-link" href={sitePath('/about/')}>Continue the story <span aria-hidden="true">→</span></a>
+            <a className="text-link" href="https://profiles.stanford.edu/blanchet">Stanford profile <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
       <section className="home-labs section" id="labs" aria-labelledby="labs-title">
         <div className="section-heading home-labs-heading">
           <div>
@@ -219,25 +249,6 @@ export default function Home() {
           ))}
         </div>
         <a className="button button-dark" href={sitePath('/people/')}>View the full group &amp; alumni</a>
-      </section>
-
-      <section className="about-preview section" aria-labelledby="about-preview-title">
-        <div className="about-preview-image">
-          <img src={sitePath('/images/jose-blanchet.jpg')} alt="José Blanchet" />
-        </div>
-        <div>
-          <p className="kicker">About</p>
-          <h2 id="about-preview-title">Theory with a path to consequential decisions.</h2>
-          <p>
-            José Blanchet is a professor in Stanford University’s Department of Management
-            Science &amp; Engineering. His work connects applied probability, Monte Carlo,
-            distributionally robust optimization, machine learning, and causal inference.
-          </p>
-          <div className="about-preview-links">
-            <a className="text-link" href={sitePath('/about/')}>About José <span aria-hidden="true">→</span></a>
-            <a className="text-link" href="https://profiles.stanford.edu/blanchet">Stanford profile <span aria-hidden="true">↗</span></a>
-          </div>
-        </div>
       </section>
 
       <section className="publications section" id="publications">

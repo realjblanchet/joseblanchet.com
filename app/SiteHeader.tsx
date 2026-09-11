@@ -2,11 +2,12 @@ import { sitePath } from './site-path';
 
 type ActiveSection = 'labs' | 'research' | 'people' | 'publications' | 'support' | 'about';
 
-const links: Array<{ id: ActiveSection | 'approach'; label: string; href: string }> = [
+const links: Array<{ id: ActiveSection | 'approach' | 'story'; label: string; href: string }> = [
   { id: 'approach', label: 'Approach', href: '/#approach' },
   { id: 'labs', label: 'Decision Labs', href: '/labs/' },
   { id: 'research', label: 'Research', href: '/research/' },
   { id: 'people', label: 'People', href: '/people/' },
+  { id: 'story', label: 'Story', href: '/#story' },
   { id: 'publications', label: 'Publications', href: '/publications/' },
   { id: 'support', label: 'Support', href: '/grant-support/' },
 ];
