@@ -4,8 +4,8 @@ import SiteHeader from '../SiteHeader';
 import { sitePath } from '../site-path';
 
 export const metadata: Metadata = {
-  title: 'About José Blanchet | M2W Lab',
-  description: 'About José Blanchet, professor of Management Science & Engineering at Stanford and director of the M2W Lab.',
+  title: 'About José Blanchet | Model-to-World Lab',
+  description: 'About José Blanchet, professor of Management Science & Engineering at Stanford and director of the Model-to-World (M2W) Lab.',
 };
 
 export default function AboutPage() {

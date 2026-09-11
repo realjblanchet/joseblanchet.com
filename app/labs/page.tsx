@@ -4,7 +4,7 @@ import SiteHeader from '../SiteHeader';
 import { sitePath } from '../site-path';
 
 export const metadata: Metadata = {
-  title: 'Decision Labs | M2W Lab',
+  title: 'Decision Labs | Model-to-World Lab',
   description: 'Interactive and developing examples of the M2W Model–Simulate–Decide–Transfer research loop.',
 };
 

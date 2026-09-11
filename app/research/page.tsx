@@ -4,7 +4,7 @@ import SiteHeader from '../SiteHeader';
 import { sitePath } from '../site-path';
 
 export const metadata: Metadata = {
-  title: 'Research | M2W Lab',
+  title: 'Research | Model-to-World Lab',
   description: 'The M2W research program: modeling, simulation, decision-making, and transfer across the model-to-world gap.',
 };
 

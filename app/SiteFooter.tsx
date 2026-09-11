@@ -4,8 +4,8 @@ export default function SiteFooter({ contactId }: { contactId?: string }) {
   return (
     <footer className="site-footer" id={contactId}>
       <div>
-        <a className="footer-brand" href={sitePath('/')} aria-label="M2W Lab home">
-          <span><strong>M2W</strong> Lab</span>
+        <a className="footer-brand" href={sitePath('/')} aria-label="M2W — Model-to-World Lab home">
+          <span><strong>M2W</strong><span className="footer-brand-expansion">— Model-to-World Lab</span></span>
           <small>Simulation for Decision-Making</small>
         </a>
         <p>Blanchet Research Group<br />Management Science &amp; Engineering<br />Stanford University</p>

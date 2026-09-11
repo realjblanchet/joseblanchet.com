@@ -5,7 +5,7 @@ import SiteFooter from '../SiteFooter';
 import SiteHeader from '../SiteHeader';
 
 export const metadata: Metadata = {
-  title: 'People | M2W Lab',
+  title: 'People | Model-to-World Lab',
   description: 'Current researchers and alumni of the Blanchet Research Group at Stanford, Columbia, and Harvard.',
 };
 

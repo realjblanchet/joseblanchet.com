@@ -4,7 +4,7 @@ import SiteFooter from '../SiteFooter';
 import SiteHeader from '../SiteHeader';
 
 export const metadata: Metadata = {
-  title: 'Funding & Support | M2W Lab',
+  title: 'Funding & Support | Model-to-World Lab',
   description: 'Active, recent, and past grants supporting the Blanchet Research Group and its collaborators.',
 };
 

@@ -32,8 +32,9 @@ img { display: block; max-width: 100%; }
 }
 .brand img { height: auto; width: min(248px, 48vw); }
 .brand-wordmark { display: flex; flex-direction: column; gap: 4px; }
-.brand-primary { font-family: Georgia, 'Times New Roman', serif; font-size: 1.48rem; letter-spacing: -.025em; line-height: 1; }
+.brand-primary { align-items: baseline; display: flex; font-family: Georgia, 'Times New Roman', serif; letter-spacing: -.025em; line-height: 1; white-space: nowrap; }
 .brand-primary strong { color: var(--cardinal); font-family: Inter, ui-sans-serif, sans-serif; font-size: 1.32rem; font-weight: 900; letter-spacing: -.055em; }
+.brand-expansion { font-size: 1.02rem; margin-left: .34em; }
 .brand-secondary { color: #59645d; font-size: .62rem; font-weight: 750; letter-spacing: .055em; text-transform: uppercase; }
 .site-header .desktop-nav { display: flex; gap: clamp(16px, 2vw, 32px); }
 .site-header .desktop-nav a { font-size: .72rem; font-weight: 700; letter-spacing: .075em; text-transform: uppercase; }
@@ -246,8 +247,9 @@ h2 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.5rem, 5v
 .site-footer { background: #161e1a; color: white; display: grid; gap: 46px; grid-template-columns: 1.2fr .7fr 1fr; padding: 66px clamp(24px, 7vw, 110px); }
 .site-footer p, .site-footer a { color: #cbd3ce; font-size: .86rem; line-height: 1.7; margin: 0; }
 .footer-brand { display: inline-flex; flex-direction: column; margin-bottom: 24px; }
-.footer-brand span { color: white; font-family: Georgia, serif; font-size: 1.8rem; line-height: 1; }
+.footer-brand > span { align-items: baseline; color: white; display: flex; font-family: Georgia, serif; line-height: 1; white-space: nowrap; }
 .footer-brand strong { color: #f0c56c; font-family: Inter, sans-serif; font-size: 1.62rem; font-weight: 900; letter-spacing: -.055em; }
+.footer-brand-expansion { font-size: 1.18rem; margin-left: .34em; }
 .footer-brand small { color: #aebcb3; font-size: .63rem; font-weight: 750; letter-spacing: .09em; margin-top: 7px; text-transform: uppercase; }
 .footer-links { display: grid; gap: 4px; }
 .footer-links a:hover, .footer-links a:focus-visible, .footer-address > a:hover, .footer-address > a:focus-visible { color: white; text-decoration: underline; text-underline-offset: 4px; }

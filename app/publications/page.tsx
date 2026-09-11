@@ -6,7 +6,7 @@ import SiteFooter from '../SiteFooter';
 import SiteHeader from '../SiteHeader';
 
 export const metadata: Metadata = {
-  title: 'Publications | M2W Lab',
+  title: 'Publications | Model-to-World Lab',
   description: 'Publications by José Blanchet and collaborators, synchronized from authoritative scholarly records.',
 };
 

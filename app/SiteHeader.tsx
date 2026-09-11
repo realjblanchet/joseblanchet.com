@@ -33,8 +33,8 @@ export default function SiteHeader({
 }) {
   return (
     <header className={home ? 'site-header' : 'inner-header'}>
-      <a className="brand brand-wordmark" href={sitePath('/')} aria-label="M2W Lab home">
-        <span className="brand-primary"><strong>M2W</strong> Lab</span>
+      <a className="brand brand-wordmark" href={sitePath('/')} aria-label="M2W — Model-to-World Lab home">
+        <span className="brand-primary"><strong>M2W</strong><span className="brand-expansion">— Model-to-World Lab</span></span>
         <span className="brand-secondary">Blanchet Research Group · Stanford MS&amp;E</span>
       </a>
       <nav className="desktop-nav" aria-label="Primary navigation">

@@ -5,7 +5,7 @@ import AssortmentLearningLab from './AssortmentLearningLab';
 import styles from './learning.module.css';
 
 export const metadata: Metadata = {
-  title: 'Assortment Learning Lab | M2W Lab',
+  title: 'Assortment Learning Lab | Model-to-World Lab',
   description: 'A synthetic, interactive demonstration of offline assortment learning, item coverage, pessimism, and holdout evaluation.',
 };
 

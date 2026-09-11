@@ -6,7 +6,7 @@ import AssortmentLab from './AssortmentLab';
 import styles from './assortment.module.css';
 
 export const metadata: Metadata = {
-  title: 'Assortment Decision Lab | M2W Lab',
+  title: 'Assortment Decision Lab | Model-to-World Lab',
   description: 'An interactive synthetic demonstration of assortment decisions under Markov-chain customer substitution.',
 };
 

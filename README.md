@@ -1,6 +1,6 @@
-# M2W Lab website
+# M2W — Model-to-World Lab website
 
-This repository contains the M2W Lab and Blanchet Research Group website at [joseblanchet.com](https://joseblanchet.com). It presents the Model–Simulate–Decide–Transfer research program, interactive Decision Labs, people, publications, and funding records without WordPress, a database, or a paid maintenance contract.
+This repository contains the Model-to-World (M2W) Lab and Blanchet Research Group website at [joseblanchet.com](https://joseblanchet.com). It presents the Model–Simulate–Decide–Transfer research program, interactive Decision Labs, people, publications, and funding records without WordPress, a database, or a paid maintenance contract.
 
 ## What is automated
 
