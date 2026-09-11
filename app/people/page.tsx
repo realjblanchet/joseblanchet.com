@@ -79,9 +79,11 @@ export default function PeoplePage() {
 
       <section className="page-masthead people-masthead">
         <p className="kicker">People</p>
-        <h1>A research community across institutions and generations.</h1>
+        <h1>Fortunate to have worked with an extraordinary research community.</h1>
         <p>
-          Current researchers and alumni connected through work in probability, optimization, simulation, and learning under uncertainty.
+          Across institutions and generations, I am immensely proud of the students,
+          postdoctoral fellows, and collaborators whose talent, ideas, and work have
+          shaped our research.
         </p>
         <div className="data-freshness"><span className="status-dot" /> Alumni information reviewed through {new Date(`${alumniData.verifiedAt}T00:00:00Z`).toLocaleDateString('en-US', { dateStyle: 'long', timeZone: 'UTC' })}</div>
       </section>
