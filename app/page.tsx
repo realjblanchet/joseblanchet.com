@@ -1,93 +1,200 @@
 import publicationData from '@/data/publications.json';
 import people from '@/data/people.json';
+import type { CSSProperties } from 'react';
+import SiteFooter from './SiteFooter';
+import SiteHeader from './SiteHeader';
 import { sitePath } from './site-path';
 
 const featuredPublications = publicationData.publications.slice(0, 3);
 
-const researchAreas = [
+const researchStages = [
   {
-    title: 'Limit Theorems',
-    copy: 'Asymptotic theory, stochastic approximation, and the probabilistic structure behind complex systems.',
-    image: sitePath('/images/limit-theorems.jpeg'),
+    number: '01',
+    title: 'Model',
+    copy: 'Represent the mechanisms, constraints, and uncertainty that shape a consequential system.',
+    methods: ['Stochastic systems', 'Data-derived models', 'Causal structures'],
   },
   {
-    title: 'Modeling',
-    copy: 'Data-driven models for learning, operations, finance, and decision-making under uncertainty.',
-    image: sitePath('/images/modeling.jpeg'),
+    number: '02',
+    title: 'Simulate',
+    copy: 'Explore ordinary, rare, shifted, and counterfactual worlds before acting in the real one.',
+    methods: ['Monte Carlo', 'Rare-event simulation', 'Generative worlds'],
   },
   {
-    title: 'Risk & Extremes',
-    copy: 'Rare-event analysis, robust methods, simulation, and reliable decisions in high-consequence settings.',
-    image: sitePath('/images/risk-extremes.jpeg'),
+    number: '03',
+    title: 'Decide',
+    copy: 'Compare policies and optimize performance while accounting for uncertainty and misspecification.',
+    methods: ['Robust optimization', 'Learning and control', 'Policy evaluation'],
+  },
+  {
+    number: '04',
+    title: 'Transfer',
+    copy: 'Test what survives the model-to-world gap, then validate and recalibrate with new evidence.',
+    methods: ['Sensitivity analysis', 'Out-of-sample guarantees', 'Closed-loop diagnosis'],
+  },
+];
+
+const selectedEvidence = [
+  {
+    label: 'Model risk',
+    title: 'Quantifying Distributional Model Risk via Optimal Transport',
+    detail: 'A mathematical foundation for measuring how model error changes system performance.',
+    href: 'https://doi.org/10.1287/moor.2018.0936',
+  },
+  {
+    label: 'Input uncertainty',
+    title: 'Orthogonal Bootstrap: Efficient Simulation of Input Uncertainty',
+    detail: 'A computational method for propagating uncertainty in data-calibrated simulation inputs.',
+    href: 'https://arxiv.org/abs/2404.19145',
+  },
+  {
+    label: 'Robust decisions',
+    title: 'Distributionally Robust Batch Contextual Bandits',
+    detail: 'Policy learning designed to remain reliable under changes in future populations.',
+    href: 'https://doi.org/10.1287/mnsc.2023.4678',
   },
 ];
 
 export default function Home() {
   return (
     <main>
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="Blanchet Lab home">
-          <img src={sitePath('/images/logo.png')} alt="Blanchet Lab" />
-        </a>
-        <nav aria-label="Primary navigation">
-          <a href="#story">Story</a>
-          <a href="#research">Research</a>
-          <a href={sitePath('/people/')}>People</a>
-          <a href="#publications">Publications</a>
-          <a href={sitePath('/grant-support/')}>Grant Support</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+      <SiteHeader home />
 
-      <section className="hero" id="top">
-        <img className="hero-image" src={sitePath('/images/hero.jpg')} alt="Grand Canyon at sunset" />
-        <div className="hero-shade" />
-        <div className="hero-content">
-          <p className="eyebrow">Stanford University · Management Science & Engineering</p>
-          <h1>Probability, learning, and decisions under uncertainty.</h1>
+      <section className="m2w-hero" id="top">
+        <div className="m2w-hero-copy">
+          <p className="eyebrow">Model-to-World · Simulation for Decision-Making</p>
+          <h1>From simulated worlds to reliable decisions in the real one.</h1>
           <p className="hero-copy">
-            The Blanchet Lab develops mathematical and computational tools for reliable decisions in complex stochastic systems.
+            M2W builds decision-focused models of complex systems, tests policies in
+            plausible and consequential worlds, and measures what may fail when a
+            model meets reality.
           </p>
           <div className="hero-actions">
-            <a className="button button-light" href="#research">Explore our research</a>
-            <a className="text-link light" href="#publications">View publications <span aria-hidden="true">→</span></a>
+            <a className="button button-cardinal" href={sitePath('/labs/')}>Try a Decision Lab</a>
+            <a className="text-link" href="#approach">How M2W works <span aria-hidden="true">↓</span></a>
           </div>
         </div>
-      </section>
-
-      <section className="intro section" id="about">
-        <div className="portrait-wrap">
-          <img src={sitePath('/images/jose-blanchet.jpg')} alt="Jose Blanchet" />
-          <div className="portrait-caption">
-            <strong>Jose H. Blanchet</strong>
-            <span>Professor of Management Science & Engineering</span>
+        <a className="hero-lab-card" href={sitePath('/labs/assortment/')} aria-label="Open the Assortment Decision Lab">
+          <div className="hero-lab-topline">
+            <span>Decision Lab 01</span>
+            <span className="live-label"><i /> Live</span>
           </div>
-        </div>
-        <div className="intro-copy">
-          <p className="kicker">About the lab</p>
-          <h2>Research grounded in probability and built for consequential decisions.</h2>
-          <p>
-            Jose Blanchet is a professor in Stanford University’s Department of Management Science and Engineering and an Amazon Scholar. His research spans applied probability, Monte Carlo methods, distributionally robust optimization, and machine learning.
-          </p>
-          <p>
-            The lab brings together probability, optimization, and data to study systems where uncertainty is central—not incidental.
-          </p>
-          <a className="text-link" href="https://profiles.stanford.edu/blanchet">Stanford profile <span aria-hidden="true">↗</span></a>
-        </div>
+          <div className="hero-lab-visual" aria-hidden="true">
+            <span style={{ '--flow': '82%' } as CSSProperties}>Studio Pro</span>
+            <span style={{ '--flow': '65%' } as CSSProperties}>Commute Plus</span>
+            <span style={{ '--flow': '29%' } as CSSProperties}>No purchase</span>
+          </div>
+          <p>Assortment under customer substitution</p>
+          <h2>When less shelf space makes more revenue.</h2>
+          <div className="hero-lab-result">
+            <span>Expected revenue</span>
+            <strong>$79.98</strong>
+            <small>per synthetic visitor</small>
+          </div>
+          <span className="hero-lab-link">Run the decision <b aria-hidden="true">→</b></span>
+        </a>
       </section>
 
-      <section className="story section" id="story" aria-labelledby="story-title">
-        <div className="story-heading">
-          <p className="kicker">A personal path</p>
-          <h2 id="story-title">From Oaxaca to Stanford—with probability along the way.</h2>
+      <section className="m2w-loop section" id="approach" aria-labelledby="approach-title">
+        <div className="m2w-loop-heading">
+          <p className="kicker">The M2W research loop</p>
+          <h2 id="approach-title">Build a world. Make a decision. Learn what survives.</h2>
+          <p>
+            The model-to-world gap is not a final disclaimer. It is measured throughout
+            the decision process and updated with evidence from reality.
+          </p>
         </div>
-        <div className="story-copy">
+        <ol className="loop-steps">
+          {researchStages.map((stage) => (
+            <li key={stage.title}>
+              <span>{stage.number}</span><strong>{stage.title}</strong><p>{stage.copy}</p>
+            </li>
+          ))}
+        </ol>
+        <div className="loop-audit"><span>Audit the model-to-world gap</span><i aria-hidden="true" /></div>
+      </section>
+
+      <section className="home-labs section" id="labs" aria-labelledby="labs-title">
+        <div className="section-heading home-labs-heading">
+          <div>
+            <p className="kicker">See it in action</p>
+            <h2 id="labs-title">Decision Labs turn methods into testable objects.</h2>
+          </div>
           <p>
-            I grew up in Oaxaca, Mexico, where a high-school course first drew me to probability and statistics. Because applied mathematics was not available locally, I moved to Mexico City to study at ITAM, earning degrees in applied mathematics and actuarial science.
+            Change a decision, hold the modeled world fixed, and see the consequences.
+            Every lab states what is synthetic, what is observed, and what remains to be validated.
           </p>
+        </div>
+        <article className="featured-lab">
+          <div className="featured-lab-question">
+            <div className="evidence-badges" aria-label="Lab status">
+              <span>Interactive prototype</span><span>Synthetic evidence</span><span>Reproducible</span>
+            </div>
+            <p className="kicker">Assortment Decision Lab</p>
+            <h3>Which products should a store offer when customers substitute?</h3>
+            <p>
+              Explore a transparent Markov-chain model in which withholding a product
+              can redirect demand—and sometimes improve expected revenue.
+            </p>
+            <a className="button button-light" href={sitePath('/labs/assortment/')}>Run the lab <span aria-hidden="true">→</span></a>
+          </div>
+          <ol className="featured-lab-trace" aria-label="Assortment lab M2W trace">
+            <li><span>Model</span><strong>Markov-chain substitution</strong></li>
+            <li><span>Simulate / evaluate</span><strong>Exact buyer absorption flows</strong></li>
+            <li><span>Decide</span><strong>Capacity-feasible assortment</strong></li>
+            <li><span>Transfer next</span><strong>Estimate, test, and monitor</strong></li>
+          </ol>
+        </article>
+        <a className="home-next-lab" href={sitePath('/labs/assortment/learning/')}>
+          <span>Decision Lab 02 · Live</span>
+          <strong>Then remove knowledge of the world—and learn the decision from logged choices.</strong>
+          <p>Compare repetitive incumbent data with designed exploration and a pessimistic learner.</p>
+          <b aria-hidden="true">→</b>
+        </a>
+        <a className="text-link labs-index-link" href={sitePath('/labs/')}>Explore all Decision Labs <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section className="research m2w-research section" id="research" aria-labelledby="research-title">
+        <div className="section-heading">
+          <div>
+            <p className="kicker">Research</p>
+            <h2 id="research-title">The mathematics inside the loop.</h2>
+          </div>
           <p>
-            ITAM also gave me the beginning of my favorite personal story: I met my wife, Citlalli (“Lalli”), in Algebra I. That may not sound especially romantic, but we have always thought it was a good love story. We later came to the Bay Area for graduate school—me at Stanford and Lalli at Berkeley. The longer version is still best told in person.
+            Probability, simulation, causal inference, and optimization work together
+            to make the model-to-world gap measurable and decisions more reliable.
           </p>
+        </div>
+        <div className="m2w-research-grid">
+          {researchStages.map((stage) => (
+            <article className="m2w-research-card" key={stage.title}>
+              <span>{stage.number}</span>
+              <h3>{stage.title}</h3>
+              <p>{stage.copy}</p>
+              <ul>{stage.methods.map((method) => <li key={method}>{method}</li>)}</ul>
+            </article>
+          ))}
+        </div>
+        <a className="text-link light research-page-link" href={sitePath('/research/')}>Explore the M2W research program <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section className="evidence-section section" aria-labelledby="evidence-title">
+        <div className="section-heading">
+          <div>
+            <p className="kicker">Selected foundations</p>
+            <h2 id="evidence-title">A research trajectory built for M2W.</h2>
+          </div>
+          <p>Representative work connecting model discrepancy, computation, and decision performance.</p>
+        </div>
+        <div className="evidence-grid">
+          {selectedEvidence.map((item) => (
+            <a className="evidence-card" href={item.href} key={item.title}>
+              <span>{item.label}</span>
+              <h3>{item.title}</h3>
+              <p>{item.detail}</p>
+              <b aria-hidden="true">↗</b>
+            </a>
+          ))}
         </div>
       </section>
 
@@ -95,79 +202,54 @@ export default function Home() {
         <div className="section-heading people-heading">
           <div>
             <p className="kicker">People</p>
-            <h2>Current students</h2>
+            <h2>Blanchet Research Group</h2>
           </div>
-          <p>
-            Researchers working across probability, optimization, machine learning, and stochastic systems.
-          </p>
+          <p>Researchers working across probability, optimization, machine learning, causal inference, and stochastic systems.</p>
         </div>
         <div className="people-grid">
-          {people.map((person) => (
+          {people.slice(0, 6).map((person) => (
             <article className="person-card" key={person.name}>
               <div>
                 {person.website ? (
-                  <h3>
-                    <a href={person.website} target="_blank" rel="noreferrer">
-                      {person.name} <span aria-hidden="true">↗</span>
-                    </a>
-                  </h3>
-                ) : (
-                  <h3>{person.name}</h3>
-                )}
+                  <h3><a href={person.website} target="_blank" rel="noreferrer">{person.name} <span aria-hidden="true">↗</span></a></h3>
+                ) : <h3>{person.name}</h3>}
               </div>
-              {person.coAdvisors?.length ? (
-                <p className="coadvisor">
-                  Co-advised with {person.coAdvisors.join(' and ')}
-                </p>
-              ) : null}
+              {person.coAdvisors?.length ? <p className="coadvisor">Co-advised with {person.coAdvisors.join(' and ')}</p> : null}
             </article>
           ))}
         </div>
-        <a className="button button-dark" href={sitePath('/people/')}>View the full group & alumni</a>
+        <a className="button button-dark" href={sitePath('/people/')}>View the full group &amp; alumni</a>
       </section>
 
-      <section className="research section" id="research">
-        <div className="section-heading">
-          <div>
-            <p className="kicker">Research</p>
-            <h2>Three connected areas</h2>
-          </div>
-          <p>We study fundamental questions and build practical tools across stochastic modeling, robust learning, and rare events.</p>
+      <section className="about-preview section" aria-labelledby="about-preview-title">
+        <div className="about-preview-image">
+          <img src={sitePath('/images/jose-blanchet.jpg')} alt="José Blanchet" />
         </div>
-        <div className="research-grid">
-          {researchAreas.map((area, index) => (
-            <article className="research-card" key={area.title}>
-              <img src={area.image} alt="" />
-              <div className="research-card-shade" />
-              <div className="research-card-content">
-                <span>0{index + 1}</span>
-                <h3>{area.title}</h3>
-                <p>{area.copy}</p>
-              </div>
-            </article>
-          ))}
+        <div>
+          <p className="kicker">About</p>
+          <h2 id="about-preview-title">Theory with a path to consequential decisions.</h2>
+          <p>
+            José Blanchet is a professor in Stanford University’s Department of Management
+            Science &amp; Engineering. His work connects applied probability, Monte Carlo,
+            distributionally robust optimization, machine learning, and causal inference.
+          </p>
+          <div className="about-preview-links">
+            <a className="text-link" href={sitePath('/about/')}>About José <span aria-hidden="true">→</span></a>
+            <a className="text-link" href="https://profiles.stanford.edu/blanchet">Stanford profile <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
       </section>
 
       <section className="publications section" id="publications">
         <div className="section-heading publications-heading">
-          <div>
-            <p className="kicker">Recent work</p>
-            <h2>Latest publications</h2>
-          </div>
-          <div className="automation-note" aria-label="Publication data updates automatically">
-            <span className="status-dot" />
-            Automatically synchronized
-          </div>
+          <div><p className="kicker">Recent work</p><h2>Latest publications</h2></div>
+          <div className="automation-note" aria-label="Publication data updates automatically"><span className="status-dot" />Automatically synchronized</div>
         </div>
         <div className="publication-list">
           {featuredPublications.map((publication) => (
             <article className="publication" key={publication.title}>
               <span className="publication-year">{publication.year}</span>
-              <div>
-                <h3>{publication.title}</h3>
-                <p>{publication.venue}</p>
-              </div>
+              <div><h3>{publication.title}</h3><p>{publication.venue}</p></div>
               <span className="publication-arrow" aria-hidden="true">↗</span>
             </article>
           ))}
@@ -175,18 +257,15 @@ export default function Home() {
         <a className="button button-dark" href={sitePath('/publications/')}>Browse all {publicationData.count} publications</a>
       </section>
 
-      <footer id="contact">
+      <section className="support-cta">
+        <div><p className="kicker">Funding &amp; collaboration</p><h2>Research made possible through partnership.</h2></div>
         <div>
-          <img src={sitePath('/images/logo.png')} alt="Blanchet Lab" />
-          <p>Management Science and Engineering<br />Stanford University</p>
+          <p>We gratefully acknowledge the agencies and collaborators supporting the group’s research and training.</p>
+          <a className="button button-light" href={sitePath('/grant-support/')}>View Funding &amp; Support</a>
         </div>
-        <div className="footer-address">
-          <p>475 Via Ortega, Suite 310<br />Stanford, CA 94305</p>
-          <a href="mailto:jose.blanchet@stanford.edu">jose.blanchet@stanford.edu</a>
-          <a className="footer-support-link" href={sitePath('/grant-support/')}>Funding & Support</a>
-        </div>
-        <p className="footer-meta">Publications are checked and updated automatically.</p>
-      </footer>
+      </section>
+
+      <SiteFooter contactId="contact" />
     </main>
   );
 }

@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import people from '@/data/people.json';
 import alumniData from '@/data/alumni.json';
-import { sitePath } from '../site-path';
+import SiteFooter from '../SiteFooter';
+import SiteHeader from '../SiteHeader';
 
 export const metadata: Metadata = {
-  title: 'People | Blanchet Lab',
-  description: 'Current researchers and alumni of the Blanchet Lab at Stanford, Columbia, and Harvard.',
+  title: 'People | M2W Lab',
+  description: 'Current researchers and alumni of the Blanchet Research Group at Stanford, Columbia, and Harvard.',
 };
 
 type Person = {
@@ -74,16 +75,7 @@ function DirectorySection({
 export default function PeoplePage() {
   return (
     <main className="inner-page people-page">
-      <header className="inner-header">
-        <a className="brand" href={sitePath('/')} aria-label="Blanchet Lab home"><img src={sitePath('/images/logo.png')} alt="Blanchet Lab" /></a>
-        <nav aria-label="Primary navigation">
-          <a href={sitePath('/#research')}>Research</a>
-          <a aria-current="page" href={sitePath('/people/')}>People</a>
-          <a href={sitePath('/publications/')}>Publications</a>
-          <a href={sitePath('/grant-support/')}>Grant Support</a>
-          <a href={sitePath('/#contact')}>Contact</a>
-        </nav>
-      </header>
+      <SiteHeader active="people" />
 
       <section className="page-masthead people-masthead">
         <p className="kicker">People</p>
@@ -124,6 +116,7 @@ export default function PeoplePage() {
         id="postdoctoral-alumni"
         muted
       />
+      <SiteFooter />
     </main>
   );
 }

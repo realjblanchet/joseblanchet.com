@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import grantData from '@/data/grants.json';
-import { sitePath } from '../site-path';
+import SiteFooter from '../SiteFooter';
+import SiteHeader from '../SiteHeader';
 
 export const metadata: Metadata = {
-  title: 'Funding & Support | Blanchet Lab',
-  description: 'Active, recent, and past grants supporting research by the Blanchet Lab and its collaborators.',
+  title: 'Funding & Support | M2W Lab',
+  description: 'Active, recent, and past grants supporting the Blanchet Research Group and its collaborators.',
 };
 
 type Grant = (typeof grantData.grants)[number];
@@ -49,16 +50,7 @@ export default function GrantSupportPage() {
 
   return (
     <main className="inner-page grant-page">
-      <header className="inner-header">
-        <a className="brand" href={sitePath('/')} aria-label="Blanchet Lab home"><img src={sitePath('/images/logo.png')} alt="Blanchet Lab" /></a>
-        <nav aria-label="Primary navigation">
-          <a href={sitePath('/#research')}>Research</a>
-          <a href={sitePath('/people/')}>People</a>
-          <a href={sitePath('/publications/')}>Publications</a>
-          <a aria-current="page" href={sitePath('/grant-support/')}>Grant Support</a>
-          <a href={sitePath('/#contact')}>Contact</a>
-        </nav>
-      </header>
+      <SiteHeader active="support" />
 
       <section className="page-masthead grant-masthead">
         <p className="kicker">Funding & Support</p>
@@ -73,7 +65,7 @@ export default function GrantSupportPage() {
         <div className="grant-section-heading">
           <p className="kicker">Current portfolio</p>
           <h2 id="active-grants">Active grants</h2>
-          <p>Current research programs led by or involving the Blanchet Lab.</p>
+          <p>Current research programs led by or involving the Blanchet Research Group and M2W.</p>
         </div>
         <div className="grant-grid">{active.map((grant) => <GrantCard grant={grant} key={grant.id} />)}</div>
       </section>
@@ -101,6 +93,7 @@ export default function GrantSupportPage() {
           Any opinions, findings, conclusions, or recommendations expressed in work supported by these awards are those of the authors and do not necessarily reflect the views of the sponsoring agencies.
         </p>
       </section>
+      <SiteFooter />
     </main>
   );
 }
