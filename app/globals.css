@@ -304,6 +304,10 @@ h2 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.5rem, 5v
 .portfolio-learning-card .portfolio-result { background: #13262b; }
 .portfolio-learning-card .portfolio-number,
 .portfolio-learning-card .portfolio-trace span { color: #e6bd67; }
+.portfolio-robustness-card { background: #213d4a; }
+.portfolio-robustness-card .portfolio-result { background: #172731; }
+.portfolio-robustness-card .portfolio-number,
+.portfolio-robustness-card .portfolio-trace span { color: #e5b95e; }
 .future-labs { background: var(--paper); }
 .future-labs .section-heading > p { color: #59645d; }
 .future-lab-grid { display: grid; gap: 22px; grid-template-columns: repeat(2, minmax(0, 1fr)); }

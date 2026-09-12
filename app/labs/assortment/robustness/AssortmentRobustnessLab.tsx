@@ -112,8 +112,9 @@ export default function AssortmentRobustnessLab() {
           <h2 id="experiment-title">Choose the protection. Then reveal the future.</h2>
         </div>
         <p>
-          The robust optimizer sees the frozen baseline and your KL budget. It never
-          sees the stress slider. Both policies are then judged in the same shifted MNL world.
+          The robust planner uses the frozen baseline and your KL budget; it does not
+          use the stress endpoint or slider. Both policies are then judged in the same
+          shifted MNL world.
         </p>
       </div>
 
@@ -177,7 +178,12 @@ export default function AssortmentRobustnessLab() {
           </div>
         </div>
 
-        <aside className={`${styles.resultPanel} ${run.stressInsideGlobalBall ? styles.resultInSet : ''}`} aria-live="polite">
+        <aside className={`${styles.resultPanel} ${run.stressInsideGlobalBall ? styles.resultInSet : ''}`}>
+          <p className={styles.srOnly} aria-atomic="true" aria-live="polite">
+            Result updated. At radius {globalRadius.toFixed(2)} and {stressLabel(stress).toLowerCase()},
+            the protected-value leader is {assortmentName(run.robustPolicy.assortment)} with a
+            worst-case revenue floor of {money.format(run.robustPolicy.worstCase.revenue)}.
+          </p>
           <p className={styles.resultKicker}>
             {policyChanged ? 'Robust policy changes the shelf' : 'Same shelf at this budget'}
           </p>
@@ -211,12 +217,12 @@ export default function AssortmentRobustnessLab() {
           </div>
           <p className={styles.resultNarrative}>
             {!run.stressInsideGlobalBall
-              ? 'The selected stress lies outside the declared ambiguity set. Its result is a useful diagnostic, but the robust certificate does not cover it.'
+              ? 'Use this stress as a diagnostic; choose a wider declared budget before treating the result as covered by the certificate.'
               : !policyChanged
                 ? 'At this budget, protection does not change the decision—so the nominal price and floor gain are zero.'
                 : run.shiftedBenefit >= 0
                   ? `Inside this declared set, the protected policy pays ${money.format(run.nominalPriceOfRobustness)} at baseline and outperforms the nominal policy on the revealed shift.`
-                  : 'This in-set shift does not favor the protected policy. Robustness protects the worst-case floor; it does not promise improvement on every realization.'}
+                  : 'The protected floor remains the guarantee across the declared set; performance on an individual realization can move either way.'}
           </p>
         </aside>
       </div>
@@ -228,8 +234,9 @@ export default function AssortmentRobustnessLab() {
             <h3 id="comparison-title">Choose blind. Evaluate after reveal.</h3>
           </div>
           <p>
-            Nominal and robust decisions are frozen without access to α. The shifted
-            oracle is displayed only to measure the opportunity left after the reveal.
+            Nominal and robust decisions are frozen without using α or the stress
+            endpoint. The shifted oracle is displayed only to measure the opportunity
+            left after the reveal.
           </p>
         </div>
         <div className={styles.tableScroll}>
@@ -243,7 +250,18 @@ export default function AssortmentRobustnessLab() {
               <span role="columnheader">Role</span>
             </div>
             {policyRows.map((row) => (
-              <div className={`${styles.policyRow} ${styles[`policy_${row.tone}`]}`} role="row" key={row.label}>
+              <div
+                className={[
+                  styles.policyRow,
+                  row.tone === 'robust'
+                    ? styles.policy_robust
+                    : row.tone === 'oracle'
+                      ? styles.policy_oracle
+                      : '',
+                ].filter(Boolean).join(' ')}
+                role="row"
+                key={row.label}
+              >
                 <strong role="cell">{row.label}</strong>
                 <span role="cell">{assortmentName(row.assortment)}</span>
                 <span role="cell">{row.nominal === null ? '—' : money.format(row.nominal)}</span>
@@ -259,7 +277,7 @@ export default function AssortmentRobustnessLab() {
           <i aria-hidden="true">→</i>
           <p><span>Protected-floor gain</span><strong>{signedMoney(run.protectedFloorGain)}</strong><small>against the nominal policy</small></p>
           <i aria-hidden="true">→</i>
-          <p><span>Shifted benefit at α = {stress.toFixed(2)}</span><strong>{signedMoney(run.shiftedBenefit)}</strong><small>synthetic, not causal lift</small></p>
+          <p><span>Shifted benefit at α = {stress.toFixed(2)}</span><strong>{signedMoney(run.shiftedBenefit)}</strong><small>synthetic comparison</small></p>
         </div>
       </section>
 
@@ -270,7 +288,11 @@ export default function AssortmentRobustnessLab() {
             <span>α changes demand, not the decision</span>
           </div>
           <div className={styles.curveLegend}><span><i className={styles.nominalKey} />Nominal policy</span><span><i className={styles.robustKey} />Robust policy</span></div>
-          <div className={styles.curveChart} aria-label="Revenue across the disclosed preference shift">
+          <div
+            className={styles.curveChart}
+            role="img"
+            aria-label={`Bar chart comparing the two frozen policies across five preference-shift levels. At ${stressLabel(stress).toLowerCase()}, the nominal policy earns ${money.format(run.nominalStress.revenue)} and the robust policy earns ${money.format(run.robustStress.revenue)}.`}
+          >
             {stressCurve.map((point) => (
               <div className={`${styles.curveColumn} ${stress === point.stress ? styles.curveSelected : ''}`} key={point.stress}>
                 <div className={styles.curveBars}>

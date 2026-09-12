@@ -5,7 +5,7 @@ import AssortmentRobustnessLab from './AssortmentRobustnessLab';
 import styles from './robustness.module.css';
 
 export const metadata: Metadata = {
-  title: 'Assortment Robustness Lab | M2W Lab',
+  title: 'Assortment Robustness Lab | Model-to-World Lab',
   description: 'An interactive synthetic demonstration of nominal and robust assortment decisions under a globally coherent preference shift.',
 };
 
@@ -40,7 +40,7 @@ export default function AssortmentRobustnessPage() {
       </section>
 
       <section className={styles.pipeline} aria-label="Robust decision workflow">
-        <p>M2W · Learn the world → declare uncertainty → decide before reveal</p>
+        <p>M2W · Model the world → simulate uncertainty → decide before reveal → test toward transfer</p>
         <ol>
           <li><span>01</span><strong>Freeze</strong><small>nominal model input</small></li>
           <li><span>02</span><strong>Declare</strong><small>global KL shift budget</small></li>
@@ -65,12 +65,12 @@ export default function AssortmentRobustnessPage() {
             Kullback–Leibler ball, then conditions that prior on each offered shelf.
           </p>
           <p>
-            That global construction preserves multinomial-logit coherence across
-            assortments. The product names and prices carry forward from the learning
-            lab, but these preference weights define a new curated market—not D2&apos;s
-            learned output. Exhaustive search is exact here only because there are four
-            products; it replaces the paper&apos;s scalable optimization machinery for this
-            teaching instance.
+            The product names and prices provide continuity with Decision Lab 02. This
+            lab specifies a new synthetic preference prior so the robustness mechanism
+            can be examined in isolation. Connecting D2&apos;s learned model directly to the
+            robust planner is the next end-to-end integration step. The global construction
+            preserves multinomial-logit coherence across assortments; exhaustive search is
+            exact here only because there are four products.
           </p>
           <a href="https://arxiv.org/abs/2602.10696">
             Read the robustness paper <span aria-hidden="true">↗</span>
@@ -80,7 +80,7 @@ export default function AssortmentRobustnessPage() {
 
       <section className={styles.transfer} aria-labelledby="transfer-title">
         <div className={styles.transferHeading}>
-          <p className={styles.sectionLabel}>Autonomy transfer hook</p>
+          <p className={styles.sectionLabel}>Path to autonomy transfer</p>
           <h2 id="transfer-title">The nouns change. The decision architecture survives.</h2>
           <p>
             A later autonomy prototype can apply the same freeze–protect–stress pattern
@@ -94,19 +94,19 @@ export default function AssortmentRobustnessPage() {
           <article><span>Retail</span><strong>Demand shift</strong><small>Autonomy: model or environment drift</small></article>
         </div>
         <p className={styles.transferBoundary}>
-          This mapping is a design hypothesis, not a robotics result. The warehouse
-          adapter remains a later prototype after the retail loop is complete.
+          To establish this transfer, the next prototype must specify the warehouse
+          model, validate the adapter, and evaluate operating-regime shifts.
         </p>
       </section>
 
       <section className={styles.boundary} aria-labelledby="boundary-title">
         <div>
-          <p className={styles.sectionLabel}>What this proves—and does not</p>
-          <h2 id="boundary-title">A valid certificate inside a declared synthetic world.</h2>
+          <p className={styles.sectionLabel}>Evidence passport</p>
+          <h2 id="boundary-title">What the robustness prototype establishes—and what comes next.</h2>
         </div>
         <div className={styles.boundaryGrid}>
           <article>
-            <span>Shown here</span>
+            <span>Established here</span>
             <p>
               A global preference-shift budget can change the selected assortment; its
               nominal cost and protected floor are computed exactly for this tiny model;
@@ -114,11 +114,11 @@ export default function AssortmentRobustnessPage() {
             </p>
           </article>
           <article>
-            <span>Not claimed</span>
+            <span>Next validation</span>
             <p>
-              No automatic radius calibration, arbitrary non-MNL misspecification,
-              full observational-data theorem reproduction, scalable optimization,
-              causal or real-world lift, robotics validation, or deployment safety is established.
+              Learn the nominal model from logged choices, calibrate the shift budget,
+              extend the optimizer beyond this small MNL instance, and validate the
+              resulting policy with held-out and experimental evidence.
             </p>
           </article>
         </div>

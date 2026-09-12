@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import SiteFooter from '@/app/SiteFooter';
 import SiteHeader from '@/app/SiteHeader';
+import { sitePath } from '@/app/site-path';
 import AssortmentLearningLab from './AssortmentLearningLab';
 import styles from './learning.module.css';
 
@@ -79,12 +80,12 @@ export default function AssortmentLearningPage() {
 
       <section className={styles.boundary} aria-labelledby="boundary-title">
         <div>
-          <p className={styles.sectionLabel}>What this proves—and does not</p>
-          <h2 id="boundary-title">A working learning loop, inside a disclosed synthetic world.</h2>
+          <p className={styles.sectionLabel}>Evidence passport</p>
+          <h2 id="boundary-title">What the learning loop establishes—and what comes next.</h2>
         </div>
         <div className={styles.boundaryGrid}>
           <article>
-            <span>Shown here</span>
+            <span>Established here</span>
             <p>
               Logged behavior changes what can be estimated; pessimism changes the
               selected policy; a separate holdout reveals the result; every run is
@@ -92,21 +93,28 @@ export default function AssortmentLearningPage() {
             </p>
           </article>
           <article>
-            <span>Not claimed</span>
+            <span>Next validation</span>
             <p>
-              No Markov-chain recovery, contextual personalization, causal or
-              real-world lift, scalable optimization, theorem reproduction, or safe
-              production exploration is established by this demonstration.
+              Apply the pipeline to field logs, validate alternative choice models and
+              scalable optimization, then connect the learned model to the robustness
+              planner for held-out and controlled testing.
             </p>
           </article>
         </div>
       </section>
 
       <section className={styles.next} aria-labelledby="next-title">
-        <p className={styles.sectionLabel}>What goes next?</p>
-        <h2 id="next-title">
-          Stress the learned decision when real customers differ from the simulator.
-        </h2>
+        <div>
+          <p className={styles.sectionLabel}>What goes next?</p>
+          <h2 id="next-title">
+            Protect the decision when future customers differ from the modeled world.
+          </h2>
+        </div>
+        <a className={styles.nextLabLink} href={sitePath('/labs/assortment/robustness/')}>
+          <span>Continue the M2W sequence</span>
+          <strong>Decision Lab 03 · Robust planning under preference shift</strong>
+          <b aria-hidden="true">→</b>
+        </a>
       </section>
 
       <SiteFooter />

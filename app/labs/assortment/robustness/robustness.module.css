@@ -75,16 +75,18 @@
 .controls fieldset > p { color: var(--robust-muted); font-size: .72rem; line-height: 1.55; margin: 13px 0 0; }
 .radiusButtons { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .radiusButtons button,
-.stressButtons button { background: transparent; border: 1px solid #aaa49a; color: var(--robust-ink); cursor: pointer; font: inherit; }
+.stressButtons button { background: transparent; border: 1px solid #77736c; color: var(--robust-ink); cursor: pointer; font: inherit; }
 .radiusButtons button { border-right: 0; font-size: .78rem; font-weight: 800; height: 50px; }
-.radiusButtons button:last-child { border-right: 1px solid #aaa49a; }
+.radiusButtons button:last-child { border-right: 1px solid #77736c; }
 .radiusButtons button span { color: var(--robust-muted); font-size: .61rem; margin-right: 4px; }
 .radiusButtons button:hover,
+.stressButtons button:hover { color: var(--robust-coral); }
 .radiusButtons button:focus-visible,
-.stressButtons button:hover,
-.stressButtons button:focus-visible { color: var(--robust-coral); outline: none; }
+.stressButtons button:focus-visible { color: var(--robust-coral); outline: 3px solid var(--robust-coral); outline-offset: 3px; position: relative; z-index: 2; }
 .radiusButtons .controlActive,
 .stressButtons .controlActive { background: var(--robust-ink); border-color: var(--robust-ink); color: white; }
+.radiusButtons .controlActive:focus-visible,
+.stressButtons .controlActive:focus-visible { outline-color: var(--robust-gold); }
 .radiusButtons .controlActive span { color: var(--robust-sky); }
 .stressFieldset { border-top: 1px solid #d9d1c5 !important; margin-top: 34px !important; padding-top: 30px !important; }
 .stressButtons { display: grid; gap: 8px; grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -178,7 +180,7 @@
 .curveBars { align-items: end; display: flex; flex: 1; gap: 5px; justify-content: center; }
 .curveBars > i { display: block; height: var(--bar-height); max-width: 32px; min-height: 2px; position: relative; width: 36%; }
 .curveBars b { color: var(--robust-muted); font-size: .55rem; font-style: normal; left: 50%; position: absolute; top: -18px; transform: translateX(-50%); white-space: nowrap; }
-.nominalBar { background: #aaaca8; }
+.nominalBar { background: #737a77; }
 .robustBar { background: var(--robust-blue); }
 .curveColumn > strong { font-size: .7rem; margin-top: 8px; text-align: center; }
 .curveColumn > small { color: var(--robust-muted); font-size: .56rem; margin-top: 3px; text-align: center; }
@@ -234,6 +236,16 @@
 .rankingRow > strong { font-family: Georgia, serif; font-size: .95rem; font-weight: 400; }
 .rankingRow:first-of-type { background: #e1eceb; }
 .rankingNote { color: var(--robust-muted); font-size: .68rem; margin: 18px 0 0; }
+
+.srOnly {
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
 .researchBridge { background: var(--robust-deep); color: white; padding: clamp(84px, 10vw, 142px) clamp(22px, 7vw, 108px); }
 .researchBridge .sectionLabel { color: var(--robust-gold); }
@@ -304,9 +316,10 @@
 @media (max-width: 620px) {
   .heroCopy { padding-top: 78px; }
   .radiusButtons { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .radiusButtons button:nth-child(3) { border-right: 1px solid #aaa49a; }
+  .radiusButtons button:nth-child(3) { border-right: 1px solid #77736c; }
   .radiusButtons button:nth-child(n + 4) { border-top: 0; }
-  .stressButtons { grid-template-columns: repeat(5, minmax(74px, 1fr)); overflow-x: auto; padding-bottom: 5px; }
+  .stressButtons { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stressButtons button:last-child { grid-column: 1 / -1; }
   .metricPair { grid-template-columns: 1fr; }
   .metricPair > div + div { border-left: 0; border-top: 1px solid rgba(255,255,255,.17); padding-left: 0; }
   .curveChart { gap: 3px; padding-left: 0; padding-right: 0; }

@@ -21,6 +21,12 @@ jobs:
           curl --fail --location --connect-timeout 15 --max-time 30 --retry 3 --retry-delay 5 --silent --show-error --output labs.html https://joseblanchet.com/labs/
           grep --fixed-strings --quiet 'Decision Lab 01' labs.html
           grep --fixed-strings --quiet 'Decision Lab 02' labs.html
+          grep --fixed-strings --quiet 'Decision Lab 03' labs.html
+      - name: Check the robustness lab
+        run: |
+          curl --fail --location --connect-timeout 15 --max-time 30 --retry 3 --retry-delay 5 --silent --show-error --output robustness.html https://joseblanchet.com/labs/assortment/robustness/
+          grep --fixed-strings --quiet 'Pay a little now. Protect the decision later.' robustness.html
+          grep --fixed-strings --quiet 'Next validation' robustness.html
       - name: Check the publication catalog
         run: |
           curl --fail --location --connect-timeout 15 --max-time 30 --retry 3 --retry-delay 5 --silent --show-error --output publications.html https://joseblanchet.com/publications/

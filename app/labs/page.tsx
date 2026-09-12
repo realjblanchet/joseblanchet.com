@@ -42,7 +42,7 @@ export default function LabsPage() {
 
       <section className="lab-portfolio section" aria-labelledby="live-lab-title">
         <div className="lab-portfolio-heading">
-          <div><p className="kicker">Live now</p><h2 id="live-lab-title">One decision. Two working stages.</h2></div>
+          <div><p className="kicker">Live now</p><h2 id="live-lab-title">One decision. Three working labs.</h2></div>
           <div className="portfolio-badges" aria-label="Evidence status">
             <span>Interactive prototype</span><span>Synthetic</span><span>Reproducible</span>
           </div>
@@ -89,6 +89,28 @@ export default function LabsPage() {
               <li><span>Estimate</span><b>Rank breaking</b></li>
               <li><span>Decide</span><b>Pessimistic policy</b></li>
               <li><span>Test</span><b>Fresh holdout</b></li>
+            </ol>
+          </a>
+
+          <a className="portfolio-live-card portfolio-robustness-card" href={sitePath('/labs/assortment/robustness/')}>
+            <div className="portfolio-live-copy">
+              <span className="portfolio-number">Decision Lab 03</span>
+              <h3>Pay a little now. Protect the decision later.</h3>
+              <p className="portfolio-question">How much nominal value should we trade for protection when future preferences shift?</p>
+              <span className="portfolio-cta">Run the robustness test <b aria-hidden="true">→</b></span>
+            </div>
+            <div className="portfolio-result" aria-label="Illustrative result from the synthetic robustness experiment">
+              <span>Protected-value leader</span>
+              <strong>Plus + Everyday</strong>
+              <div><span>Nominal price</span><b>$1.64</b></div>
+              <div><span>Protected-floor gain</span><b>+$0.45</b></div>
+              <small>ρ₀ = 0.10 · synthetic experiment</small>
+            </div>
+            <ol className="portfolio-trace" aria-label="Robust decision trace">
+              <li><span>Model</span><b>Freeze the baseline</b></li>
+              <li><span>Simulate</span><b>Declare uncertainty</b></li>
+              <li><span>Decide</span><b>Protect the floor</b></li>
+              <li><span>Transfer</span><b>Stress and validate</b></li>
             </ol>
           </a>
         </div>

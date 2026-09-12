@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: 'https://joseblanchet.com/labs/', changeFrequency: 'monthly', priority: 0.95 },
     { url: 'https://joseblanchet.com/labs/assortment/', changeFrequency: 'monthly', priority: 0.95 },
     { url: 'https://joseblanchet.com/labs/assortment/learning/', changeFrequency: 'monthly', priority: 0.9 },
+    { url: 'https://joseblanchet.com/labs/assortment/robustness/', changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://joseblanchet.com/research/', changeFrequency: 'monthly', priority: 0.9 },
     { url: 'https://joseblanchet.com/publications/', changeFrequency: 'weekly', priority: 0.9 },
     { url: 'https://joseblanchet.com/people/', changeFrequency: 'monthly', priority: 0.8 },
