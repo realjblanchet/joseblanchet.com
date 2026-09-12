@@ -11,12 +11,12 @@ export default function SiteFooter({ contactId }: { contactId?: string }) {
         <p>Blanchet Research Group<br />Management Science &amp; Engineering<br />Stanford University</p>
       </div>
       <div className="footer-links">
-        <a href={sitePath('/labs/')}>Decision Labs</a>
+        <a href={sitePath('/labs/')}>Examples</a>
         <a href={sitePath('/research/')}>Research</a>
         <a href={sitePath('/people/')}>People</a>
         <a href={sitePath('/publications/')}>Publications</a>
         <a href={sitePath('/grant-support/')}>Funding &amp; Support</a>
-        <a href={sitePath('/about/')}>About Jose</a>
+        <a href={sitePath('/about/')}>About José</a>
       </div>
       <div className="footer-address">
         <p>475 Via Ortega, Suite 310<br />Stanford, CA 94305</p>

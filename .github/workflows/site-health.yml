@@ -16,9 +16,13 @@ jobs:
         run: |
           curl --fail --location --connect-timeout 15 --max-time 30 --retry 3 --retry-delay 5 --silent --show-error --output home.html https://joseblanchet.com/
           grep --fixed-strings --quiet 'From simulated worlds to reliable decisions in the real one.' home.html
+          grep --fixed-strings --quiet 'What survives when the model meets the world?' home.html
       - name: Check the Decision Labs portfolio
         run: |
           curl --fail --location --connect-timeout 15 --max-time 30 --retry 3 --retry-delay 5 --silent --show-error --output labs.html https://joseblanchet.com/labs/
+          grep --fixed-strings --quiet 'M2W Decision Labs' labs.html
+          grep --fixed-strings --quiet 'Commerce &amp; Marketplaces' labs.html
+          grep --fixed-strings --quiet 'UQ &amp; Model Risk' labs.html
           grep --fixed-strings --quiet 'Decision Lab 01' labs.html
           grep --fixed-strings --quiet 'Decision Lab 02' labs.html
           grep --fixed-strings --quiet 'Decision Lab 03' labs.html

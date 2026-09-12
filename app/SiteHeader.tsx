@@ -2,14 +2,12 @@ import { sitePath } from './site-path';
 
 type ActiveSection = 'labs' | 'research' | 'people' | 'publications' | 'support' | 'about';
 
-const links: Array<{ id: ActiveSection | 'approach' | 'story'; label: string; href: string }> = [
-  { id: 'approach', label: 'Approach', href: '/#approach' },
-  { id: 'labs', label: 'Decision Labs', href: '/labs/' },
+const links: Array<{ id: ActiveSection; label: string; href: string }> = [
+  { id: 'labs', label: 'Examples', href: '/labs/' },
   { id: 'research', label: 'Research', href: '/research/' },
   { id: 'people', label: 'People', href: '/people/' },
-  { id: 'story', label: 'Story', href: '/#story' },
   { id: 'publications', label: 'Publications', href: '/publications/' },
-  { id: 'support', label: 'Support', href: '/grant-support/' },
+  { id: 'about', label: 'About', href: '/about/' },
 ];
 
 function NavigationLinks({ active }: { active?: ActiveSection }) {
@@ -44,7 +42,6 @@ export default function SiteHeader({
         <summary>Menu</summary>
         <nav aria-label="Mobile navigation">
           <NavigationLinks active={active} />
-          <a aria-current={active === 'about' ? 'page' : undefined} href={sitePath('/about/')}>About</a>
         </nav>
       </details>
     </header>

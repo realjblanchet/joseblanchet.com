@@ -4,130 +4,183 @@ import SiteHeader from '../SiteHeader';
 import { sitePath } from '../site-path';
 
 export const metadata: Metadata = {
-  title: 'Decision Labs | Model-to-World Lab',
-  description: 'Interactive and developing examples of the M2W Model–Simulate–Decide–Transfer research loop.',
+  title: 'Examples: M2W Decision Labs | Model-to-World Lab',
+  description: 'M2W examples and Decision Labs across commerce, finance, operations, and engineering, organized by application and research method.',
 };
 
-const futureDirections = [
+const applicationWorlds = [
   {
-    number: 'A1',
+    number: '01',
+    title: 'Commerce & Marketplaces',
+    status: '3 interactive stages',
+    copy: 'Assortments, substitution, learning from customer choices, and decisions under preference shift.',
+    href: '#commerce',
+  },
+  {
+    number: '02',
+    title: 'Finance & Risk',
+    status: 'Research direction',
+    copy: 'Portfolios, valuation, insurance, rare events, and performance under changing markets.',
+  },
+  {
+    number: '03',
+    title: 'Operations & Health',
+    status: 'Example in development',
+    copy: 'Capacity, scheduling, patient flow, and service-system decisions under uncertainty.',
+  },
+  {
+    number: '04',
+    title: 'Autonomy & Engineering',
+    status: 'Research direction',
+    copy: 'Control, routing, reliability, and fast decisions under operating-regime shift.',
+  },
+];
+
+const methodLenses = [
+  ['Simulation', 'Explore plausible, rare, and consequential worlds.'],
+  ['Learning', 'Estimate mechanisms and decisions from partial observations.'],
+  ['UQ & Model Risk', 'Measure uncertainty and model-to-world discrepancy.'],
+  ['Robustness', 'Protect performance when the modeled world changes.'],
+  ['Causal & Counterfactual', 'Reason about outcomes that cannot be jointly observed.'],
+  ['Optimization', 'Search for strong actions under constraints.'],
+];
+
+const assortmentStages = [
+  {
+    number: 'Decision Lab 01',
+    world: 'Known model',
+    action: 'Choose the shelf',
+    title: 'When less shelf space makes more revenue.',
+    copy: 'Compare every feasible assortment when customer substitution is known.',
+    tags: ['Choice modeling', 'Exact evaluation', 'Optimization'],
+    cta: 'Explore the known-model decision',
+    href: '/labs/assortment/',
+    tone: 'model',
+  },
+  {
+    number: 'Decision Lab 02',
+    world: 'Logged data',
+    action: 'Learn the shelf',
+    title: 'More data cannot reveal what you never offered.',
+    copy: 'Compare incumbent logs with designed exploration, then test the learned decision on a fresh holdout.',
+    tags: ['Offline learning', 'Pessimism', 'Validation'],
+    cta: 'Explore offline learning',
+    href: '/labs/assortment/learning/',
+    tone: 'learning',
+  },
+  {
+    number: 'Decision Lab 03',
+    world: 'Preference shift',
+    action: 'Protect the shelf',
+    title: 'Pay a little now. Protect the decision later.',
+    copy: 'Trade a small amount of nominal value for a stronger protected floor under coherent preference shift.',
+    tags: ['Robustness', 'Model risk', 'Stress testing'],
+    cta: 'Explore robust planning',
+    href: '/labs/assortment/robustness/',
+    tone: 'robustness',
+  },
+];
+
+const developingExamples = [
+  {
+    domain: 'Operations & Health',
     title: 'Hospital Operations',
     question: 'How should capacity and patient-flow decisions respond to uncertain demand and operational constraints?',
     status: 'Joint project · In development',
-    boundary: 'A public description only until collaborator approval and a fully synthetic implementation are available.',
+    next: 'The public example will begin with a fully synthetic model and incorporate collaborator-approved evidence as it becomes available.',
   },
   {
-    number: 'A2',
+    domain: 'Commerce & Marketplaces',
     title: 'Marketplace Dynamics',
     question: 'Which policies improve service and participation without destabilizing a two-sided system?',
     status: 'Public-safe prototype · Planned',
-    boundary: 'Any public lab will be independently built from synthetic assumptions, with no partner code, data, parameters, or branding.',
+    next: 'The public lab will use independently built synthetic assumptions, followed by validation with materials cleared for release.',
   },
 ];
 
 export default function LabsPage() {
   return (
-    <main className="inner-page labs-page">
+    <main className="inner-page examples-page">
       <SiteHeader active="labs" />
 
-      <section className="page-masthead labs-masthead">
-        <p className="kicker">Decision Labs</p>
-        <h1>Make the decision. See what the model predicts.</h1>
+      <section className="page-masthead labs-masthead examples-masthead">
+        <p className="kicker">Examples</p>
+        <h1>M2W Decision Labs</h1>
         <p>
-          M2W Decision Labs are transparent, testable demonstrations. Each begins with
-          a decision question, exposes the modeled mechanics, compares policies on the
-          same inputs, and states what must happen before real-world use.
+          From a model to a decision—and then toward the world. Each example starts
+          with a concrete decision, exposes the mechanics, compares policies on common
+          inputs, and names the evidence still required for real-world use.
         </p>
       </section>
 
-      <section className="lab-portfolio section" aria-labelledby="live-lab-title">
-        <div className="lab-portfolio-heading">
-          <div><p className="kicker">Live now</p><h2 id="live-lab-title">One decision. Three working labs.</h2></div>
-          <div className="portfolio-badges" aria-label="Evidence status">
-            <span>Interactive prototype</span><span>Synthetic</span><span>Reproducible</span>
+      <section className="example-directory section" aria-labelledby="domains-title">
+        <div className="section-heading example-directory-heading">
+          <div><p className="kicker">Applications</p><h2 id="domains-title">Explore by domain.</h2></div>
+          <p>Applications give each decision its context. Methods show how M2W moves it from a modeled world toward reliable use.</p>
+        </div>
+        <div className="application-world-grid">
+          {applicationWorlds.map((world) => (
+            <article className={`application-world-card ${world.href ? 'application-world-live' : ''}`} key={world.title}>
+              <div><span>{world.number}</span><small>{world.status}</small></div>
+              <h3>{world.title}</h3>
+              <p>{world.copy}</p>
+              {world.href ? <a href={world.href}>View the live case <span aria-hidden="true">↓</span></a> : <span className="world-direction">M2W research direction</span>}
+            </article>
+          ))}
+        </div>
+
+        <div className="method-lens-band" aria-labelledby="methods-title">
+          <div>
+            <p className="kicker">Methods across M2W</p>
+            <h3 id="methods-title">Different lenses on the same transfer problem.</h3>
+          </div>
+          <ul>
+            {methodLenses.map(([name, copy]) => <li key={name}><strong>{name}</strong><span>{copy}</span></li>)}
+          </ul>
+        </div>
+      </section>
+
+      <section className="example-case-study section" id="commerce" aria-labelledby="case-study-title">
+        <div className="case-study-heading">
+          <div>
+            <p className="kicker">Live case study · Commerce &amp; Marketplaces</p>
+            <h2 id="case-study-title">Assortment decisions</h2>
+          </div>
+          <div>
+            <p>One retail decision, followed through three increasingly realistic worlds: start with a known choice model, learn from logged behavior, then protect the policy against preference shift.</p>
+            <div className="case-study-badges" aria-label="Case-study status"><span>3 interactive stages</span><span>Synthetic evidence</span><span>Reproducible</span></div>
           </div>
         </div>
-        <div className="portfolio-live-stack">
-          <a className="portfolio-live-card" href={sitePath('/labs/assortment/')}>
-            <div className="portfolio-live-copy">
-              <span className="portfolio-number">Decision Lab 01</span>
-              <h3>When less shelf space makes more revenue.</h3>
-              <p className="portfolio-question">Which headphones should a store offer when buyers substitute after finding a product unavailable?</p>
-              <span className="portfolio-cta">Run the decision <b aria-hidden="true">→</b></span>
-            </div>
-            <div className="portfolio-result" aria-label="Illustrative result from the synthetic model">
-              <span>Revenue leader</span>
-              <strong>Pro + Plus</strong>
-              <div><span>Expected revenue</span><b>$79.98</b></div>
-              <div><span>All four products</span><b>$54.70</b></div>
-              <small>per synthetic visitor</small>
-            </div>
-            <ol className="portfolio-trace" aria-label="M2W trace">
-              <li><span>Model</span><b>Markov-chain choice</b></li>
-              <li><span>Simulate / evaluate</span><b>Buyer absorption</b></li>
-              <li><span>Decide</span><b>Choose the shelf</b></li>
-              <li><span>Transfer</span><b>Estimate and test</b></li>
-            </ol>
-          </a>
 
-          <a className="portfolio-live-card portfolio-learning-card" href={sitePath('/labs/assortment/learning/')}>
-            <div className="portfolio-live-copy">
-              <span className="portfolio-number">Decision Lab 02</span>
-              <h3>More data cannot reveal what you never offered.</h3>
-              <p className="portfolio-question">How much data—and which data—justify changing the shelf when customer preferences are unknown?</p>
-              <span className="portfolio-cta">Run the learning loop <b aria-hidden="true">→</b></span>
-            </div>
-            <div className="portfolio-result" aria-label="Illustrative result from the synthetic learning experiment">
-              <span>Designed exploration</span>
-              <strong>Pro + Everyday</strong>
-              <div><span>Item coverage</span><b>4 / 4</b></div>
-              <div><span>Oracle pair observed</span><b>0 times</b></div>
-              <small>fixed-seed synthetic experiment</small>
-            </div>
-            <ol className="portfolio-trace" aria-label="Offline learning trace">
-              <li><span>Log</span><b>Observed choices</b></li>
-              <li><span>Estimate</span><b>Rank breaking</b></li>
-              <li><span>Decide</span><b>Pessimistic policy</b></li>
-              <li><span>Test</span><b>Fresh holdout</b></li>
-            </ol>
-          </a>
-
-          <a className="portfolio-live-card portfolio-robustness-card" href={sitePath('/labs/assortment/robustness/')}>
-            <div className="portfolio-live-copy">
-              <span className="portfolio-number">Decision Lab 03</span>
-              <h3>Pay a little now. Protect the decision later.</h3>
-              <p className="portfolio-question">How much nominal value should we trade for protection when future preferences shift?</p>
-              <span className="portfolio-cta">Run the robustness test <b aria-hidden="true">→</b></span>
-            </div>
-            <div className="portfolio-result" aria-label="Illustrative result from the synthetic robustness experiment">
-              <span>Protected-value leader</span>
-              <strong>Plus + Everyday</strong>
-              <div><span>Nominal price</span><b>$1.64</b></div>
-              <div><span>Protected-floor gain</span><b>+$0.45</b></div>
-              <small>ρ₀ = 0.10 · synthetic experiment</small>
-            </div>
-            <ol className="portfolio-trace" aria-label="Robust decision trace">
-              <li><span>Model</span><b>Freeze the baseline</b></li>
-              <li><span>Simulate</span><b>Declare uncertainty</b></li>
-              <li><span>Decide</span><b>Protect the floor</b></li>
-              <li><span>Transfer</span><b>Stress and validate</b></li>
-            </ol>
-          </a>
-        </div>
+        <p className="case-study-sequence">One decision, three stages.</p>
+        <ol className="case-stage-grid">
+          {assortmentStages.map((stage) => (
+            <li className={`case-stage case-stage-${stage.tone}`} key={stage.number}>
+              <a href={sitePath(stage.href)}>
+                <div className="case-stage-topline"><span>{stage.number}</span><small>{stage.world}</small></div>
+                <p className="case-stage-action">{stage.action}</p>
+                <h3>{stage.title}</h3>
+                <p className="case-stage-copy">{stage.copy}</p>
+                <ul aria-label="Research methods">{stage.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul>
+                <span className="case-stage-link">{stage.cta} <b aria-hidden="true">→</b></span>
+              </a>
+            </li>
+          ))}
+        </ol>
       </section>
 
       <section className="future-labs section" aria-labelledby="future-labs-title">
         <div className="section-heading">
-          <div><p className="kicker">Developing directions</p><h2 id="future-labs-title">What the portfolio can become.</h2></div>
-          <p>Directions appear here without implying that a partner platform, private dataset, or deployment belongs to M2W.</p>
+          <div><p className="kicker">Developing examples</p><h2 id="future-labs-title">Where M2W goes next.</h2></div>
+          <p>These are research directions rather than deployed systems. Public examples will use synthetic or approved materials and state the evidence required for transfer.</p>
         </div>
         <div className="future-lab-grid">
-          {futureDirections.map((direction) => (
-            <article className="future-lab-card" key={direction.number}>
-              <div><span>{direction.number}</span><small>{direction.status}</small></div>
-              <h3>{direction.title}</h3>
-              <p>{direction.question}</p>
-              <aside><strong>Public boundary</strong>{direction.boundary}</aside>
+          {developingExamples.map((example) => (
+            <article className="future-lab-card" key={example.title}>
+              <div><span>{example.domain}</span><small>{example.status}</small></div>
+              <h3>{example.title}</h3>
+              <p>{example.question}</p>
+              <aside><strong>Path to public evidence</strong>{example.next}</aside>
             </article>
           ))}
         </div>
@@ -135,12 +188,12 @@ export default function LabsPage() {
 
       <section className="evidence-key section" aria-labelledby="evidence-key-title">
         <div>
-          <p className="kicker">Read the labels</p>
-          <h2 id="evidence-key-title">Build maturity and evidence are different.</h2>
+          <p className="kicker">Reading the examples</p>
+          <h2 id="evidence-key-title">Build maturity and evidence answer different questions.</h2>
         </div>
         <dl>
-          <div><dt>Build status</dt><dd>Concept → In development → Interactive prototype → Evaluated demonstration → Transferred</dd></div>
-          <div><dt>Evidence status</dt><dd>Synthetic → Public data → Partner or shadow evidence → Real-world evidence</dd></div>
+          <div><dt>Build maturity</dt><dd>Concept → In development → Interactive prototype → Evaluated demonstration → Transferred</dd></div>
+          <div><dt>Evidence basis</dt><dd>Synthetic → Public data → Partner or shadow evidence → Real-world evidence</dd></div>
         </dl>
       </section>
 
