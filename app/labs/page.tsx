@@ -19,19 +19,19 @@ const applicationWorlds = [
   {
     number: '02',
     title: 'Finance & Risk',
-    status: 'Research direction',
+    status: 'Prototype-demo coming soon',
     copy: 'Portfolios, valuation, insurance, rare events, and performance under changing markets.',
   },
   {
     number: '03',
     title: 'Operations & Health',
-    status: 'Example in development',
+    status: 'Prototype-demo coming soon',
     copy: 'Capacity, scheduling, patient flow, and service-system decisions under uncertainty.',
   },
   {
     number: '04',
     title: 'Autonomy & Engineering',
-    status: 'Research direction',
+    status: 'Prototype-demo coming soon',
     copy: 'Control, routing, reliability, and fast decisions under operating-regime shift.',
   },
 ];
@@ -86,14 +86,14 @@ const developingExamples = [
     domain: 'Operations & Health',
     title: 'Hospital Operations',
     question: 'How should capacity and patient-flow decisions respond to uncertain demand and operational constraints?',
-    status: 'Joint project · In development',
+    status: 'Prototype-demo coming soon',
     next: 'The public example will begin with a fully synthetic model and incorporate collaborator-approved evidence as it becomes available.',
   },
   {
     domain: 'Commerce & Marketplaces',
     title: 'Marketplace Dynamics',
     question: 'Which policies improve service and participation without destabilizing a two-sided system?',
-    status: 'Public-safe prototype · Planned',
+    status: 'Prototype-demo coming soon',
     next: 'The public lab will use independently built synthetic assumptions, followed by validation with materials cleared for release.',
   },
 ];
@@ -124,7 +124,7 @@ export default function LabsPage() {
               <div><span>{world.number}</span><small>{world.status}</small></div>
               <h3>{world.title}</h3>
               <p>{world.copy}</p>
-              {world.href ? <a href={world.href}>View the live case <span aria-hidden="true">↓</span></a> : <span className="world-direction">M2W research direction</span>}
+              {world.href ? <a href={world.href}>View the live case <span aria-hidden="true">↓</span></a> : null}
             </article>
           ))}
         </div>
@@ -171,8 +171,8 @@ export default function LabsPage() {
 
       <section className="future-labs section" aria-labelledby="future-labs-title">
         <div className="section-heading">
-          <div><p className="kicker">Developing examples</p><h2 id="future-labs-title">Where M2W goes next.</h2></div>
-          <p>These are research directions rather than deployed systems. Public examples will use synthetic or approved materials and state the evidence required for transfer.</p>
+          <div><p className="kicker">Prototype-demos coming soon</p><h2 id="future-labs-title">Where M2W goes next.</h2></div>
+          <p>Each prototype-demo will use synthetic or approved materials and state the evidence required for transfer.</p>
         </div>
         <div className="future-lab-grid">
           {developingExamples.map((example) => (
@@ -192,7 +192,7 @@ export default function LabsPage() {
           <h2 id="evidence-key-title">Build maturity and evidence answer different questions.</h2>
         </div>
         <dl>
-          <div><dt>Build maturity</dt><dd>Concept → In development → Interactive prototype → Evaluated demonstration → Transferred</dd></div>
+          <div><dt>Build maturity</dt><dd>Concept → Demonstration build → Interactive prototype → Evaluated demonstration → Transferred</dd></div>
           <div><dt>Evidence basis</dt><dd>Synthetic → Public data → Partner or shadow evidence → Real-world evidence</dd></div>
         </dl>
       </section>
