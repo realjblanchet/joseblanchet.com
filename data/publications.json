@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
   "orcid": "0000-0001-5895-0912",
-  "updatedAt": "2026-09-05T23:46:44.226Z",
-  "count": 349,
+  "updatedAt": "2026-09-21T19:26:27.478Z",
+  "count": 350,
   "publications": [
+    {
+      "title": "Strategic Index Reconstitution: Differential Games, Closed-Loop Equilibria and Mean-Field Dynamics",
+      "year": 2026,
+      "date": "2026-09-14",
+      "venue": "arXiv",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2609.15901",
+      "url": "https://arxiv.org/abs/2609.15901",
+      "authors": [
+        "Lukas-Benedikt Fiechtner",
+        "Jose Blanchet"
+      ],
+      "source": "arXiv",
+      "id": "doi:10.48550/arxiv.2609.15901"
+    },
     {
       "title": "Extending Subsampling to Sequential Stopping",
       "year": 2026,
