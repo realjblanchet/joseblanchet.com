@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "orcid": "0000-0001-5895-0912",
-  "updatedAt": "2026-09-21T19:26:27.478Z",
+  "updatedAt": "2026-09-28T20:33:02.880Z",
   "count": 350,
   "publications": [
     {
@@ -5038,7 +5038,7 @@
         "Jose Blanchet",
         "Peter Glynn"
       ],
-      "source": "ORCID + arXiv",
+      "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1214/10-aap707"
     },
     {
