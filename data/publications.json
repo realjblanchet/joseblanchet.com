@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "orcid": "0000-0001-5895-0912",
-  "updatedAt": "2026-09-28T20:33:02.880Z",
+  "updatedAt": "2026-10-05T21:29:09.849Z",
   "count": 350,
   "publications": [
     {
@@ -3668,6 +3668,23 @@
       "id": "doi:10.1016/j.resourpol.2018.01.011"
     },
     {
+      "title": "Optimal Smoothed Variable Sample-size Accelerated Proximal Methods for Structured Nonsmooth Stochastic Convex Programs",
+      "year": 2018,
+      "date": "2018-03-02",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.1803.00718",
+      "url": "https://arxiv.org/abs/1803.00718v1",
+      "authors": [
+        "Afrooz Jalilzadeh",
+        "Uday V. Shanbhag",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex + arXiv",
+      "id": "doi:10.48550/arxiv.1803.00718"
+    },
+    {
       "title": "Exact simulation of multidimensional reflected Brownian motion",
       "year": 2018,
       "date": "2018-03-01",
@@ -3712,18 +3729,6 @@
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1007/978-3-319-91436-7_4"
-    },
-    {
-      "title": "Optimal smoothed variable sample-size accelerated proximal methods for structured nonsmooth stochastic convex programs",
-      "year": 2018,
-      "date": "2018-01-01",
-      "venue": "arXiv preprint arXiv:1803.00718",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "authors": [],
-      "source": "ORCID",
-      "id": "title:optimalsmoothedvariablesamplesizeacceleratedproximalmethodsforstructurednonsmoothstochasticconvexprograms"
     },
     {
       "title": "Rates of Convergence and CLTs for Subcanonical Debiased MLMC",
