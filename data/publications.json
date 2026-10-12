@@ -1,9 +1,55 @@
 {
   "schemaVersion": 1,
   "orcid": "0000-0001-5895-0912",
-  "updatedAt": "2026-10-05T21:29:09.849Z",
-  "count": 350,
+  "updatedAt": "2026-10-12T22:08:17.267Z",
+  "count": 353,
   "publications": [
+    {
+      "title": "Exact Simulation of Multivariate Diffusions and Bridges",
+      "year": 2026,
+      "date": "2026-10-08",
+      "venue": "arXiv",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2610.11330",
+      "url": "https://arxiv.org/abs/2610.11330",
+      "authors": [
+        "Jose Blanchet",
+        "Jikai Jin",
+        "Hao Liu"
+      ],
+      "source": "arXiv",
+      "id": "doi:10.48550/arxiv.2610.11330"
+    },
+    {
+      "title": "Regret-Optimal Linear-Quadratic Control under Distributional Drift",
+      "year": 2026,
+      "date": "2026-10-06",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2610.09220",
+      "url": "https://doi.org/10.48550/arxiv.2610.09220",
+      "authors": [
+        "Lukas-Benedikt Fiechtner",
+        "José Blanchet"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.48550/arxiv.2610.09220"
+    },
+    {
+      "title": "Quenched First-Passage Asymptotics for Branching Random Walk on a Hamming Cube",
+      "year": 2026,
+      "date": "2026-10-05",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2610.06757",
+      "url": "https://doi.org/10.48550/arxiv.2610.06757",
+      "authors": [
+        "José Blanchet",
+        "Zhenyuan Zhang"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.48550/arxiv.2610.06757"
+    },
     {
       "title": "Strategic Index Reconstitution: Differential Games, Closed-Loop Equilibria and Mean-Field Dynamics",
       "year": 2026,
@@ -551,7 +597,7 @@
       "title": "Invariance and Concentration Properties of Gradient-based Learning in Games",
       "year": 2025,
       "date": "2025-12-09",
-      "venue": "",
+      "venue": "Proceedings of the IEEE Conference on Decision & Control, including the Symposium on Adaptive Processes",
       "type": "conference-paper",
       "doi": "10.1109/cdc57313.2025.11312305",
       "url": "https://doi.org/10.1109/cdc57313.2025.11312305",
@@ -585,7 +631,7 @@
       "title": "Efficient Optimization Procedures for CVAR-Constrained Optimization with Regularly Varying Risk Factors",
       "year": 2025,
       "date": "2025-12-07",
-      "venue": "",
+      "venue": "Winter Simulation Conference",
       "type": "conference-paper",
       "doi": "10.1109/wsc68292.2025.11338985",
       "url": "https://doi.org/10.1109/wsc68292.2025.11338985",
@@ -744,7 +790,7 @@
         "Roger J. A. Laeven",
         "Bert Zwart"
       ],
-      "source": "ORCID + OpenAlex + arXiv",
+      "source": "Crossref + ORCID + OpenAlex + arXiv",
       "id": "doi:10.1214/24-aihp1471"
     },
     {
@@ -1032,7 +1078,7 @@
       "title": "Multi-Agent Learning under Uncertainty: Recurrence vs. Concentration",
       "year": 2025,
       "date": "2025-01-01",
-      "venue": "arXiv",
+      "venue": "neural information processing systems",
       "type": "conference-paper",
       "doi": "10.52202/085713-2640",
       "url": "https://doi.org/10.52202/085713-2640",
@@ -1049,7 +1095,7 @@
       "title": "Robust Equilibria in Continuous Games: From Strategic to Dynamic Robustness",
       "year": 2025,
       "date": "2025-01-01",
-      "venue": "arXiv",
+      "venue": "neural information processing systems",
       "type": "conference-paper",
       "doi": "10.52202/085713-0276",
       "url": "https://doi.org/10.52202/085713-0276",
@@ -2104,7 +2150,7 @@
       "title": "When can Regression-Adjusted Control Variate Help? Rare Events, Sobolev Embedding and Minimax Optimality",
       "year": 2023,
       "date": "2023-01-01",
-      "venue": "",
+      "venue": "neural information processing systems",
       "type": "conference-paper",
       "doi": "10.52202/075280-1589",
       "url": "https://doi.org/10.52202/075280-1589",
