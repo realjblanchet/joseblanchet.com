@@ -1,4 +1,5 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { requestWithRetry } from './http-request.mjs';
 import { fetchOpenAlexPages } from './openalex-pagination.mjs';
 import { chooseAuthorList, publicationTitleKey } from './publication-merge.mjs';
 
@@ -9,6 +10,14 @@ const CURRENT_YEAR = new Date().getUTCFullYear();
 const BASELINE_YEAR = 2026;
 const BASELINE_YEAR_MINIMUM = 28;
 const USER_AGENT = `BlanchetLabPublicationSync/1.0 (mailto:${CONTACT})`;
+// arXiv requires at least three seconds between legacy API requests. Longer
+// bounded delays give transient throttling time to clear without retrying forever.
+const ARXIV_RETRY_POLICY = {
+  maxAttempts: 4,
+  fallbackDelaysMs: [10_000, 30_000, 60_000],
+  minimumRetryDelayMs: 3000,
+  maximumRetryDelayMs: 120_000,
+};
 
 function normalizeTitle(value = '') {
   return value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
@@ -55,21 +64,8 @@ function plausibleRecord(work) {
   return title.length >= 12 && year >= 1995 && year <= CURRENT_YEAR + 1 && !tooGeneric && !excludedType;
 }
 
-function sleep(milliseconds) {
-  return new Promise((resolve) => setTimeout(resolve, milliseconds));
-}
-
-async function request(url, accept) {
-  for (let attempt = 0; attempt < 3; attempt += 1) {
-    const response = await fetch(url, { headers: { Accept: accept, 'User-Agent': USER_AGENT } });
-    if (response.ok) return response;
-    if ((response.status === 429 || response.status >= 500) && attempt < 2) {
-      await sleep(1000 * (2 ** attempt));
-      continue;
-    }
-    throw new Error(`${response.status} from ${url}`);
-  }
-  throw new Error(`Unable to fetch ${url}`);
+async function request(url, accept, retryPolicy) {
+  return requestWithRetry(url, { accept, userAgent: USER_AGENT, ...retryPolicy });
 }
 
 async function json(url) {
@@ -163,7 +159,11 @@ async function fetchArxiv() {
     search_query: 'au:"Jose Blanchet"', start: '0', max_results: '200',
     sortBy: 'submittedDate', sortOrder: 'descending',
   });
-  const xml = await (await request(`https://export.arxiv.org/api/query?${params}`, 'application/atom+xml')).text();
+  const xml = await (await request(
+    `https://export.arxiv.org/api/query?${params}`,
+    'application/atom+xml',
+    ARXIV_RETRY_POLICY,
+  )).text();
   const entries = xml.match(/<entry>[\s\S]*?<\/entry>/gi) ?? [];
   return entries.map((entry) => {
     const authors = [...entry.matchAll(/<author>[\s\S]*?<name>([\s\S]*?)<\/name>[\s\S]*?<\/author>/gi)]
