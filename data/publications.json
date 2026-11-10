@@ -1,23 +1,86 @@
 {
   "schemaVersion": 1,
   "orcid": "0000-0001-5895-0912",
-  "updatedAt": "2026-10-12T22:08:17.267Z",
-  "count": 353,
+  "updatedAt": "2026-11-10T02:46:07.151Z",
+  "count": 358,
   "publications": [
+    {
+      "title": "Convex Regression at Scale: Geometry-Preserving Constraint Sparsification",
+      "year": 2026,
+      "date": "2026-11-01",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2611.01744",
+      "url": "https://doi.org/10.48550/arxiv.2611.01744",
+      "authors": [
+        "Anish Senapati",
+        "Jose Blanchet"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.48550/arxiv.2611.01744"
+    },
+    {
+      "title": "Efficient Importance Sampling of Brownian Motion Avoiding Poissonian Obstacles for Long Time",
+      "year": 2026,
+      "date": "2026-10-30",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2610.41234",
+      "url": "https://doi.org/10.48550/arxiv.2610.41234",
+      "authors": [
+        "Jose Blanchet",
+        "Paul Dupuis",
+        "Hao Liu"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.48550/arxiv.2610.41234"
+    },
+    {
+      "title": "Frequency-Uniform Log-Regret Reinforcement Learning for Diffusions",
+      "year": 2026,
+      "date": "2026-10-27",
+      "venue": "arXiv (Cornell University)",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2610.36758",
+      "url": "https://doi.org/10.48550/arxiv.2610.36758",
+      "authors": [
+        "Jose Blanchet",
+        "Lutong Hao",
+        "Renyuan Xu"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.48550/arxiv.2610.36758"
+    },
+    {
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "year": 2026,
+      "date": "2026-10-22",
+      "venue": "arXiv",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2610.31810",
+      "url": "https://arxiv.org/abs/2610.31810",
+      "authors": [
+        "Jiyuan Tan",
+        "Jose Blanchet",
+        "Vasilis Syrgkanis"
+      ],
+      "source": "arXiv",
+      "id": "doi:10.48550/arxiv.2610.31810"
+    },
     {
       "title": "Exact Simulation of Multivariate Diffusions and Bridges",
       "year": 2026,
       "date": "2026-10-08",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2610.11330",
-      "url": "https://arxiv.org/abs/2610.11330",
+      "url": "https://doi.org/10.48550/arxiv.2610.11330",
       "authors": [
         "Jose Blanchet",
         "Jikai Jin",
         "Hao Liu"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2610.11330"
     },
     {
@@ -30,7 +93,7 @@
       "url": "https://doi.org/10.48550/arxiv.2610.09220",
       "authors": [
         "Lukas-Benedikt Fiechtner",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2610.09220"
@@ -44,7 +107,7 @@
       "doi": "10.48550/arxiv.2610.06757",
       "url": "https://doi.org/10.48550/arxiv.2610.06757",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhenyuan Zhang"
       ],
       "source": "OpenAlex + arXiv",
@@ -54,41 +117,41 @@
       "title": "Strategic Index Reconstitution: Differential Games, Closed-Loop Equilibria and Mean-Field Dynamics",
       "year": 2026,
       "date": "2026-09-14",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2609.15901",
-      "url": "https://arxiv.org/abs/2609.15901",
+      "url": "https://doi.org/10.48550/arxiv.2609.15901",
       "authors": [
         "Lukas-Benedikt Fiechtner",
         "Jose Blanchet"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2609.15901"
     },
     {
       "title": "Extending Subsampling to Sequential Stopping",
       "year": 2026,
       "date": "2026-09-01",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2609.00717",
-      "url": "https://arxiv.org/abs/2609.00717",
+      "url": "https://doi.org/10.48550/arxiv.2609.00717",
       "authors": [
         "Jose Blanchet",
         "Peter Glynn",
         "Wenhao Yang"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2609.00717"
     },
     {
       "title": "There and Back Again: Bidirectional Diffusion Bridges for Multimodality Translation",
       "year": 2026,
       "date": "2026-08-28",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2608.27885",
-      "url": "https://arxiv.org/abs/2608.27885",
+      "url": "https://doi.org/10.48550/arxiv.2608.27885",
       "authors": [
         "Gabe Guo",
         "Elon Litman",
@@ -96,23 +159,23 @@
         "Jose Blanchet",
         "Stefano Ermon"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2608.27885"
     },
     {
       "title": "Sobolev Regularized Score Difference Estimation in Diffusion Models",
       "year": 2026,
       "date": "2026-08-18",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2608.18237",
-      "url": "https://arxiv.org/abs/2608.18237",
+      "url": "https://doi.org/10.48550/arxiv.2608.18237",
       "authors": [
         "Chenghan Xie",
         "Jose Blanchet",
         "Renyuan Xu"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2608.18237"
     },
     {
@@ -124,7 +187,7 @@
       "doi": "10.48550/arxiv.2608.14906",
       "url": "https://doi.org/10.48550/arxiv.2608.14906",
       "authors": [
-        "José Blanchet",
+        "Jose H. Blanchet",
         "T. Tony Cai",
         "Xiang Li",
         "Hao Liu",
@@ -135,13 +198,30 @@
       "id": "doi:10.48550/arxiv.2608.14906"
     },
     {
+      "title": "On the first passage times of branching random walks in Rd",
+      "year": 2026,
+      "date": "2026-08-01",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": "10.1214/26-aap2296",
+      "url": "https://doi.org/10.1214/26-aap2296",
+      "authors": [
+        "Jose Blanchet",
+        "Wei Cai",
+        "Shaswat Mohanty",
+        "Zhenyuan Zhang"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.1214/26-aap2296"
+    },
+    {
       "title": "A Few Teacher Steps Go a Long Way: Cost-Efficient On-Policy Data Augmentation for Agent Post-Training",
       "year": 2026,
       "date": "2026-07-06",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2607.04574",
-      "url": "https://arxiv.org/abs/2607.04574",
+      "url": "https://doi.org/10.48550/arxiv.2607.04574",
       "authors": [
         "Junze Ye",
         "Jiayi Cheng",
@@ -150,32 +230,32 @@
         "Jose Blanchet",
         "Mohsen Bayati"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2607.04574"
     },
     {
       "title": "Lipschitz Regularity in Wasserstein Robust Stochastic Optimal Control",
       "year": 2026,
       "date": "2026-06-26",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2606.28633",
-      "url": "https://arxiv.org/abs/2606.28633",
+      "url": "https://doi.org/10.48550/arxiv.2606.28633",
       "authors": [
         "Shengbo Wang",
         "Jose Blanchet"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2606.28633"
     },
     {
       "title": "INFUSER: Influence-Guided Self-Evolution Improves Reasoning",
       "year": 2026,
       "date": "2026-06-08",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2606.09052",
-      "url": "https://arxiv.org/abs/2606.09052",
+      "url": "https://doi.org/10.48550/arxiv.2606.09052",
       "authors": [
         "Siyu Chen",
         "Miao Lu",
@@ -188,49 +268,66 @@
         "Tianhao Wang",
         "Zhuoran Yang"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2606.09052"
     },
     {
       "title": "Fast Convergence of Policy Regret in Learning Stochastic Optimal Control",
       "year": 2026,
       "date": "2026-05-25",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2605.26361",
-      "url": "https://arxiv.org/abs/2605.26361",
+      "url": "https://doi.org/10.48550/arxiv.2605.26361",
       "authors": [
         "Shengbo Wang",
         "Jose Blanchet",
         "Peter Glynn"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2605.26361"
     },
     {
       "title": "Statistical Inference for Stochastic Gradient Descent: Beyond Finite Variance",
       "year": 2026,
       "date": "2026-05-25",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2605.26000",
-      "url": "https://arxiv.org/abs/2605.26000",
+      "url": "https://doi.org/10.48550/arxiv.2605.26000",
       "authors": [
         "Jose Blanchet",
         "Peter Glynn",
         "Wenhao Yang"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2605.26000"
+    },
+    {
+      "title": "Why is the strength of an elastomeric polymer network so low",
+      "year": 2026,
+      "date": "2026-05-20",
+      "venue": "npj Computational Materials",
+      "type": "article",
+      "doi": "10.1038/s41524-026-02143-5",
+      "url": "https://doi.org/10.1038/s41524-026-02143-5",
+      "authors": [
+        "Shaswat Mohanty",
+        "Jose Blanchet",
+        "Zhigang Suo",
+        "Wei Cai"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.1038/s41524-026-02143-5"
     },
     {
       "title": "Simple Approximation and Derivative Free Inference-Time Scaling for Diffusion Models via Sequential Monte Carlo on Path Measures",
       "year": 2026,
       "date": "2026-05-18",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2605.17850",
-      "url": "https://arxiv.org/abs/2605.17850",
+      "url": "https://doi.org/10.48550/arxiv.2605.17850",
       "authors": [
         "Chenyang Wang",
         "Weizhong Wang",
@@ -238,17 +335,17 @@
         "Jose Blanchet",
         "Yiping Lu"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2605.17850"
     },
     {
       "title": "TERMS-Bench: Diagnosing LLM Negotiation Agents Beyond Deal Rate",
       "year": 2026,
       "date": "2026-05-13",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2605.13909",
-      "url": "https://arxiv.org/abs/2605.13909",
+      "url": "https://doi.org/10.48550/arxiv.2605.13909",
       "authors": [
         "Erica Zhang",
         "Fangzhao Zhang",
@@ -259,17 +356,17 @@
         "Jiashuo Liu",
         "James Zou"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2605.13909"
     },
     {
       "title": "ABC: Any-Subset Autoregression via Non-Markovian Diffusion Bridges in Continuous Time and Space",
       "year": 2026,
       "date": "2026-04-30",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2604.27443",
-      "url": "https://arxiv.org/abs/2604.27443",
+      "url": "https://doi.org/10.48550/arxiv.2604.27443",
       "authors": [
         "Gabe Guo",
         "Thanawat Sornwanee",
@@ -278,33 +375,33 @@
         "Stefano Ermon",
         "Jose Blanchet"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2604.27443"
     },
     {
       "title": "Wasserstein Distributionally Robust Regret Optimization for Reinforcement Learning from Human Feedback",
       "year": 2026,
       "date": "2026-04-30",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2605.00155",
-      "url": "https://arxiv.org/abs/2605.00155",
+      "url": "https://doi.org/10.48550/arxiv.2605.00155",
       "authors": [
         "Yikai Wang",
         "Shang Liu",
         "Jose Blanchet"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2605.00155"
     },
     {
       "title": "Optimal Online and Offline Algorithms for Contextual MNL with Applications to Assortment and Pricing",
       "year": 2026,
       "date": "2026-04-21",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2604.19008",
-      "url": "https://arxiv.org/abs/2604.19008",
+      "url": "https://doi.org/10.48550/arxiv.2604.19008",
       "authors": [
         "Yunfan Zhang",
         "Yuxuan Han",
@@ -312,41 +409,25 @@
         "Jose Blanchet",
         "Zhengyuan Zhou"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2604.19008"
     },
     {
       "title": "Classical and Quantum Speedups for Non-Convex Optimization via Energy Conserving Descent",
       "year": 2026,
       "date": "2026-04-14",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2604.13022",
-      "url": "https://arxiv.org/abs/2604.13022",
+      "url": "https://doi.org/10.48550/arxiv.2604.13022",
       "authors": [
         "Yihang Sun",
         "Huaijin Wang",
         "Patrick Hayden",
         "Jose Blanchet"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2604.13022"
-    },
-    {
-      "title": "Partial Identification of Policy-Relevant Treatment Effects with Instrumental Variables via Optimal Transport",
-      "year": 2026,
-      "date": "2026-04-14",
-      "venue": "arXiv",
-      "type": "preprint",
-      "doi": "10.48550/arxiv.2604.12263",
-      "url": "https://arxiv.org/abs/2604.12263",
-      "authors": [
-        "Jiyuan Tan",
-        "Jose Blanchet",
-        "Vasilis Syrgkanis"
-      ],
-      "source": "arXiv",
-      "id": "doi:10.48550/arxiv.2604.12263"
     },
     {
       "title": "Distributionally Robust Regret Optimal LQR with Common Stage-Law Ambiguity",
@@ -358,7 +439,7 @@
       "url": "https://doi.org/10.48550/arxiv.2604.06158",
       "authors": [
         "Lukas-Benedikt Fiechtner",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2604.06158"
@@ -372,7 +453,7 @@
       "doi": "10.48550/arxiv.2603.27140",
       "url": "https://doi.org/10.48550/arxiv.2603.27140",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhenyuan Zhang"
       ],
       "source": "OpenAlex + arXiv",
@@ -390,7 +471,7 @@
         "Lezhi Tan",
         "Naomi Sagan",
         "Lihua Lei",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2603.13688"
@@ -406,7 +487,7 @@
       "authors": [
         "Sirui Lin",
         "Zijun Gao",
-        "José Blanchet",
+        "Jose Blanchet",
         "Peter Glynn"
       ],
       "source": "OpenAlex + arXiv",
@@ -425,7 +506,7 @@
         "Yuxuan Han",
         "Han Zhong",
         "Zhengyuan Zhou",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2602.10696"
@@ -441,7 +522,7 @@
       "authors": [
         "Yihang Sun",
         "Guanyang Wang",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2602.08120"
@@ -455,7 +536,7 @@
       "doi": "10.1214/25-aap2239",
       "url": "https://doi.org/10.1214/25-aap2239",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Johannes Wiesel",
         "Erica Zhang",
         "Zhenyuan Zhang"
@@ -467,10 +548,10 @@
       "title": "Score-based Metropolis-Hastings for Fractional Langevin Algorithms",
       "year": 2026,
       "date": "2026-01-31",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2602.00835",
-      "url": "https://arxiv.org/abs/2602.00835",
+      "url": "https://doi.org/10.48550/arxiv.2602.00835",
       "authors": [
         "Ahmed Aloui",
         "Junyi Liao",
@@ -478,17 +559,17 @@
         "Jose Blanchet",
         "Vahid Tarokh"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2602.00835"
     },
     {
       "title": "Learning When to Trust LLM Priors: A Validated Framework for Semantic Prior Integration",
       "year": 2026,
       "date": "2026-01-29",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2601.21410",
-      "url": "https://arxiv.org/abs/2601.21410",
+      "url": "https://doi.org/10.48550/arxiv.2601.21410",
       "authors": [
         "Erica Zhang",
         "Naomi Sagan",
@@ -497,7 +578,7 @@
         "Mert Pilanci",
         "Jose Blanchet"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2601.21410"
     },
     {
@@ -532,7 +613,7 @@
       "url": "https://doi.org/10.1007/s11134-025-09969-8",
       "authors": [
         "Yanlin Qu",
-        "José Blanchet",
+        "Jose Blanchet",
         "Peter Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -542,10 +623,10 @@
       "title": "FutureX-Pro: Extending Future Prediction to High-Value Vertical Domains",
       "year": 2026,
       "date": "2026-01-18",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2601.12259",
-      "url": "https://arxiv.org/abs/2601.12259",
+      "url": "https://doi.org/10.48550/arxiv.2601.12259",
       "authors": [
         "Jiashuo Liu",
         "Siyuan Chen",
@@ -590,8 +671,24 @@
         "Nian Si",
         "Wenhao Huang"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2601.12259"
+    },
+    {
+      "title": "Partial Identification of Policy-Relevant Treatment Effects with Instrumental Variables via Optimal Transport",
+      "year": 2026,
+      "date": "2026-01-01",
+      "venue": "SSRN Electronic Journal",
+      "type": "preprint",
+      "doi": "10.2139/ssrn.6572918",
+      "url": "https://doi.org/10.2139/ssrn.6572918",
+      "authors": [
+        "Jiyuan Tan",
+        "José Blanchet",
+        "Vasilis Syrgkanis"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.2139/ssrn.6572918"
     },
     {
       "title": "Invariance and Concentration Properties of Gradient-based Learning in Games",
@@ -619,9 +716,9 @@
       "doi": "10.1109/wsc68292.2025.11339097",
       "url": "https://doi.org/10.1109/wsc68292.2025.11339097",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Mark S. Squillante",
-        "Márió Szegedy",
+        "Mario Szegedy",
         "Guanyang Wang"
       ],
       "source": "OpenAlex + arXiv",
@@ -653,8 +750,8 @@
       "doi": "10.48550/arxiv.2512.01408",
       "url": "https://doi.org/10.48550/arxiv.2512.01408",
       "authors": [
-        "José Blanchet",
-        "Cheng, Jiayi",
+        "Jose Blanchet",
+        "Jiayi Cheng",
         "Hao Liu",
         "Yang Liu"
       ],
@@ -670,7 +767,7 @@
       "doi": "10.48550/arxiv.2511.16925",
       "url": "https://doi.org/10.48550/arxiv.2511.16925",
       "authors": [
-        "Andres Fernandez",
+        "Andrés Aradillas Fernández",
         "José Blanchet",
         "José Luis Montiel Olea",
         "Chen Qiu",
@@ -689,7 +786,7 @@
       "doi": "10.48550/arxiv.2509.08107",
       "url": "https://doi.org/10.48550/arxiv.2509.08107",
       "authors": [
-        "Andres Fernandez",
+        "Andrés Aradillas Fernández",
         "José Blanchet",
         "José Luis Montiel Olea",
         "Chen Qiu",
@@ -712,30 +809,30 @@
         "Jiashuo Liu",
         "Siyuan Chen",
         "Tianci He",
-        "Liao, Yali",
+        "Yali Liao",
         "Yixiao Tian",
         "Jinpeng Wang",
-        "Z. Wang",
-        "Yang, Yang",
-        "Lihong Yin",
-        "Yin, Mingren",
+        "Zaiyuan Wang",
+        "Yang Yang",
+        "Lingyue Yin",
+        "Mingren Yin",
         "Zhenwei Zhu",
-        "Cai, Tianle",
-        "Chen, Zehui",
+        "Tianle Cai",
+        "Zehui Chen",
         "Jiecao Chen",
         "Yantao Du",
         "Xiang Gao",
-        "Guo, Jiacheng",
+        "Jiacheng Guo",
         "Liang Hu",
         "Jianpeng Jiao",
         "Xiangsheng Li",
         "Jingkai Liu",
         "Shuang Ni",
         "Zhoufutu Wen",
-        "Ge ZHANG",
+        "Ge Zhang",
         "Kaiyuan Zhang",
         "Xin Zhou",
-        "José Blanchet",
+        "Jose Blanchet",
         "Xipeng Qiu",
         "Mengdi Wang",
         "Wenhao Huang"
@@ -753,8 +850,8 @@
       "url": "https://doi.org/10.1214/25-aap2184",
       "authors": [
         "Yanlin Qu",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1214/25-aap2184"
@@ -768,7 +865,7 @@
       "doi": "10.1214/24-sts955",
       "url": "https://doi.org/10.1214/24-sts955",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Jiajin Li",
         "Sirui Lin",
         "Xuhui Zhang"
@@ -786,7 +883,7 @@
       "url": "https://doi.org/10.1214/24-aihp1471",
       "authors": [
         "Mihail Bazhba",
-        "José Blanchet",
+        "Jose Blanchet",
         "Roger J. A. Laeven",
         "Bert Zwart"
       ],
@@ -821,11 +918,11 @@
       "doi": "10.48550/arxiv.2506.19294",
       "url": "https://doi.org/10.48550/arxiv.2506.19294",
       "authors": [
-        "José Blanchet",
-        "Cheng, Jiayi",
-        "Ling, Yuewei",
-        "Liu, Hao",
-        "Liu, Yang"
+        "Jose Blanchet",
+        "Jiayi Cheng",
+        "Yuewei Ling",
+        "Hao Liu",
+        "Yang Liu"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2506.19294"
@@ -839,29 +936,13 @@
       "doi": "10.48550/arxiv.2506.15072",
       "url": "https://doi.org/10.48550/arxiv.2506.15072",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Wei Cai",
         "Shaswat Mohanty",
         "Zhenyuan Zhang"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2506.15072"
-    },
-    {
-      "title": "Estimation of Treatment Effects in Extreme and Unobserved Data",
-      "year": 2025,
-      "date": "2025-06-16",
-      "venue": "arXiv",
-      "type": "preprint",
-      "doi": "10.48550/arxiv.2506.14051",
-      "url": "https://arxiv.org/abs/2506.14051",
-      "authors": [
-        "Jiyuan Tan",
-        "Jose Blanchet",
-        "Vasilis Syrgkanis"
-      ],
-      "source": "arXiv",
-      "id": "doi:10.48550/arxiv.2506.14051"
     },
     {
       "title": "Distributionally robust Gaussian process regression and Bayesian inverse problems",
@@ -873,7 +954,7 @@
       "url": "https://doi.org/10.1214/24-aap2141",
       "authors": [
         "Xuhui Zhang",
-        "José Blanchet",
+        "Jose Blanchet",
         "Youssef Marzouk",
         "Viet Anh Nguyen",
         "Sven Wang"
@@ -892,8 +973,8 @@
       "authors": [
         "Sirui Lin",
         "Zijun Gao",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2506.00257"
@@ -907,11 +988,11 @@
       "doi": "10.48550/arxiv.2505.23565",
       "url": "https://doi.org/10.48550/arxiv.2505.23565",
       "authors": [
-        "Jiashuo Liu",
         "Tianyu Wang",
+        "Jiashuo Liu",
         "Henry Lam",
         "Hongseok Namkoong",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2505.23565"
@@ -943,7 +1024,7 @@
       "url": "https://doi.org/10.48550/arxiv.2504.10796",
       "authors": [
         "Lukas-Benedikt Fiechtner",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2504.10796"
@@ -974,30 +1055,13 @@
       "doi": "10.48550/arxiv.2503.01004",
       "url": "https://doi.org/10.48550/arxiv.2503.01004",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Roger J. A. Laeven",
         "Xingyu Wang",
         "Bert Zwart"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2503.01004"
-    },
-    {
-      "title": "Why is the strength of an elastomeric polymer network so low?",
-      "year": 2025,
-      "date": "2025-02-17",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "doi": "10.48550/arxiv.2502.11339",
-      "url": "https://doi.org/10.48550/arxiv.2502.11339",
-      "authors": [
-        "Shaswat Mohanty",
-        "José Blanchet",
-        "Zhigang Suo",
-        "Wei Cai"
-      ],
-      "source": "OpenAlex + arXiv",
-      "id": "doi:10.48550/arxiv.2502.11339"
     },
     {
       "title": "LLM-Lasso: A Robust Framework for Domain-Informed Feature Selection and Regularization",
@@ -1009,14 +1073,14 @@
       "url": "https://doi.org/10.48550/arxiv.2502.10648",
       "authors": [
         "Erica Zhang",
-        "Goto, Ryunosuke",
+        "Ryunosuke Goto",
         "Naomi Sagan",
         "Jurik Mutter",
         "Nick Phillips",
-        "Ash A. Alizadeh",
+        "Ash Alizadeh",
         "Kangwook Lee",
-        "José Blanchet",
-        "Mert Pilancı",
+        "Jose Blanchet",
+        "Mert Pilanci",
         "Robert Tibshirani"
       ],
       "source": "OpenAlex + arXiv",
@@ -1032,30 +1096,13 @@
       "url": "https://doi.org/10.48550/arxiv.2502.06777",
       "authors": [
         "Yuxuan Han",
-        "Zhong Han",
+        "Han Zhong",
         "Miao Lu",
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhengyuan Zhou"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2502.06777"
-    },
-    {
-      "title": "Quantum speedup of non-linear Monte Carlo problems",
-      "year": 2025,
-      "date": "2025-02-07",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "doi": "10.48550/arxiv.2502.05094",
-      "url": "https://doi.org/10.48550/arxiv.2502.05094",
-      "authors": [
-        "José Blanchet",
-        "Yassine Hamoudi",
-        "Márió Szegedy",
-        "Guanyang Wang"
-      ],
-      "source": "OpenAlex + arXiv",
-      "id": "doi:10.48550/arxiv.2502.05094"
     },
     {
       "title": "Tightening Causal Bounds via Covariate-Aware Optimal Transport",
@@ -1068,11 +1115,43 @@
       "authors": [
         "Sirui Lin",
         "Zijun Gao",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2502.01164"
+    },
+    {
+      "title": "Estimation of Treatment Effects in Extreme and Unobserved Data",
+      "year": 2025,
+      "date": "2025-01-01",
+      "venue": "neural information processing systems",
+      "type": "conference-paper",
+      "doi": "10.52202/085713-3788",
+      "url": "https://doi.org/10.52202/085713-3788",
+      "authors": [
+        "Jiyuan Tan",
+        "Jose Blanchet",
+        "Vasilis Syrgkanis"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.52202/085713-3788"
+    },
+    {
+      "title": "Improved Confidence Regions and Optimal Algorithms for Online and Offline Linear MNL Bandits",
+      "year": 2025,
+      "date": "2025-01-01",
+      "venue": "neural information processing systems",
+      "type": "conference-paper",
+      "doi": "10.52202/085713-0512",
+      "url": "https://doi.org/10.52202/085713-0512",
+      "authors": [
+        "Yuxuan Han",
+        "José Blanchet",
+        "Zhengyuan Zhou"
+      ],
+      "source": "OpenAlex",
+      "id": "doi:10.52202/085713-0512"
     },
     {
       "title": "Multi-Agent Learning under Uncertainty: Recurrence vs. Concentration",
@@ -1086,10 +1165,27 @@
         "Kyriakos Lotidis",
         "Panayotis Mertikopoulos",
         "Nicholas Bambos",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.52202/085713-2640"
+    },
+    {
+      "title": "Quantum speedup of non-linear Monte Carlo problems",
+      "year": 2025,
+      "date": "2025-01-01",
+      "venue": "neural information processing systems",
+      "type": "conference-paper",
+      "doi": "10.52202/085713-0631",
+      "url": "https://doi.org/10.52202/085713-0631",
+      "authors": [
+        "José Blanchet",
+        "Yassine Hamoudi",
+        "Márió Szegedy",
+        "Guanyang Wang"
+      ],
+      "source": "OpenAlex + arXiv",
+      "id": "doi:10.52202/085713-0631"
     },
     {
       "title": "Robust Equilibria in Continuous Games: From Strategic to Dynamic Robustness",
@@ -1103,7 +1199,7 @@
         "Kyriakos Lotidis",
         "Panayotis Mertikopoulos",
         "Nicholas Bambos",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.52202/085713-0276"
@@ -1131,7 +1227,7 @@
       "authors": [
         "Patrick Kuiper",
         "Sirui Lin",
-        "José Blanchet",
+        "Jose Blanchet",
         "Vahid Tarokh"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1165,7 +1261,7 @@
       "doi": "10.1287/opre.2021.0765",
       "url": "https://doi.org/10.1287/opre.2021.0765",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Henry Lam",
         "Yang Liu",
         "Ruodu Wang"
@@ -1182,7 +1278,7 @@
       "doi": "10.48550/arxiv.2410.16340",
       "url": "https://doi.org/10.48550/arxiv.2410.16340",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Aleksandar Mijatović",
         "Wenhao Yang"
       ],
@@ -1199,12 +1295,12 @@
       "url": "https://doi.org/10.48550/arxiv.2410.14864",
       "authors": [
         "Yanlin Qu",
-        "Kant, Ravi",
+        "Ravi Kant",
         "Yan Chen",
         "Brendan Kitts",
         "San Gultekin",
         "Aaron Flores",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2410.14864"
@@ -1219,8 +1315,8 @@
       "url": "https://doi.org/10.48550/arxiv.2410.08994",
       "authors": [
         "Yan Chen",
-        "José Blanchet",
-        "Krzysztof Dembczyński",
+        "Jose Blanchet",
+        "Krzysztof Dembczynski",
         "Laura Fee Nern",
         "Aaron Flores"
       ],
@@ -1236,7 +1332,7 @@
       "doi": "10.48550/arxiv.2410.02635",
       "url": "https://doi.org/10.48550/arxiv.2410.02635",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhenyuan Zhang"
       ],
       "source": "OpenAlex + arXiv",
@@ -1252,8 +1348,8 @@
       "url": "https://doi.org/10.48550/arxiv.2408.11753",
       "authors": [
         "Sirui Lin",
-        "José Blanchet",
-        "Peter W. Glynn",
+        "Jose Blanchet",
+        "Peter Glynn",
         "Viet Anh Nguyen"
       ],
       "source": "OpenAlex + arXiv",
@@ -1268,7 +1364,7 @@
       "doi": "10.48550/arxiv.2407.21492",
       "url": "https://doi.org/10.48550/arxiv.2407.21492",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Martin Larsson",
         "Jonghwa Park",
         "Johannes Wiesel"
@@ -1290,7 +1386,7 @@
         "Wenhao Yang",
         "Yuting Ng",
         "Hoda Bidkhori",
-        "José Blanchet",
+        "Jose Blanchet",
         "Vahid Tarokh"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1305,7 +1401,7 @@
       "doi": "10.48550/arxiv.2407.11825",
       "url": "https://doi.org/10.48550/arxiv.2407.11825",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Joost Jorritsma",
         "Bert Zwart"
       ],
@@ -1322,8 +1418,8 @@
       "url": "https://doi.org/10.48550/arxiv.2406.19619",
       "authors": [
         "Hao Liu",
-        "Junze",
-        "José Blanchet",
+        "Junze Tony Ye",
+        "Jose Blanchet",
         "Nian Si"
       ],
       "source": "OpenAlex + arXiv",
@@ -1339,9 +1435,9 @@
       "url": "https://doi.org/10.48550/arxiv.2406.11281",
       "authors": [
         "Shengbo Wang",
-        "Meng, Jason",
+        "Jason Meng",
         "Nian Si",
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhengyuan Zhou"
       ],
       "source": "OpenAlex + arXiv",
@@ -1351,17 +1447,17 @@
       "title": "Stability Evaluation via Distributional Perturbation Analysis",
       "year": 2024,
       "date": "2024-05-06",
-      "venue": "arXiv",
+      "venue": "arXiv (Cornell University)",
       "type": "preprint",
       "doi": "10.48550/arxiv.2405.03198",
-      "url": "https://arxiv.org/abs/2405.03198",
+      "url": "https://doi.org/10.48550/arxiv.2405.03198",
       "authors": [
         "Jose Blanchet",
         "Peng Cui",
         "Jiajin Li",
         "Jiashuo Liu"
       ],
-      "source": "arXiv",
+      "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2405.03198"
     },
     {
@@ -1374,29 +1470,12 @@
       "url": "https://doi.org/10.48550/arxiv.2404.19145",
       "authors": [
         "Kaizhao Liu",
-        "José Blanchet",
+        "Jose Blanchet",
         "Lexing Ying",
         "Yiping Lu"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2404.19145"
-    },
-    {
-      "title": "On the First Passage Times of Branching Random Walks in $\\mathbb R^d$",
-      "year": 2024,
-      "date": "2024-04-13",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "doi": "10.48550/arxiv.2404.09064",
-      "url": "https://doi.org/10.48550/arxiv.2404.09064",
-      "authors": [
-        "José Blanchet",
-        "Wei Cai",
-        "Shaswat Mohanty",
-        "Zhenyuan Zhang"
-      ],
-      "source": "OpenAlex + arXiv",
-      "id": "doi:10.48550/arxiv.2404.09064"
     },
     {
       "title": "Modeling shortest paths in polymeric networks using spatial branching processes",
@@ -1409,7 +1488,7 @@
       "authors": [
         "Zhenyuan Zhang",
         "Shaswat Mohanty",
-        "José Blanchet",
+        "Jose Blanchet",
         "Wei Cai"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1425,7 +1504,7 @@
       "url": "https://doi.org/10.48550/arxiv.2404.01431",
       "authors": [
         "Guanyang Wang",
-        "José Blanchet",
+        "Jose Blanchet",
         "Peter W. Glynn"
       ],
       "source": "OpenAlex + arXiv",
@@ -1441,7 +1520,7 @@
       "url": "https://doi.org/10.1287/moor.2020.0094",
       "authors": [
         "Mihail Bazhba",
-        "José Blanchet",
+        "Jose Blanchet",
         "Chang-Han Rhee",
         "Bert Zwart"
       ],
@@ -1457,8 +1536,8 @@
       "doi": "10.48550/arxiv.2401.07497",
       "url": "https://doi.org/10.48550/arxiv.2401.07497",
       "authors": [
-        "José Blanchet",
-        "Márió Szegedy",
+        "Jose Blanchet",
+        "Mario Szegedy",
         "Guanyang Wang"
       ],
       "source": "OpenAlex + arXiv",
@@ -1475,7 +1554,7 @@
       "authors": [
         "Xinru Hua",
         "Rasool Ahmad",
-        "José Blanchet",
+        "Jose Blanchet",
         "Wei Cai"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1507,8 +1586,8 @@
       "url": "https://doi.org/10.52202/079017-2795",
       "authors": [
         "Shengbo Wang",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.52202/079017-2795"
@@ -1522,7 +1601,7 @@
       "doi": "10.52202/079017-1113",
       "url": "https://doi.org/10.52202/079017-1113",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Jiajin Li",
         "Markus Pelger",
         "Greg Zanotti"
@@ -1552,7 +1631,7 @@
       "url": "https://doi.org/10.52202/079017-2203",
       "authors": [
         "Jiyuan Tan",
-        "José Blanchet",
+        "Jose Blanchet",
         "Vasilis Syrgkanis"
       ],
       "source": "OpenAlex + arXiv",
@@ -1568,8 +1647,8 @@
       "url": "https://doi.org/10.52202/079017-2692",
       "authors": [
         "Yanlin Qu",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.52202/079017-2692"
@@ -1583,10 +1662,10 @@
       "doi": "10.52202/079017-0399",
       "url": "https://doi.org/10.52202/079017-0399",
       "authors": [
-        "Miao Lü",
+        "Miao Lu",
         "Han Zhong",
         "Tong Zhang",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.52202/079017-0399"
@@ -1617,8 +1696,8 @@
         "Shenao Zhang",
         "Boyi Liu",
         "Hongyi Guo",
-        "Zhaoran Wang",
-        "José Blanchet",
+        "Yingxiang Yang",
+        "Jose Blanchet",
         "Zhaoran Wang"
       ],
       "source": "OpenAlex + arXiv",
@@ -1646,7 +1725,7 @@
       "url": "https://doi.org/10.48550/arxiv.2312.09862",
       "authors": [
         "Xuhui Zhang",
-        "José Blanchet",
+        "Jose Blanchet",
         "Youssef Marzouk",
         "Viet Anh Nguyen",
         "Sven Wang"
@@ -1683,7 +1762,7 @@
       "doi": "10.1109/wsc60868.2023.10408421",
       "url": "https://doi.org/10.1109/wsc60868.2023.10408421",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Alexander Shapiro"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1717,7 +1796,7 @@
       "authors": [
         "Shengbo Wang",
         "Nian Si",
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhengyuan Zhou"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1733,8 +1812,8 @@
       "url": "https://doi.org/10.48550/arxiv.2310.08833",
       "authors": [
         "Shengbo Wang",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2310.08833"
@@ -1748,7 +1827,7 @@
       "doi": "10.1287/stsy.2021.0021",
       "url": "https://doi.org/10.1287/stsy.2021.0021",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Fan Zhang",
         "Bert Zwart"
       ],
@@ -1766,8 +1845,8 @@
       "authors": [
         "Yuan Shi",
         "Saied Mahdian",
-        "José Blanchet",
-        "Peter W. Glynn",
+        "Jose Blanchet",
+        "Peter Glynn",
         "Andrew Y. Shin",
         "David Scheinker"
       ],
@@ -1783,10 +1862,10 @@
       "doi": "10.48550/arxiv.2308.05414",
       "url": "https://doi.org/10.48550/arxiv.2308.05414",
       "authors": [
-        "José Blanchet",
-        "Daniel Kühn",
+        "Jose Blanchet",
+        "Daniel Kuhn",
         "Jiajin Li",
-        "Bahar Taşkesen"
+        "Bahar Taskesen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2308.05414"
@@ -1803,7 +1882,7 @@
         "Xinru Hua",
         "Truyen Nguyen",
         "Tam Le",
-        "José Blanchet",
+        "Jose Blanchet",
         "Viet Anh Nguyen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1838,7 +1917,7 @@
       "authors": [
         "Shengbo Wang",
         "Nian Si",
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhengyuan Zhou"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1853,7 +1932,7 @@
       "doi": "10.48550/arxiv.2305.16527",
       "url": "https://doi.org/10.48550/arxiv.2305.16527",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Haoxuan Chen",
         "Yiping Lu",
         "Lexing Ying"
@@ -1873,7 +1952,7 @@
         "Nian Si",
         "Fan Zhang",
         "Zhengyuan Zhou",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "Crossref + ORCID + OpenAlex + arXiv",
       "id": "doi:10.1287/mnsc.2023.4678"
@@ -1892,8 +1971,8 @@
         "Lemin Kong",
         "Huikang Liu",
         "Jia Li",
-        "Anthony Man–Cho So",
-        "José Blanchet"
+        "Anthony Man-Cho So",
+        "Jose Blanchet"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2303.06595"
@@ -1907,7 +1986,7 @@
       "doi": "10.1287/moor.2023.1358",
       "url": "https://doi.org/10.1287/moor.2023.1358",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Renyuan Xu",
         "Zhengyuan Zhou"
       ],
@@ -1925,7 +2004,7 @@
       "authors": [
         "Shengbo Wang",
         "Nian Si",
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhengyuan Zhou"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -1960,8 +2039,8 @@
       "url": "https://doi.org/10.48550/arxiv.2302.07477",
       "authors": [
         "Shengbo Wang",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2302.07477"
@@ -1977,7 +2056,7 @@
       "authors": [
         "Zhipeng Liang",
         "Xiaoteng Ma",
-        "José Blanchet",
+        "Jose Blanchet",
         "Jiheng Zhang",
         "Zhengyuan Zhou"
       ],
@@ -2128,7 +2207,7 @@
         "Taoli Zheng",
         "Linglingzhi Zhu",
         "Anthony Man-Cho So",
-        "José Blanchet",
+        "Jose Blanchet",
         "Jiajin Li"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2174,7 +2253,7 @@
       "authors": [
         "Zhengqing Zhou",
         "Guanyang Wang",
-        "José Blanchet",
+        "Jose Blanchet",
         "Peter W. Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2191,8 +2270,8 @@
       "authors": [
         "Xinru Hua",
         "Huanzhong Xu",
-        "José Blanchet",
-        "Viet Anh Nguyen"
+        "Jose Blanchet",
+        "Viet Nguyen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1109/wsc57314.2022.10015376"
@@ -2209,7 +2288,7 @@
         "Yiping Lu",
         "Jiajin Li",
         "Lexing Ying",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2211.15241"
@@ -2234,23 +2313,6 @@
       "id": "doi:10.1021/acs.jctc.2c00623"
     },
     {
-      "title": "Tikhonov Regularization is Optimal Transport Robust under Martingale Constraints",
-      "year": 2022,
-      "date": "2022-10-04",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "doi": "10.48550/arxiv.2210.01413",
-      "url": "https://doi.org/10.48550/arxiv.2210.01413",
-      "authors": [
-        "Jiajin Li",
-        "Si-rui Lin",
-        "José Blanchet",
-        "Viet Anh Nguyen"
-      ],
-      "source": "ORCID + OpenAlex + arXiv",
-      "id": "doi:10.48550/arxiv.2210.01413"
-    },
-    {
       "title": "Minimax Optimal Kernel Operator Learning via Multilevel Training",
       "year": 2022,
       "date": "2022-09-28",
@@ -2261,7 +2323,7 @@
       "authors": [
         "Jikai Jin",
         "Yiping Lu",
-        "José Blanchet",
+        "Jose Blanchet",
         "Lexing Ying"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2278,9 +2340,9 @@
       "authors": [
         "Xiaoteng Ma",
         "Zhipeng Liang",
-        "José Blanchet",
+        "Jose Blanchet",
         "Mingwen Liu",
-        "Xia, Li",
+        "Li Xia",
         "Jiheng Zhang",
         "Qianchuan Zhao",
         "Zhengyuan Zhou"
@@ -2334,27 +2396,11 @@
         "Lemin Kong",
         "Huikang Liu",
         "Jia Li",
-        "Anthony Man–Cho So",
-        "José Blanchet"
+        "Anthony Man-Cho So",
+        "Jose Blanchet"
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2205.08115"
-    },
-    {
-      "title": "Sobolev Acceleration and Statistical Optimality for Learning Elliptic Equations via Gradient Descent",
-      "year": 2022,
-      "date": "2022-05-15",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "doi": "10.48550/arxiv.2205.07331",
-      "url": "https://doi.org/10.48550/arxiv.2205.07331",
-      "authors": [
-        "Yiping Lu",
-        "José Blanchet",
-        "Lexing Ying"
-      ],
-      "source": "ORCID + OpenAlex + arXiv",
-      "id": "doi:10.48550/arxiv.2205.07331"
     },
     {
       "title": "Some open problems in exact simulation of stochastic differential equations",
@@ -2381,9 +2427,9 @@
       "authors": [
         "Jin Xie",
         "Teng Zhang",
-        "José Blanchet",
-        "Peter W. Glynn",
-        "Matthew E. Randolph",
+        "Jose Blanchet",
+        "Peter Glynn",
+        "Matthew Randolph",
         "David Scheinker"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2399,7 +2445,7 @@
       "url": "https://doi.org/10.48550/arxiv.2202.11685",
       "authors": [
         "Xuhui Zhang",
-        "José Blanchet",
+        "Jose Blanchet",
         "Soumyadip Ghosh",
         "Mark S. Squillante"
       ],
@@ -2415,11 +2461,11 @@
       "doi": "10.1287/opre.2021.2186",
       "url": "https://doi.org/10.1287/opre.2021.2186",
       "authors": [
-        "José Blanchet",
+        "Jose H. Blanchet",
         "Martin I. Reiman",
         "Virag Shah",
         "Lawrence M. Wein",
-        "L Wu"
+        "Linjia Wu"
       ],
       "source": "Crossref + ORCID + OpenAlex",
       "id": "doi:10.1287/opre.2021.2186"
@@ -2454,9 +2500,9 @@
       "doi": "10.2139/ssrn.4024810",
       "url": "https://doi.org/10.2139/ssrn.4024810",
       "authors": [
-        "José Blanchet",
-        "Fernando Hernández",
-        "Viet-Anh Nguyen",
+        "Jose Blanchet",
+        "Fernando Hernandez",
+        "Viet Anh Nguyen",
         "Markus Pelger",
         "Xuhui Zhang"
       ],
@@ -2516,6 +2562,39 @@
       "id": "title:fastandprovablyconvergentalgorithmsforgromovwassersteiningraphlearning"
     },
     {
+      "title": "Sobolev Acceleration and Statistical Optimality for Learning Elliptic Equations Via Gradient Descent",
+      "year": 2022,
+      "date": "2022-01-01",
+      "venue": "neural information processing systems",
+      "type": "conference-paper",
+      "doi": "10.52202/068431-2408",
+      "url": "https://doi.org/10.52202/068431-2408",
+      "authors": [
+        "Yiping Lu",
+        "Jose Blanchet",
+        "Lexing Ying"
+      ],
+      "source": "ORCID + OpenAlex + arXiv",
+      "id": "doi:10.52202/068431-2408"
+    },
+    {
+      "title": "Tikhonov Regularization is Optimal Transport Robust Under Martingale Constraints",
+      "year": 2022,
+      "date": "2022-01-01",
+      "venue": "neural information processing systems",
+      "type": "conference-paper",
+      "doi": "10.52202/068431-1285",
+      "url": "https://doi.org/10.52202/068431-1285",
+      "authors": [
+        "Jiajin Li",
+        "Sirui Lin",
+        "Jose Blanchet",
+        "Viet Anh Nguyen"
+      ],
+      "source": "ORCID + OpenAlex + arXiv",
+      "id": "doi:10.52202/068431-1285"
+    },
+    {
       "title": "Wasserstein Distributionally Robust Gaussian Process Regression and Linear Inverse Problems",
       "year": 2022,
       "date": "2022-01-01",
@@ -2536,7 +2615,7 @@
       "doi": "10.1287/mnsc.2021.4155",
       "url": "https://doi.org/10.1287/mnsc.2021.4155",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Lin Chen",
         "Xun Yu Zhou"
       ],
@@ -2586,7 +2665,7 @@
       "doi": "10.1287/moor.2021.1178",
       "url": "https://doi.org/10.1287/moor.2021.1178",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Karthyek Murthy",
         "Fan Zhang"
       ],
@@ -2606,7 +2685,7 @@
         "Haoxuan Chen",
         "Jianfeng Lu",
         "Lexing Ying",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2110.06897"
@@ -2620,7 +2699,7 @@
       "doi": "10.1287/educ.2021.0233",
       "url": "https://doi.org/10.1287/educ.2021.0233",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Karthyek Murthy",
         "Viet Anh Nguyen"
       ],
@@ -2639,7 +2718,7 @@
         "Tam Le",
         "Truyen Nguyen",
         "Makoto Yamada",
-        "José Blanchet",
+        "Jose Blanchet",
         "Viet Anh Nguyen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2673,7 +2752,7 @@
       "url": "https://doi.org/10.48550/arxiv.2106.07191",
       "authors": [
         "Zhengqing Zhou",
-        "José Blanchet",
+        "Jose Blanchet",
         "Peter W. Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2690,7 +2769,7 @@
       "authors": [
         "Nian Si",
         "Karthyek Murthy",
-        "José Blanchet",
+        "Jose Blanchet",
         "Viet Anh Nguyen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2705,10 +2784,10 @@
       "doi": "10.1287/stsy.2021.0077",
       "url": "https://doi.org/10.1287/stsy.2021.0077",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Xinyun Chen",
-        "Nian Si",
-        "Peter W. Glynn"
+        "Peter Glynn",
+        "Nian Si"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1287/stsy.2021.0077"
@@ -2722,10 +2801,10 @@
       "doi": "10.48550/arxiv.2106.00322",
       "url": "https://doi.org/10.48550/arxiv.2106.00322",
       "authors": [
-        "Bahar Taşkesen",
-        "Man Chung Yue",
-        "José Blanchet",
-        "Daniel Kühn",
+        "Bahar Taskesen",
+        "Man-Chung Yue",
+        "Jose Blanchet",
+        "Daniel Kuhn",
         "Viet Anh Nguyen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2741,8 +2820,8 @@
       "url": "https://doi.org/10.48550/arxiv.2105.05352",
       "authors": [
         "Carson Kent",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2105.05352"
@@ -2756,7 +2835,7 @@
       "doi": "10.1093/biomet/asab026",
       "url": "https://doi.org/10.1093/biomet/asab026",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Karthyek Murthy",
         "Nian Si"
       ],
@@ -2772,7 +2851,7 @@
       "doi": "10.1002/9781119821588.ch4",
       "url": "https://doi.org/10.1002/9781119821588.ch4",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Yang Kang",
         "Fan Zhang",
         "Fei He",
@@ -2790,7 +2869,7 @@
       "doi": "10.1287/opre.2020.2028",
       "url": "https://doi.org/10.1287/opre.2020.2028",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Yang Kang"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2846,7 +2925,7 @@
         "Zhengyuan Zhou",
         "Xi Chen",
         "Nicholas Bambos",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2103.04550"
@@ -2860,9 +2939,9 @@
       "doi": "10.1145/3442188.3445927",
       "url": "https://doi.org/10.1145/3442188.3445927",
       "authors": [
-        "Bahar Taşkesen",
-        "José Blanchet",
-        "Daniel Kühn",
+        "Bahar Taskesen",
+        "Jose Blanchet",
+        "Daniel Kuhn",
         "Viet Anh Nguyen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2877,9 +2956,9 @@
       "doi": "10.48550/arxiv.2102.12736",
       "url": "https://doi.org/10.48550/arxiv.2102.12736",
       "authors": [
-        "José Blanchet",
-        "Fernando Hernández",
-        "Viêt Anh Nguyên",
+        "Jose Blanchet",
+        "Fernando Hernandez",
+        "Viet Anh Nguyen",
         "Markus Pelger",
         "Xuhui Zhang"
       ],
@@ -2917,9 +2996,9 @@
         "Ali Hasan",
         "Khalil Elkhalil",
         "Yuting Ng",
-        "João M. Pereira",
+        "Joao M. Pereira",
         "Sina Farsiu",
-        "José Blanchet",
+        "Jose H. Blanchet",
         "Vahid Tarokh"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2962,7 +3041,7 @@
       "doi": "10.1017/apr.2020.39",
       "url": "https://doi.org/10.1017/apr.2020.39",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Fan Zhang"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -2996,7 +3075,7 @@
       "authors": [
         "Viet Anh Nguyen",
         "Fan Zhang",
-        "José Blanchet",
+        "Jose Blanchet",
         "Erick Delage",
         "Yinyu Ye"
       ],
@@ -3014,7 +3093,7 @@
       "authors": [
         "Viet Anh Nguyen",
         "Xuhui Zhang",
-        "José Blanchet",
+        "Jose Blanchet",
         "Angelos Georghiou"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -3029,9 +3108,9 @@
       "doi": "10.48550/arxiv.2009.06111",
       "url": "https://doi.org/10.48550/arxiv.2009.06111",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Yang Kang",
-        "José Luis Montiel Olea",
+        "Jose Luis Montiel Olea",
         "Viet Anh Nguyen",
         "Xuhui Zhang"
       ],
@@ -3047,10 +3126,10 @@
       "doi": "10.48550/arxiv.2007.09530",
       "url": "https://doi.org/10.48550/arxiv.2007.09530",
       "authors": [
-        "Bahar Taşkesen",
+        "Bahar Taskesen",
         "Viet Anh Nguyen",
-        "Daniel Kühn",
-        "José Blanchet"
+        "Daniel Kuhn",
+        "Jose Blanchet"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2007.09530"
@@ -3083,7 +3162,7 @@
       "authors": [
         "Viet Anh Nguyen",
         "Nian Si",
-        "José Blanchet"
+        "Jose Blanchet"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2007.04458"
@@ -3137,11 +3216,26 @@
       "doi": "10.1287/moor.2019.1006",
       "url": "https://doi.org/10.1287/moor.2019.1006",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Xinyun Chen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1287/moor.2019.1006"
+    },
+    {
+      "title": "Semi‐supervised Learning Based on Distributionally Robust Optimization",
+      "year": 2020,
+      "date": "2020-04-15",
+      "venue": "Wiley eBooks",
+      "type": "book-chapter",
+      "doi": "10.1002/9781119721871.ch1",
+      "url": "https://doi.org/10.1002/9781119721871.ch1",
+      "authors": [
+        "Jose Blanchet",
+        "Yang Kang"
+      ],
+      "source": "ORCID + OpenAlex + arXiv",
+      "id": "doi:10.1002/9781119721871.ch1"
     },
     {
       "title": "Sequential Batch Learning in Finite-Action Linear Contextual Bandits",
@@ -3154,8 +3248,8 @@
       "authors": [
         "Yanjun Han",
         "Zhengqing Zhou",
-        "Zhengyuan Zhou",
-        "José Blanchet",
+        "Zihao Hu",
+        "Jose Blanchet",
         "Peter W. Glynn",
         "Yinyu Ye",
         "Zhengyuan Zhou"
@@ -3177,10 +3271,10 @@
         "Jacqueline Vallon",
         "Linying Yang",
         "Jin Xie",
-        "José Blanchet",
-        "Peter W. Glynn",
+        "Jose Blanchet",
+        "Peter Glynn",
         "Kristan Staudenmayer",
-        "Kevin A. Schulman",
+        "Kevin Schulman",
         "David Scheinker"
       ],
       "source": "Crossref + ORCID + OpenAlex",
@@ -3195,7 +3289,7 @@
       "doi": "10.48550/arxiv.2002.03205",
       "url": "https://doi.org/10.48550/arxiv.2002.03205",
       "authors": [
-        "José Blanchet",
+        "Jose H. Blanchet",
         "Martin I. Reiman",
         "Viragh Shah",
         "Lawrence M. Wein",
@@ -3229,9 +3323,9 @@
       "doi": "10.1007/s10687-019-00371-1",
       "url": "https://doi.org/10.1007/s10687-019-00371-1",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Fei He",
-        "Karthyek Murthy"
+        "Karthyek R. A. Murthy"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1007/s10687-019-00371-1"
@@ -3254,19 +3348,38 @@
       "id": "title:quantifyingtheempiricalwassersteindistancetoasetofmeasuresbeatingthecurseofdimensionality"
     },
     {
-      "title": "Semi-supervised Learning Based on Distributionally Robust Optimization",
-      "year": 2020,
-      "date": "2020-01-01",
-      "venue": "Data Analysis and Applications 3: Computational, Classification, Financial, Statistical and Stochastic Methods",
-      "type": "journal-article",
-      "doi": "10.48550/arxiv.1702.08848",
-      "url": "https://arxiv.org/abs/1702.08848",
+      "title": "A Distributionally Robust Boosting Algorithm",
+      "year": 2019,
+      "date": "2019-12-01",
+      "venue": "Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": "10.1109/wsc40007.2019.9004804",
+      "url": "https://doi.org/10.1109/wsc40007.2019.9004804",
       "authors": [
         "Jose Blanchet",
-        "Yang Kang"
+        "Yang Kang",
+        "Fan Zhang",
+        "Zhangyi Hu"
       ],
-      "source": "ORCID + arXiv",
-      "id": "doi:10.48550/arxiv.1702.08848"
+      "source": "ORCID + OpenAlex + arXiv",
+      "id": "doi:10.1109/wsc40007.2019.9004804"
+    },
+    {
+      "title": "Data-Driven Optimal Transport Cost Selection For Distributionally Robust Optimization",
+      "year": 2019,
+      "date": "2019-12-01",
+      "venue": "Winter Simulation Conference",
+      "type": "conference-paper",
+      "doi": "10.1109/wsc40007.2019.9004785",
+      "url": "https://doi.org/10.1109/wsc40007.2019.9004785",
+      "authors": [
+        "José Blanchet",
+        "Yang Kang",
+        "Karthyek Murthy",
+        "Fan Zhang"
+      ],
+      "source": "ORCID + OpenAlex",
+      "id": "doi:10.1109/wsc40007.2019.9004785"
     },
     {
       "title": "Exact sampling for some multi-dimensional queueing models with renewal input",
@@ -3326,7 +3439,7 @@
       "doi": "10.1016/j.orl.2019.10.005",
       "url": "https://doi.org/10.1016/j.orl.2019.10.005",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Nian Si"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -3374,7 +3487,7 @@
       "doi": "10.1287/opre.2019.1852",
       "url": "https://doi.org/10.1287/opre.2019.1852",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Juan Li",
         "Marvin K. Nakayama"
       ],
@@ -3390,7 +3503,7 @@
       "doi": "10.1017/jpr.2019.49",
       "url": "https://doi.org/10.1017/jpr.2019.49",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Yang Kang",
         "Karthyek Murthy"
       ],
@@ -3407,8 +3520,8 @@
       "url": "https://doi.org/10.48550/arxiv.1906.03317",
       "authors": [
         "Saied Mahdian",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.1906.03317"
@@ -3422,7 +3535,7 @@
       "doi": "10.48550/arxiv.1905.12231",
       "url": "https://doi.org/10.48550/arxiv.1905.12231",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Peter W. Glynn",
         "Jun Yan",
         "Zhengqing Zhou"
@@ -3440,7 +3553,7 @@
       "url": "https://doi.org/10.1287/moor.2018.0950",
       "authors": [
         "Bohan Chen",
-        "José Blanchet",
+        "Jose Blanchet",
         "Chang-Han Rhee",
         "Bert Zwart"
       ],
@@ -3456,7 +3569,7 @@
       "doi": "10.48550/arxiv.1904.09929",
       "url": "https://doi.org/10.48550/arxiv.1904.09929",
       "authors": [
-        "José Blanchet",
+        "Jose H. Blanchet",
         "Peter W. Glynn",
         "Yanan Pei"
       ],
@@ -3472,7 +3585,7 @@
       "doi": "10.1287/moor.2018.0941",
       "url": "https://doi.org/10.1287/moor.2018.0941",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Xinyun Chen"
       ],
       "source": "Crossref + ORCID + OpenAlex",
@@ -3487,7 +3600,7 @@
       "doi": "10.1287/moor.2018.0936",
       "url": "https://doi.org/10.1287/moor.2018.0936",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Karthyek Murthy"
       ],
       "source": "Crossref + ORCID + OpenAlex + arXiv",
@@ -3502,7 +3615,7 @@
       "doi": "10.1287/ijoo.2019.0016",
       "url": "https://doi.org/10.1287/ijoo.2019.0016",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Coralia Cartis",
         "Matt Menickelly",
         "Katya Scheinberg"
@@ -3519,7 +3632,7 @@
       "doi": "10.1017/jpr.2019.9",
       "url": "https://doi.org/10.1017/jpr.2019.9",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Jing Dong",
         "Zhipeng Liu"
       ],
@@ -3536,8 +3649,8 @@
       "url": "https://doi.org/10.48550/arxiv.1901.10691",
       "authors": [
         "Casey Chu",
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.1901.10691"
@@ -3552,7 +3665,7 @@
       "url": "https://doi.org/10.48550/arxiv.1901.02045",
       "authors": [
         "Virag Shah",
-        "José Blanchet",
+        "Jose Blanchet",
         "Ramesh Johari"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -3574,35 +3687,6 @@
       ],
       "source": "ORCID + OpenAlex",
       "id": "doi:10.1080/10920277.2018.1504686"
-    },
-    {
-      "title": "A distributionally robust boosting algorithm",
-      "year": 2019,
-      "date": "2019-01-01",
-      "venue": "2019 Winter Simulation Conference (WSC)",
-      "type": "conference-paper",
-      "doi": "10.48550/arxiv.1905.07845",
-      "url": "https://arxiv.org/abs/1905.07845",
-      "authors": [
-        "Jose Blanchet",
-        "Yang Kang",
-        "Fan Zhang",
-        "Zhangyi Hu"
-      ],
-      "source": "ORCID + arXiv",
-      "id": "doi:10.48550/arxiv.1905.07845"
-    },
-    {
-      "title": "Data-driven optimal transport cost selection for distributionally robust optimization",
-      "year": 2019,
-      "date": "2019-01-01",
-      "venue": "2019 winter simulation conference (WSC)",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "",
-      "authors": [],
-      "source": "ORCID",
-      "id": "title:datadrivenoptimaltransportcostselectionfordistributionallyrobustoptimization"
     },
     {
       "title": "Online EXP3 Learning in Adversarial Bandits with Delayed Feedback",
@@ -3673,7 +3757,7 @@
       "doi": "10.48550/arxiv.1806.03362",
       "url": "https://doi.org/10.48550/arxiv.1806.03362",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Fengpei Li",
         "Xiaoou Li"
       ],
@@ -3689,7 +3773,7 @@
       "doi": "10.1007/s11134-018-9573-2",
       "url": "https://doi.org/10.1007/s11134-018-9573-2",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Jing Dong",
         "Yanan Pei"
       ],
@@ -3724,7 +3808,7 @@
       "authors": [
         "Afrooz Jalilzadeh",
         "Uday V. Shanbhag",
-        "José Blanchet",
+        "Jose H. Blanchet",
         "Peter W. Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -3739,8 +3823,8 @@
       "doi": "10.1017/jpr.2018.10",
       "url": "https://doi.org/10.1017/jpr.2018.10",
       "authors": [
-        "José Blanchet",
-        "Karthyek Murthy"
+        "Jose Blanchet",
+        "Karthyek R. A. Murthy"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1017/jpr.2018.10"
@@ -3755,7 +3839,7 @@
       "url": "https://doi.org/10.48550/arxiv.1802.05693",
       "authors": [
         "Virag Shah",
-        "José Blanchet",
+        "Jose Blanchet",
         "Ramesh Johari"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -3770,7 +3854,7 @@
       "doi": "10.1007/978-3-319-91436-7_4",
       "url": "https://doi.org/10.1007/978-3-319-91436-7_4",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Zhipeng Liu"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -3817,7 +3901,7 @@
       "doi": "10.48550/arxiv.1711.07564",
       "url": "https://doi.org/10.48550/arxiv.1711.07564",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Donald Goldfarb",
         "Garud Iyengar",
         "Fengpei Li",
@@ -3836,7 +3920,7 @@
       "url": "https://doi.org/10.48550/arxiv.1710.04013",
       "authors": [
         "Mihail Bazhba",
-        "José Blanchet",
+        "Jose Blanchet",
         "Chang-Han Rhee",
         "Bert Zwart"
       ],
@@ -3872,7 +3956,7 @@
       "doi": "10.48550/arxiv.1705.07152",
       "url": "https://arxiv.org/abs/1705.07152v1",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Yang Kang",
         "Fan Zhang",
         "Karthyek Murthy"
@@ -3889,7 +3973,7 @@
       "doi": "10.48550/arxiv.1705.04241",
       "url": "https://doi.org/10.48550/arxiv.1705.04241",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Yang Kang"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4012,7 +4096,7 @@
       "doi": "10.48550/arxiv.1609.07428",
       "url": "https://doi.org/10.48550/arxiv.1609.07428",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Coralia Cartis",
         "Matt Menickelly",
         "Katya Scheinberg"
@@ -4030,7 +4114,7 @@
       "url": "https://doi.org/10.48550/arxiv.1609.06001",
       "authors": [
         "Zhipeng Liu",
-        "José Blanchet",
+        "Jose H. Blanchet",
         "A. B. Dieker",
         "Thomas Mikosch"
       ],
@@ -4095,7 +4179,7 @@
       "url": "https://doi.org/10.48550/arxiv.1606.02795",
       "authors": [
         "Chang-Han Rhee",
-        "José Blanchet",
+        "Jose Blanchet",
         "Bert Zwart"
       ],
       "source": "OpenAlex + arXiv",
@@ -4110,7 +4194,7 @@
       "doi": "10.48550/arxiv.1601.05499",
       "url": "https://doi.org/10.48550/arxiv.1601.05499",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Xinyun Chen"
       ],
       "source": "OpenAlex + arXiv",
@@ -4164,7 +4248,7 @@
       "doi": "10.48550/arxiv.1512.07284",
       "url": "https://doi.org/10.48550/arxiv.1512.07284",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Yanan Pei",
         "Karl Sigman"
       ],
@@ -4226,7 +4310,7 @@
       "doi": "10.1145/2822892",
       "url": "https://doi.org/10.1145/2822892",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Aya Wallwater"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4241,7 +4325,7 @@
       "doi": "10.1214/14-aap1072",
       "url": "https://doi.org/10.1214/14-aap1072",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Xinyun Chen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4279,6 +4363,21 @@
       "id": "doi:10.1007/s12667-015-0160-x"
     },
     {
+      "title": "Tail asymptotics for delay in a half-loaded GI/GI/2 queue with heavy-tailed job sizes",
+      "year": 2015,
+      "date": "2015-06-20",
+      "venue": "Queueing Systems",
+      "type": "article",
+      "doi": "10.1007/s11134-015-9451-0",
+      "url": "https://doi.org/10.1007/s11134-015-9451-0",
+      "authors": [
+        "Jose Blanchet",
+        "Karthyek Murthy"
+      ],
+      "source": "ORCID + OpenAlex + arXiv",
+      "id": "doi:10.1007/s11134-015-9451-0"
+    },
+    {
       "title": "On the Limiting Ratio of Current Age to Total Life for Null Recurrent Renewal Processes",
       "year": 2015,
       "date": "2015-03-29",
@@ -4287,9 +4386,9 @@
       "doi": "10.48550/arxiv.1503.08374",
       "url": "https://doi.org/10.48550/arxiv.1503.08374",
       "authors": [
-        "José Blanchet",
-        "Peter W. Glynn",
-        "Hermann Þórisson"
+        "Jose Blanchet",
+        "Peter Glynn",
+        "Hermann Thorisson"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.1503.08374"
@@ -4303,8 +4402,8 @@
       "doi": "10.48550/arxiv.1502.06451",
       "url": "https://doi.org/10.48550/arxiv.1502.06451",
       "authors": [
-        "José Blanchet",
-        "Peter W. Glynn",
+        "Jose H. Blanchet",
+        "Peter Glynn",
         "Shuheng Zheng"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4326,21 +4425,6 @@
       ],
       "source": "ORCID + OpenAlex",
       "id": "doi:10.1287/moor.2014.0696"
-    },
-    {
-      "title": "Tail asymptotics for delay in a half-loaded GI/GI/2 queue with heavy-tailed job sizes",
-      "year": 2015,
-      "date": "2015-01-01",
-      "venue": "Queueing Systems",
-      "type": "journal-article",
-      "doi": "10.48550/arxiv.1502.04431",
-      "url": "https://arxiv.org/abs/1502.04431",
-      "authors": [
-        "Jose Blanchet",
-        "Karthyek Murthy"
-      ],
-      "source": "ORCID + arXiv",
-      "id": "doi:10.48550/arxiv.1502.04431"
     },
     {
       "title": "Towards a robust top-down model for valuation of mining assets",
@@ -4395,7 +4479,7 @@
       "doi": "10.1287/moor.2014.0654",
       "url": "https://doi.org/10.1287/moor.2014.0654",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Henry Lam"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4426,7 +4510,7 @@
       "doi": "10.48550/arxiv.1403.5722",
       "url": "https://doi.org/10.48550/arxiv.1403.5722",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Xinyun Chen",
         "Jing Dong"
       ],
@@ -4442,7 +4526,7 @@
       "doi": "10.3150/12-bej492",
       "url": "https://doi.org/10.3150/12-bej492",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Jingchen Liu"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4457,8 +4541,8 @@
       "doi": "10.48550/arxiv.1401.0364",
       "url": "https://doi.org/10.48550/arxiv.1401.0364",
       "authors": [
-        "José Blanchet",
-        "Peter W. Glynn",
+        "Jose Blanchet",
+        "Peter Glynn",
         "Shuheng Zheng"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4573,7 +4657,7 @@
       "doi": "10.48550/arxiv.1310.1103",
       "url": "https://doi.org/10.48550/arxiv.1310.1103",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Xinyun Chen"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4706,7 +4790,7 @@
       "doi": "10.48550/arxiv.1212.5635",
       "url": "https://doi.org/10.48550/arxiv.1212.5635",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Jing Dong"
       ],
       "source": "OpenAlex + arXiv",
@@ -4736,7 +4820,7 @@
       "doi": "10.48550/arxiv.1208.2606",
       "url": "https://doi.org/10.48550/arxiv.1208.2606",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Johannes Ruf"
       ],
       "source": "OpenAlex + arXiv",
@@ -4798,7 +4882,7 @@
       "doi": "10.1016/j.spa.2012.05.002",
       "url": "https://doi.org/10.1016/j.spa.2012.05.002",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Henry Lam",
         "Bert Zwart"
       ],
@@ -4815,7 +4899,7 @@
       "url": "https://doi.org/10.1214/11-aap792",
       "authors": [
         "Robert J. Adler",
-        "José Blanchet",
+        "Jose H. Blanchet",
         "Jingchen Liu"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4830,7 +4914,7 @@
       "doi": "10.1016/j.spa.2012.05.001",
       "url": "https://doi.org/10.1016/j.spa.2012.05.001",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Jingchen Liu"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -4860,7 +4944,7 @@
       "doi": "10.1002/rsa.20403",
       "url": "https://doi.org/10.1002/rsa.20403",
       "authors": [
-        "José Blanchet",
+        "Jose Blanchet",
         "Alexandre Stauffer"
       ],
       "source": "ORCID + OpenAlex + arXiv",
@@ -5009,7 +5093,7 @@
       "url": "https://doi.org/10.1007/s10959-011-0379-y",
       "authors": [
         "Henry Lam",
-        "José Blanchet",
+        "Jose Blanchet",
         "Damian Burch",
         "Martin Z. Bazant"
       ],
@@ -5055,8 +5139,8 @@
       "doi": "10.48550/arxiv.1106.2508",
       "url": "https://doi.org/10.48550/arxiv.1106.2508",
       "authors": [
-        "André Thomas",
-        "José Blanchet"
+        "A. C. Thomas",
+        "Jose H. Blanchet"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.1106.2508"
@@ -5253,16 +5337,16 @@
     {
       "title": "Efficient importance sampling for binary contingency tables",
       "year": 2009,
-      "date": "2009-08-07",
-      "venue": "arXiv (Cornell University)",
-      "type": "preprint",
-      "doi": "10.48550/arxiv.0908.0999",
-      "url": "https://doi.org/10.48550/arxiv.0908.0999",
+      "date": "2009-06-01",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": "10.1214/08-aap558",
+      "url": "https://doi.org/10.1214/08-aap558",
       "authors": [
-        "José Blanchet"
+        "Jose H. Blanchet"
       ],
       "source": "ORCID + OpenAlex + arXiv",
-      "id": "doi:10.48550/arxiv.0908.0999"
+      "id": "doi:10.1214/08-aap558"
     },
     {
       "title": "Rare Event Simulation and Counting Problems",
@@ -5421,8 +5505,8 @@
       "doi": "10.1214/07-aap485",
       "url": "https://doi.org/10.1214/07-aap485",
       "authors": [
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.1214/07-aap485"
@@ -5629,19 +5713,19 @@
       "id": "doi:10.1017/s0269964806060360"
     },
     {
-      "title": "Complete Corrected Diffusion Approximations For The Maximum Of A Random Walk",
+      "title": "Complete corrected diffusion approximations for the maximum of a random walk",
       "year": 2006,
-      "date": "2006-01-01",
-      "venue": "ANNALS OF APPLIED PROBABILITY",
-      "type": "preprint",
-      "doi": "10.1214/10505160600000042",
-      "url": "https://doi.org/10.1214/10505160600000042",
+      "date": "2006-05-01",
+      "venue": "The Annals of Applied Probability",
+      "type": "article",
+      "doi": "10.1214/105051606000000042",
+      "url": "https://doi.org/10.1214/105051606000000042",
       "authors": [
-        "José Blanchet",
-        "Peter W. Glynn"
+        "Jose Blanchet",
+        "Peter Glynn"
       ],
       "source": "ORCID + OpenAlex + arXiv",
-      "id": "doi:10.1214/10505160600000042"
+      "id": "doi:10.1214/105051606000000042"
     },
     {
       "title": "Corrected diffusion approximations for the maximum of light-tailed random walk",

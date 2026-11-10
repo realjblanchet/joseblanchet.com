@@ -1,4 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { fetchOpenAlexPages } from './openalex-pagination.mjs';
+import { chooseAuthorList, publicationTitleKey } from './publication-merge.mjs';
 
 const ORCID = '0000-0001-5895-0912';
 const OUTPUT = new URL('../data/publications.json', import.meta.url);
@@ -94,28 +96,27 @@ function isJoseBlanchet(value = '') {
 }
 
 async function fetchOpenAlex() {
-  const records = [];
-  let cursor = '*';
-  for (let page = 0; page < 4 && cursor; page += 1) {
+  const works = await fetchOpenAlexPages(async ({ page, perPage }) => {
     const params = new URLSearchParams({
-      filter: `author.orcid:${ORCID}`, 'per-page': '200', cursor,
+      filter: `author.orcid:${ORCID}`, page: String(page), per_page: String(perPage),
+      sort: 'openalex_id:asc',
       select: 'id,doi,title,publication_year,publication_date,type,authorships,primary_location,is_retracted',
     });
-    const payload = await json(`https://api.openalex.org/works?${params}`);
-    for (const work of payload.results) {
-      const authors = (work.authorships ?? []).map((authorship) => authorship.author?.display_name).filter(Boolean);
-      if (work.is_retracted || work.type === 'dissertation' || !authors.some(isJoseBlanchet)) continue;
-      const doi = normalizeDoi(work.doi);
-      records.push({
-        title: titleCase(work.title ?? ''), year: Number(work.publication_year),
-        date: work.publication_date ?? `${work.publication_year}-01-01`,
-        venue: work.primary_location?.source?.display_name ?? '', type: work.type ?? 'work', doi,
-        url: doi ? `https://doi.org/${doi}` : work.primary_location?.landing_page_url ?? work.id ?? '',
-        authors, source: 'OpenAlex',
-      });
-    }
-    cursor = payload.meta?.next_cursor;
-    if (!payload.results.length) break;
+    return json(`https://api.openalex.org/works?${params}`);
+  });
+
+  const records = [];
+  for (const work of works) {
+    const authors = (work.authorships ?? []).map((authorship) => authorship.author?.display_name).filter(Boolean);
+    if (work.is_retracted || work.type === 'dissertation' || !authors.some(isJoseBlanchet)) continue;
+    const doi = normalizeDoi(work.doi);
+    records.push({
+      title: titleCase(work.title ?? ''), year: Number(work.publication_year),
+      date: work.publication_date ?? `${work.publication_year}-01-01`,
+      venue: work.primary_location?.source?.display_name ?? '', type: work.type ?? 'work', doi,
+      url: doi ? `https://doi.org/${doi}` : work.primary_location?.landing_page_url ?? work.id ?? '',
+      authors, source: 'OpenAlex',
+    });
   }
   return records.filter(plausibleRecord);
 }
@@ -199,7 +200,7 @@ function qualityScore(work) {
 function mergeRecords(left, right) {
   const preferred = qualityScore(right) > qualityScore(left) ? right : left;
   const alternate = preferred === left ? right : left;
-  const authors = (preferred.authors?.length ?? 0) >= (alternate.authors?.length ?? 0) ? preferred.authors : alternate.authors;
+  const authors = chooseAuthorList(left, right);
   return {
     ...alternate, ...preferred,
     title: preferred.title || alternate.title, date: preferred.date || alternate.date,
@@ -229,10 +230,10 @@ function mergeBy(records, keyFor) {
 function deduplicate(records) {
   let merged = mergeBy(records, (work) => normalizeDoi(work.doi));
   merged = mergeBy(merged, (work) => arxivId(work)?.toLowerCase());
-  merged = mergeBy(merged, (work) => normalizeTitle(work.title).replaceAll(' ', ''));
+  merged = mergeBy(merged, (work) => publicationTitleKey(work.title));
   return merged.map((work) => {
     const doi = normalizeDoi(work.doi);
-    const titleKey = normalizeTitle(work.title).replaceAll(' ', '');
+    const titleKey = publicationTitleKey(work.title);
     return {
       ...work, id: doi ? `doi:${doi}` : `title:${titleKey}`, doi,
       url: work.url?.replace(/^http:/i, 'https:') ?? '',
