@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "orcid": "0000-0001-5895-0912",
-  "updatedAt": "2026-11-10T02:46:07.151Z",
+  "updatedAt": "2026-11-16T23:23:35.425Z",
   "count": 358,
   "publications": [
     {
@@ -2277,6 +2277,22 @@
       "id": "doi:10.1109/wsc57314.2022.10015376"
     },
     {
+      "title": "Exact Sampling for the Maximum of Infinite Memory Gaussian Processes",
+      "year": 2022,
+      "date": "2022-11-30",
+      "venue": "Springer eBooks",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-031-10193-9_3",
+      "url": "https://doi.org/10.1007/978-3-031-10193-9_3",
+      "authors": [
+        "José Blanchet",
+        "Lin Chen",
+        "Jing Dong"
+      ],
+      "source": "ORCID + OpenAlex",
+      "id": "doi:10.1007/978-3-031-10193-9_3"
+    },
+    {
       "title": "Synthetic Principal Component Design: Fast Covariate Balancing with Synthetic Controls",
       "year": 2022,
       "date": "2022-11-28",
@@ -2532,22 +2548,6 @@
       "authors": [],
       "source": "ORCID",
       "id": "title:doublysmoothedgdaglobalconvergentalgorithmforconstrainednonconvexnonconcaveminimaxoptimization"
-    },
-    {
-      "title": "Exact Sampling for the Maximum of Infinite Memory Gaussian Processes",
-      "year": 2022,
-      "date": "2022-01-01",
-      "venue": "Advances in Modeling and Simulation: Festschrift for Pierre L'Ecuyer",
-      "type": "book-chapter",
-      "doi": "10.1007/978-3-031-10193-9_3",
-      "url": "https://doi.org/10.1007/978-3-031-10193-9_3",
-      "authors": [
-        "José Blanchet",
-        "Lin Chen",
-        "Jing Dong"
-      ],
-      "source": "ORCID + OpenAlex",
-      "id": "doi:10.1007/978-3-031-10193-9_3"
     },
     {
       "title": "Fast and provably convergent algorithms for gromov-wasserstein in graph learning",
@@ -3749,6 +3749,37 @@
       "id": "doi:10.1021/acscatal.8b02760"
     },
     {
+      "title": "Malliavin-Based Multilevel Monte Carlo Estimators for Densities of Max-Stable Processes",
+      "year": 2018,
+      "date": "2018-07-03",
+      "venue": "Springer proceedings in mathematics & statistics",
+      "type": "conference-paper",
+      "doi": "10.1007/978-3-319-91436-7_4",
+      "url": "https://doi.org/10.1007/978-3-319-91436-7_4",
+      "authors": [
+        "Jose Blanchet",
+        "Zhipeng Liu"
+      ],
+      "source": "ORCID + OpenAlex + arXiv",
+      "id": "doi:10.1007/978-3-319-91436-7_4"
+    },
+    {
+      "title": "Rates of Convergence and CLTs for Subcanonical Debiased MLMC",
+      "year": 2018,
+      "date": "2018-07-03",
+      "venue": "Springer proceedings in mathematics & statistics",
+      "type": "conference-paper",
+      "doi": "10.1007/978-3-319-91436-7_26",
+      "url": "https://doi.org/10.1007/978-3-319-91436-7_26",
+      "authors": [
+        "Zeyu Zheng",
+        "José Blanchet",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex",
+      "id": "doi:10.1007/978-3-319-91436-7_26"
+    },
+    {
       "title": "Unbiased Sampling of Multidimensional Partial Differential Equations with Random Coefficients",
       "year": 2018,
       "date": "2018-06-08",
@@ -3844,37 +3875,6 @@
       ],
       "source": "ORCID + OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.1802.05693"
-    },
-    {
-      "title": "Malliavin-Based Multilevel Monte Carlo Estimators for Densities of Max-Stable Processes",
-      "year": 2018,
-      "date": "2018-01-01",
-      "venue": "Springer proceedings in mathematics & statistics",
-      "type": "conference-paper",
-      "doi": "10.1007/978-3-319-91436-7_4",
-      "url": "https://doi.org/10.1007/978-3-319-91436-7_4",
-      "authors": [
-        "Jose Blanchet",
-        "Zhipeng Liu"
-      ],
-      "source": "ORCID + OpenAlex + arXiv",
-      "id": "doi:10.1007/978-3-319-91436-7_4"
-    },
-    {
-      "title": "Rates of Convergence and CLTs for Subcanonical Debiased MLMC",
-      "year": 2018,
-      "date": "2018-01-01",
-      "venue": "Springer proceedings in mathematics & statistics",
-      "type": "conference-paper",
-      "doi": "10.1007/978-3-319-91436-7_26",
-      "url": "https://doi.org/10.1007/978-3-319-91436-7_26",
-      "authors": [
-        "Zeyu Zheng",
-        "José Blanchet",
-        "Peter W. Glynn"
-      ],
-      "source": "ORCID + OpenAlex",
-      "id": "doi:10.1007/978-3-319-91436-7_26"
     },
     {
       "title": "Computing worst-case expectations given marginals via simulation",
@@ -5318,6 +5318,22 @@
       "id": "doi:10.1007/s11134-009-9154-5"
     },
     {
+      "title": "Efficient Simulation of Light-Tailed Sums: an Old-Folk Song Sung to a Faster New Tune...",
+      "year": 2009,
+      "date": "2009-11-16",
+      "venue": "Springer eBooks",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-642-04107-5_13",
+      "url": "https://doi.org/10.1007/978-3-642-04107-5_13",
+      "authors": [
+        "José Blanchet",
+        "Kevin Leder",
+        "Peter W. Glynn"
+      ],
+      "source": "ORCID + OpenAlex",
+      "id": "doi:10.1007/978-3-642-04107-5_13"
+    },
+    {
       "title": "Efficient simulation of tail probabilities of sums of correlated lognormals",
       "year": 2009,
       "date": "2009-10-27",
@@ -5377,22 +5393,6 @@
       ],
       "source": "ORCID + OpenAlex",
       "id": "doi:10.1002/9780470745403.ch5"
-    },
-    {
-      "title": "Efficient Simulation of Light-Tailed Sums: an Old-Folk Song Sung to a Faster New Tune...",
-      "year": 2009,
-      "date": "2009-01-01",
-      "venue": "8th International Conference on Monte Carlo and Quasi-Monte Carlo Methods in Scientific Computing (MCQMC 08)",
-      "type": "book-chapter",
-      "doi": "10.1007/978-3-642-04107-5_13",
-      "url": "https://doi.org/10.1007/978-3-642-04107-5_13",
-      "authors": [
-        "José Blanchet",
-        "Kevin Leder",
-        "Peter W. Glynn"
-      ],
-      "source": "ORCID + OpenAlex",
-      "id": "doi:10.1007/978-3-642-04107-5_13"
     },
     {
       "title": "Rare# event Simulation for Multidimensional Regularly Varying Random Walks",
