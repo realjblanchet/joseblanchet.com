@@ -1,9 +1,26 @@
 {
   "schemaVersion": 1,
   "orcid": "0000-0001-5895-0912",
-  "updatedAt": "2026-11-16T23:23:35.425Z",
-  "count": 358,
+  "updatedAt": "2026-11-24T01:40:19.284Z",
+  "count": 360,
   "publications": [
+    {
+      "title": "Equity and Aggregate Ambiguity",
+      "year": 2026,
+      "date": "2026-11-19",
+      "venue": "arXiv",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2611.26197",
+      "url": "https://arxiv.org/abs/2611.26197",
+      "authors": [
+        "Jose Blanchet",
+        "Yang Liu",
+        "Tiantian Mao",
+        "Ruodu Wang"
+      ],
+      "source": "arXiv",
+      "id": "doi:10.48550/arxiv.2611.26197"
+    },
     {
       "title": "Convex Regression at Scale: Geometry-Preserving Constraint Sparsification",
       "year": 2026,
@@ -196,6 +213,24 @@
       ],
       "source": "OpenAlex + arXiv",
       "id": "doi:10.48550/arxiv.2608.14906"
+    },
+    {
+      "title": "Learning Max-Stable Representations that Extrapolate",
+      "year": 2026,
+      "date": "2026-08-06",
+      "venue": "Uncertainty in Artificial Intelligence",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v337/hasan26a.html",
+      "authors": [
+        "Ali Hasan",
+        "Patrick Kendal Kuiper",
+        "Yuting Ng",
+        "José Blanchet",
+        "Vahid Tarokh"
+      ],
+      "source": "OpenAlex",
+      "id": "title:learningmaxstablerepresentationsthatextrapolate"
     },
     {
       "title": "On the first passage times of branching random walks in Rd",
@@ -3171,7 +3206,7 @@
       "title": "A Model of Bed Demand to Facilitate the Implementation of Data-driven Recommendations for COVID-19 Capacity Management",
       "year": 2020,
       "date": "2020-06-11",
-      "venue": "",
+      "venue": "Research Square",
       "type": "preprint",
       "doi": "10.21203/rs.3.rs-31953/v1",
       "url": "https://doi.org/10.21203/rs.3.rs-31953/v1",
@@ -3346,6 +3381,24 @@
       ],
       "source": "ORCID + OpenAlex",
       "id": "title:quantifyingtheempiricalwassersteindistancetoasetofmeasuresbeatingthecurseofdimensionality"
+    },
+    {
+      "title": "Online EXP3 Learning in Adversarial Bandits with Delayed Feedback",
+      "year": 2019,
+      "date": "2019-12-08",
+      "venue": "neural information processing systems",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/ae2a2db40a12ec0131d48acc1218d2ef-Abstract.html",
+      "authors": [
+        "Ilai Bistritz",
+        "Zhengyuan Zhou",
+        "Xi Chen",
+        "Nicholas Bambos",
+        "José Blanchet"
+      ],
+      "source": "ORCID + OpenAlex",
+      "id": "title:onlineexp3learninginadversarialbanditswithdelayedfeedback"
     },
     {
       "title": "A Distributionally Robust Boosting Algorithm",
@@ -3687,24 +3740,6 @@
       ],
       "source": "ORCID + OpenAlex",
       "id": "doi:10.1080/10920277.2018.1504686"
-    },
-    {
-      "title": "Online EXP3 Learning in Adversarial Bandits with Delayed Feedback",
-      "year": 2019,
-      "date": "2019-01-01",
-      "venue": "Neural Information Processing Systems",
-      "type": "article",
-      "doi": null,
-      "url": "https://papers.nips.cc/paper/9312-online-exp3-learning-in-adversarial-bandits-with-delayed-feedback.pdf",
-      "authors": [
-        "Ilai Bistritz",
-        "Zhengyuan Zhou",
-        "Xi Chen",
-        "Nicholas Bambos",
-        "José Blanchet"
-      ],
-      "source": "ORCID + OpenAlex",
-      "id": "title:onlineexp3learninginadversarialbanditswithdelayedfeedback"
     },
     {
       "title": "Perfect Sampling for Generalized Jackson Networks",
