@@ -26,3 +26,8 @@ The synchronizer uses ORCID `0000-0001-5895-0912` as the authoritative author re
 ## Production domain
 
 The production site is published at `https://joseblanchet.com` through the tested GitHub Pages workflow. The apex domain points to GitHub Pages, and `www.joseblanchet.com` points directly to `realjblanchet.github.io`; GitHub redirects the `www` variant to the canonical apex domain. The downloaded WordPress package is retained separately as a rollback archive.
+
+
+## Publication intake for grant reporting
+
+See [Publication discovery and reporting-register workflow](docs/publication-intake-workflow.md). The website and private grant-review feed provide discovery evidence; the NSF_Grant_Reports canonical ledger owns reporting assignments and prior-report history. Do not treat the private feed as a competing allocation database.
